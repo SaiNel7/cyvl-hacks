@@ -233,7 +233,7 @@ third-space-finder/
 │   ├── main.py                 # FastAPI app, all routes
 │   ├── scoring/
 │   │   ├── physical.py         # Layer 1: Cyvl geometry scoring
-│   │   ├── safety.py           # Layer 2: crime data scoring
+│   │   ├── crime.py            # Layer 2: crime data scoring
 │   │   ├── crowd.py            # Layer 3: traffic + egress scoring
 │   │   └── functionality.py    # Layer 4: power, noise, permits
 │   ├── data/
