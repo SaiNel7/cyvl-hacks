@@ -20,19 +20,28 @@ export default function OverviewPage() {
   return (
     <div className="flex-1">
       <section className="brut-border-b bg-brut-pink px-4 py-12 md:px-8 md:py-16">
-        <span className="brut-border bg-brut-yellow px-3 py-1 text-xs font-extrabold uppercase">
-          2026 World Cup
-        </span>
-        <h1 className="mt-6 max-w-3xl text-4xl font-extrabold uppercase leading-tight tracking-tight md:text-6xl lg:text-7xl">
-          Find the best spot for your watch party
-        </h1>
-        <p className="mt-6 max-w-xl text-base font-semibold md:text-lg">
-          CYVL LiDAR scores every plaza and projection wall in Somerville —
-          shade, crowd, safety, power.
-        </p>
-        <Link href="/map" className="brut-btn brut-btn-primary mt-8">
-          Find spots on the map →
-        </Link>
+        <div className="flex flex-col gap-10 lg:flex-row lg:items-center lg:justify-between lg:gap-12">
+          <div className="min-w-0">
+            <span className="brut-border bg-brut-yellow px-3 py-1 text-xs font-extrabold uppercase">
+              2026 World Cup
+            </span>
+            <h1 className="mt-6 max-w-3xl text-4xl font-extrabold uppercase leading-tight tracking-tight md:text-6xl lg:text-7xl">
+              Find the best spot for your watch party
+            </h1>
+            <p className="mt-6 max-w-xl text-base font-semibold md:text-lg">
+              CYVL LiDAR scores every plaza and projection wall in Somerville —
+              shade, crowd, safety, power.
+            </p>
+            <Link href="/map" className="brut-btn brut-btn-primary mt-8">
+              Find spots on the map →
+            </Link>
+          </div>
+          <img
+            src="/landingpage.png"
+            alt="Watch party crew — a lineup of cartoon fans ready for the game"
+            className="brut-border brut-shadow w-full bg-white lg:flex-1 lg:max-w-2xl xl:max-w-4xl"
+          />
+        </div>
       </section>
 
       {stats && (

@@ -8,47 +8,42 @@ import {
 } from "@/lib/scoring";
 import type { Filters, SpotsGeoJSON } from "@/lib/types";
 
-async function loadSpots(): Promise<SpotsGeoJSON> {
+async function loadSpots(timeOfDay: number): Promise<SpotsGeoJSON> {
+  // Prefer the live FastAPI backend when configured; fall back to the static
+  // dummy GeoJSON so the demo keeps working if the backend is down. The backend
+  // ranks by the blended 4-layer score for the given hour, so forward it.
+  const backend = process.env.BACKEND_URL;
+  if (backend) {
+    try {
+      const res = await fetch(
+        `${backend}/api/spots?time_of_day=${timeOfDay}`,
+        { cache: "no-store" }
+      );
+      if (res.ok) return (await res.json()) as SpotsGeoJSON;
+    } catch {
+      // network/backend error — fall through to static data
+    }
+  }
   const filePath = path.join(process.cwd(), "public/data/spots.json");
   const raw = await readFile(filePath, "utf-8");
   return JSON.parse(raw) as SpotsGeoJSON;
 }
 
-function parseFilters(searchParams: URLSearchParams): Filters {
-  return {
+export async function GET(request: NextRequest) {
+  const { searchParams } = request.nextUrl;
+
+  const filters: Filters = {
     timeOfDay: Number(searchParams.get("time_of_day") ?? 18),
     minCapacity: Number(searchParams.get("min_capacity") ?? 0),
-    expectedCrowd: Number(searchParams.get("expected_crowd") ?? 0),
     needsPower: searchParams.get("needs_power") === "true",
     nearBar: searchParams.get("near_bar") === "true",
-    needsTransit: searchParams.get("needs_transit") === "true",
-    lowTrafficOnly: searchParams.get("low_traffic") === "true",
-    priorPermits: searchParams.get("prior_permits") === "true",
-    avoidQuietHours: searchParams.get("avoid_quiet_hours") === "true",
-    goodEgress: searchParams.get("good_egress") === "true",
     sort: (searchParams.get("sort") as Filters["sort"]) ?? "score",
   };
-}
 
-export async function GET(request: NextRequest) {
-  const filters = parseFilters(request.nextUrl.searchParams);
-
-  const geojson = await loadSpots();
+  const geojson = await loadSpots(filters.timeOfDay);
   let spots = geoJsonToSpots(geojson);
   spots = filterSpots(spots, filters);
   spots = sortSpots(spots, filters);
-
-  // Pin walls that have a 3D voxel cloud to the top (stable within each group),
-  // so the demoable surfaces are always the first entries in the list.
-  const voxelIds = new Set(
-    geojson.features
-      .filter((f) => f.properties.has_voxels)
-      .map((f) => f.properties.id)
-  );
-  spots = [
-    ...spots.filter((s) => voxelIds.has(s.id)),
-    ...spots.filter((s) => !voxelIds.has(s.id)),
-  ];
 
   const features = spots.map((spot) => {
     const original = geojson.features.find((f) => f.properties.id === spot.id)!;
@@ -62,8 +57,6 @@ export async function GET(request: NextRequest) {
         overall_score: spot.overall_score,
         capacity: spot.capacity,
         badges: spot.badges,
-        has_voxels: original.properties.has_voxels,
-        metrics: spot.metrics,
       },
       geometry: original.geometry,
     };

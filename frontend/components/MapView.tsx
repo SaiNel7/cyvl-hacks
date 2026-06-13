@@ -3,7 +3,8 @@
 import { useCallback, useEffect, useMemo, useRef } from "react";
 import Map, { useControl, type MapRef } from "react-map-gl/maplibre";
 import { MapboxOverlay } from "@deck.gl/mapbox";
-import { SolidPolygonLayer } from "@deck.gl/layers";
+import { ScatterplotLayer, PointCloudLayer } from "@deck.gl/layers";
+import { COORDINATE_SYSTEM } from "@deck.gl/core";
 import type { MapboxOverlayProps } from "@deck.gl/mapbox";
 import useSWR from "swr";
 import "maplibre-gl/dist/maplibre-gl.css";
@@ -16,7 +17,7 @@ import {
   scoreToColor,
 } from "@/lib/scoring";
 import { buildSpotsUrl } from "@/lib/spots-url";
-import type { Spot, SpotsGeoJSON } from "@/lib/types";
+import type { Spot, SpotsGeoJSON, Voxel } from "@/lib/types";
 
 const MAP_STYLE =
   "https://basemaps.cartocdn.com/gl/positron-gl-style/style.json";
@@ -51,34 +52,63 @@ export function MapView() {
   const { data } = useSWR<SpotsGeoJSON>(buildSpotsUrl(filters), fetcher);
   const spots = useMemo(() => (data ? geoJsonToSpots(data) : []), [data]);
 
+  // Only the clicked wall's 3D point cloud is fetched/rendered — not all of them.
+  // A 404 (wall not voxelized yet) is swallowed so pins keep working.
+  const { data: voxels } = useSWR<Voxel[]>(
+    selectedSpotId ? `/api/walls/${selectedSpotId}/voxels` : null,
+    fetcher,
+    { shouldRetryOnError: false }
+  );
+
   const layers = useMemo(() => {
     if (spots.length === 0) return [];
 
-    return [
-      new SolidPolygonLayer<Spot>({
-        id: "spots-extruded",
-        data: spots,
-        extruded: true,
-        wireframe: false,
-        pickable: true,
-        autoHighlight: true,
-        highlightColor: [255, 214, 0, 200],
-        getPolygon: (d) => d.geometry.coordinates as never,
-        getElevation: (d) => d.height_m * 3,
-        getFillColor: (d) => {
-          const score = adjustedScore(d, filters.timeOfDay);
-          const alpha = selectedSpotId && selectedSpotId !== d.id ? 100 : 230;
-          return scoreToColor(score, alpha);
-        },
-        onClick: ({ object }) => {
-          if (object) setSelectedSpotId(object.id);
-        },
-        updateTriggers: {
-          getFillColor: [filters.timeOfDay, selectedSpotId],
-        },
-      }),
-    ];
-  }, [spots, filters.timeOfDay, selectedSpotId, setSelectedSpotId]);
+    // Default view: a score-colored pin per surface. The real 3D wall only
+    // appears once you click in.
+    const pins = new ScatterplotLayer<Spot>({
+      id: "spot-pins",
+      data: spots,
+      pickable: true,
+      autoHighlight: true,
+      highlightColor: [255, 214, 0, 220],
+      stroked: true,
+      lineWidthMinPixels: 2,
+      getLineColor: [0, 0, 0, 255],
+      radiusUnits: "pixels",
+      getPosition: (d) => polygonCentroid(d),
+      getRadius: (d) => (selectedSpotId === d.id ? 11 : 8),
+      getFillColor: (d) => {
+        const score = adjustedScore(d, filters.timeOfDay);
+        const alpha = selectedSpotId && selectedSpotId !== d.id ? 110 : 240;
+        return scoreToColor(score, alpha);
+      },
+      onClick: ({ object }) => {
+        if (object) setSelectedSpotId(object.id);
+      },
+      updateTriggers: {
+        getFillColor: [filters.timeOfDay, selectedSpotId],
+        getRadius: [selectedSpotId],
+      },
+    });
+
+    if (!voxels || voxels.length === 0) return [pins];
+
+    // The actual building wall: real-color lidar voxels floating at their true
+    // lon/lat and height above ground.
+    const cloud = new PointCloudLayer<Voxel>({
+      id: `wall-voxels-${selectedSpotId}`,
+      data: voxels,
+      coordinateSystem: COORDINATE_SYSTEM.LNGLAT,
+      getPosition: (d) => [d.lon, d.lat, d.z],
+      getColor: (d) => [d.r, d.g, d.b],
+      pointSize: 4,
+      sizeUnits: "pixels",
+      material: false,
+      pickable: false,
+    });
+
+    return [pins, cloud];
+  }, [spots, voxels, filters.timeOfDay, selectedSpotId, setSelectedSpotId]);
 
   const flyToSpot = useCallback((spot: Spot) => {
     const [lng, lat] = polygonCentroid(spot);

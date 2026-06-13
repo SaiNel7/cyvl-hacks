@@ -278,6 +278,181 @@
           ]
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "davis_sq-0",
+        "name": "Davis Sq \u2014 Wall (19\u00d712m)",
+        "height_m": 11.5,
+        "facing_deg": 53.5,
+        "overall_score": 100,
+        "capacity": 786,
+        "badges": [
+          "good_sun",
+          "transit",
+          "wide_sidewalk"
+        ],
+        "has_voxels": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -71.1226165,
+              42.3963224
+            ],
+            [
+              -71.122636,
+              42.3963118
+            ],
+            [
+              -71.1224975,
+              42.3961736
+            ],
+            [
+              -71.122478,
+              42.3961842
+            ],
+            [
+              -71.1226165,
+              42.3963224
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "union_sq-23",
+        "name": "Union Sq \u2014 Wall (30\u00d74m)",
+        "height_m": 4.3,
+        "facing_deg": 207.3,
+        "overall_score": 100,
+        "capacity": 465,
+        "badges": [
+          "good_sun",
+          "transit",
+          "wide_sidewalk"
+        ],
+        "has_voxels": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -71.0949886,
+              42.3791539
+            ],
+            [
+              -71.0949774,
+              42.3791698
+            ],
+            [
+              -71.0953034,
+              42.3792941
+            ],
+            [
+              -71.0953146,
+              42.3792782
+            ],
+            [
+              -71.0949886,
+              42.3791539
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "teele_sq-30",
+        "name": "Teele Sq \u2014 Wall (33\u00d713m)",
+        "height_m": 13.2,
+        "facing_deg": 125.3,
+        "overall_score": 100,
+        "capacity": 1572,
+        "badges": [
+          "good_sun",
+          "wide_sidewalk"
+        ],
+        "has_voxels": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -71.12337,
+              42.40418
+            ],
+            [
+              -71.1233898,
+              42.4041903
+            ],
+            [
+              -71.123624,
+              42.403946
+            ],
+            [
+              -71.1236042,
+              42.4039357
+            ],
+            [
+              -71.12337,
+              42.40418
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "ball_sq-91",
+        "name": "Ball Sq \u2014 Wall (13\u00d710m)",
+        "height_m": 9.8,
+        "facing_deg": 117.7,
+        "overall_score": 92,
+        "capacity": 456,
+        "badges": [
+          "good_sun",
+          "wide_sidewalk",
+          "power"
+        ],
+        "has_voxels": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -71.0999727,
+              42.3954372
+            ],
+            [
+              -71.0999512,
+              42.3954288
+            ],
+            [
+              -71.0998773,
+              42.3955328
+            ],
+            [
+              -71.0998988,
+              42.3955412
+            ],
+            [
+              -71.0999727,
+              42.3954372
+            ]
+          ]
+        ]
+      }
     }
   ]
 }

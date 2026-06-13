@@ -39,7 +39,7 @@ export function FilterBar() {
     <header className="flex flex-wrap items-center gap-3 brut-border-b bg-brut-yellow px-4 py-4 md:px-6">
       <div className="mr-auto min-w-0">
         <h1 className="text-xl font-extrabold uppercase leading-none tracking-tight md:text-2xl">
-          City as Venue
+          BlockParty
         </h1>
         <p className="mt-1 text-sm font-semibold">
           Surface intelligence for cities &amp; brands

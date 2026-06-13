@@ -644,5 +644,310 @@
         }
       }
     }
+  },
+  "davis_sq-0": {
+    "id": "davis_sq-0",
+    "name": "Davis Sq \u2014 Wall (19\u00d712m)",
+    "height_m": 11.5,
+    "facing_deg": 53.5,
+    "overall_score": 100,
+    "capacity": 786,
+    "badges": [
+      "good_sun",
+      "transit",
+      "wide_sidewalk"
+    ],
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            -71.1226165,
+            42.3963224
+          ],
+          [
+            -71.122636,
+            42.3963118
+          ],
+          [
+            -71.1224975,
+            42.3961736
+          ],
+          [
+            -71.122478,
+            42.3961842
+          ],
+          [
+            -71.1226165,
+            42.3963224
+          ]
+        ]
+      ]
+    },
+    "layers": {
+      "physical": {
+        "score": 92,
+        "reasons": [
+          "Flat facade \u2014 plane RMS 0.04 m over 19\u00d712 m (220 m\u00b2)",
+          "Not west-facing \u2014 low evening glare",
+          "LiDAR projection score 92/100"
+        ]
+      },
+      "safety": {
+        "score": 68.8,
+        "reasons": [
+          "0 crowd-relevant incident(s) on this block during the evening window (4pm-12am); 59 more at other times (counted at reduced weight).",
+          "Scored on this block only, time-gated to the event window, by incident type \u2014 never a neighborhood blanket label."
+        ]
+      },
+      "crowd": {
+        "score": 83.1,
+        "reasons": [
+          "Fronts Day Street (~12,000 est. vehicles/day, secondary) 8m away.",
+          "13 independent road egress route(s) within 120m (19 lanes total), plus pedestrian paths for foot dispersal.",
+          "Subway/rail station 82m away; 15 bus stop(s) within 450m (MBTA).",
+          "14 licensed alcohol establishment(s) within 200m (active Somerville alcohol licenses)."
+        ]
+      },
+      "functionality": {
+        "score": 98.0,
+        "reasons": [
+          "400 prior public-event/block-party permit(s) within 200m \u2014 permit precedent exists (fast-track signal).",
+          "Zone: Commercial Core 4 (CC4) \u2014 commercial/industrial \u2014 minimal quiet-hours constraint (event 18:00).",
+          "Measured mobile download ~306 Mbps (Ookla, 17 tests over this + neighboring tiles).",
+          "Power access unverified \u2014 no Somerville utility data; confirm on-site outlets/generator."
+        ]
+      }
+    },
+    "imagery_url": "https://dcygqrjfsypox.cloudfront.net/0e9ad4538ce0a1b7876a5bcfd6275a942b2f92472dfa4b85e93f424eb4a62eda/images/GX010786_MP4_1763999794056460_front_3000.jpg",
+    "est_impressions_per_event": 27510
+  },
+  "union_sq-23": {
+    "id": "union_sq-23",
+    "name": "Union Sq \u2014 Wall (30\u00d74m)",
+    "height_m": 4.3,
+    "facing_deg": 207.3,
+    "overall_score": 100,
+    "capacity": 465,
+    "badges": [
+      "good_sun",
+      "transit",
+      "wide_sidewalk"
+    ],
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            -71.0949886,
+            42.3791539
+          ],
+          [
+            -71.0949774,
+            42.3791698
+          ],
+          [
+            -71.0953034,
+            42.3792941
+          ],
+          [
+            -71.0953146,
+            42.3792782
+          ],
+          [
+            -71.0949886,
+            42.3791539
+          ]
+        ]
+      ]
+    },
+    "layers": {
+      "physical": {
+        "score": 93,
+        "reasons": [
+          "Flat facade \u2014 plane RMS 0.03 m over 30\u00d74 m (130 m\u00b2)",
+          "Not west-facing \u2014 low evening glare",
+          "LiDAR projection score 93/100"
+        ]
+      },
+      "safety": {
+        "score": 75.6,
+        "reasons": [
+          "0 crowd-relevant incident(s) on this block during the evening window (4pm-12am); 45 more at other times (counted at reduced weight).",
+          "At or below the typical Somerville block for this time of day.",
+          "Scored on this block only, time-gated to the event window, by incident type \u2014 never a neighborhood blanket label."
+        ]
+      },
+      "crowd": {
+        "score": 98.2,
+        "reasons": [
+          "Fronts service (~400 est. vehicles/day, service) 4m away.",
+          "16 independent road egress route(s) within 120m (27 lanes total), plus pedestrian paths for foot dispersal.",
+          "Subway/rail station 263m away; 22 bus stop(s) within 450m (MBTA).",
+          "9 licensed alcohol establishment(s) within 200m (active Somerville alcohol licenses)."
+        ]
+      },
+      "functionality": {
+        "score": 98.0,
+        "reasons": [
+          "401 prior public-event/block-party permit(s) within 200m \u2014 permit precedent exists (fast-track signal).",
+          "Zone: Commercial Core 5 (CC5) \u2014 commercial/industrial \u2014 minimal quiet-hours constraint (event 18:00).",
+          "Measured mobile download ~293 Mbps (Ookla, 14 tests over this + neighboring tiles).",
+          "Power access unverified \u2014 no Somerville utility data; confirm on-site outlets/generator."
+        ]
+      }
+    },
+    "imagery_url": "https://dcygqrjfsypox.cloudfront.net/0e9ad4538ce0a1b7876a5bcfd6275a942b2f92472dfa4b85e93f424eb4a62eda/images/GX020766_MP4_1763487484666650_front_3000.jpg",
+    "est_impressions_per_event": 16275
+  },
+  "teele_sq-30": {
+    "id": "teele_sq-30",
+    "name": "Teele Sq \u2014 Wall (33\u00d713m)",
+    "height_m": 13.2,
+    "facing_deg": 125.3,
+    "overall_score": 100,
+    "capacity": 1572,
+    "badges": [
+      "good_sun",
+      "wide_sidewalk"
+    ],
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            -71.12337,
+            42.40418
+          ],
+          [
+            -71.1233898,
+            42.4041903
+          ],
+          [
+            -71.123624,
+            42.403946
+          ],
+          [
+            -71.1236042,
+            42.4039357
+          ],
+          [
+            -71.12337,
+            42.40418
+          ]
+        ]
+      ]
+    },
+    "layers": {
+      "physical": {
+        "score": 86,
+        "reasons": [
+          "Flat facade \u2014 plane RMS 0.07 m over 33\u00d713 m (440 m\u00b2)",
+          "Not west-facing \u2014 low evening glare",
+          "LiDAR projection score 86/100"
+        ]
+      },
+      "safety": {
+        "score": 81.4,
+        "reasons": [
+          "0 crowd-relevant incident(s) on this block during the evening window (4pm-12am); 17 more at other times (counted at reduced weight).",
+          "At or below the typical Somerville block for this time of day.",
+          "Scored on this block only, time-gated to the event window, by incident type \u2014 never a neighborhood blanket label."
+        ]
+      },
+      "crowd": {
+        "score": 73.2,
+        "reasons": [
+          "Fronts Packard Avenue (~1,500 est. vehicles/day, residential) 19m away.",
+          "5 independent road egress route(s) within 120m (9 lanes total), plus pedestrian paths for foot dispersal.",
+          "No subway/rail station within range; 10 bus stop(s) within 450m (MBTA).",
+          "0 licensed alcohol establishment(s) within 200m (active Somerville alcohol licenses)."
+        ]
+      },
+      "functionality": {
+        "score": 88.0,
+        "reasons": [
+          "17 prior public-event/block-party permit(s) within 200m \u2014 permit precedent exists (fast-track signal).",
+          "Zone: Neighborhood Residential (NR) \u2014 residential \u2014 daytime events tolerated (event 18:00).",
+          "Measured mobile download ~235 Mbps (Ookla, 11 tests over this + neighboring tiles).",
+          "Power access unverified \u2014 no Somerville utility data; confirm on-site outlets/generator."
+        ]
+      }
+    },
+    "imagery_url": "https://dcygqrjfsypox.cloudfront.net/0e9ad4538ce0a1b7876a5bcfd6275a942b2f92472dfa4b85e93f424eb4a62eda/images/GX010763_MP4_1763409203173835_front_3000.jpg",
+    "est_impressions_per_event": 55020
+  },
+  "ball_sq-91": {
+    "id": "ball_sq-91",
+    "name": "Ball Sq \u2014 Wall (13\u00d710m)",
+    "height_m": 9.8,
+    "facing_deg": 117.7,
+    "overall_score": 92,
+    "capacity": 456,
+    "badges": [
+      "good_sun",
+      "wide_sidewalk",
+      "power"
+    ],
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            -71.0999727,
+            42.3954372
+          ],
+          [
+            -71.0999512,
+            42.3954288
+          ],
+          [
+            -71.0998773,
+            42.3955328
+          ],
+          [
+            -71.0998988,
+            42.3955412
+          ],
+          [
+            -71.0999727,
+            42.3954372
+          ]
+        ]
+      ]
+    },
+    "layers": {
+      "physical": {
+        "score": 90,
+        "reasons": [
+          "Flat facade \u2014 plane RMS 0.05 m over 13\u00d710 m (128 m\u00b2)",
+          "Not west-facing \u2014 low evening glare",
+          "LiDAR projection score 90/100"
+        ]
+      },
+      "safety": {
+        "score": 61,
+        "reasons": [
+          "3 street luminaries within 75 m \u2014 lit for evening events",
+          "Pedestrian-context score 2/30 \u2014 active block"
+        ]
+      },
+      "crowd": {
+        "score": 0,
+        "reasons": [
+          "~0 standing capacity (wall-frontage proxy)",
+          "0 sidewalks + 0 crosswalks within 80 m \u2014 egress & dispersal"
+        ]
+      },
+      "functionality": {
+        "score": 28,
+        "reasons": [
+          "3 luminaries nearby \u2014 power infrastructure present",
+          "Pedestrian-context score 2/30"
+        ]
+      }
+    },
+    "imagery_url": "https://dcygqrjfsypox.cloudfront.net/0e9ad4538ce0a1b7876a5bcfd6275a942b2f92472dfa4b85e93f424eb4a62eda/images/GX030786_MP4_1764007665923046_front_3000.jpg",
+    "est_impressions_per_event": 15960
   }
 }

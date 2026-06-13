@@ -1,0 +1,3570 @@
+{
+  "meta": {
+    "hours": [
+      12,
+      15,
+      18,
+      21
+    ],
+    "n_walls": 40,
+    "generated_s": 293.8
+  },
+  "scores": {
+    "davis_sq-0": {
+      "crowd": {
+        "score": 83.1,
+        "reasons": [
+          "Fronts Day Street (~12,000 est. vehicles/day, secondary) 8m away.",
+          "13 independent road egress route(s) within 120m (19 lanes total), plus pedestrian paths for foot dispersal.",
+          "Subway/rail station 82m away; 15 bus stop(s) within 450m (MBTA).",
+          "14 licensed alcohol establishment(s) within 200m (active Somerville alcohol licenses)."
+        ]
+      },
+      "block": "250173509003009",
+      "by_hour": {
+        "12": {
+          "safety": {
+            "score": 29.5,
+            "reasons": [
+              "29 crowd-relevant incident(s) on this block during the day window (8am-4pm); 30 more at other times (counted at reduced weight).",
+              "Above the 75th-percentile Somerville block for relevant crime at this time.",
+              "Scored on this block only, time-gated to the event window, by incident type \u2014 never a neighborhood blanket label."
+            ]
+          },
+          "functionality": {
+            "score": 98.0,
+            "reasons": [
+              "400 prior public-event/block-party permit(s) within 200m \u2014 permit precedent exists (fast-track signal).",
+              "Zone: Commercial Core 4 (CC4) \u2014 commercial/industrial \u2014 minimal quiet-hours constraint (event 12:00).",
+              "Measured mobile download ~306 Mbps (Ookla, 17 tests over this + neighboring tiles).",
+              "Power access unverified \u2014 no Somerville utility data; confirm on-site outlets/generator."
+            ]
+          }
+        },
+        "15": {
+          "safety": {
+            "score": 29.5,
+            "reasons": [
+              "29 crowd-relevant incident(s) on this block during the day window (8am-4pm); 30 more at other times (counted at reduced weight).",
+              "Above the 75th-percentile Somerville block for relevant crime at this time.",
+              "Scored on this block only, time-gated to the event window, by incident type \u2014 never a neighborhood blanket label."
+            ]
+          },
+          "functionality": {
+            "score": 98.0,
+            "reasons": [
+              "400 prior public-event/block-party permit(s) within 200m \u2014 permit precedent exists (fast-track signal).",
+              "Zone: Commercial Core 4 (CC4) \u2014 commercial/industrial \u2014 minimal quiet-hours constraint (event 15:00).",
+              "Measured mobile download ~306 Mbps (Ookla, 17 tests over this + neighboring tiles).",
+              "Power access unverified \u2014 no Somerville utility data; confirm on-site outlets/generator."
+            ]
+          }
+        },
+        "18": {
+          "safety": {
+            "score": 68.8,
+            "reasons": [
+              "0 crowd-relevant incident(s) on this block during the evening window (4pm-12am); 59 more at other times (counted at reduced weight).",
+              "Scored on this block only, time-gated to the event window, by incident type \u2014 never a neighborhood blanket label."
+            ]
+          },
+          "functionality": {
+            "score": 98.0,
+            "reasons": [
+              "400 prior public-event/block-party permit(s) within 200m \u2014 permit precedent exists (fast-track signal).",
+              "Zone: Commercial Core 4 (CC4) \u2014 commercial/industrial \u2014 minimal quiet-hours constraint (event 18:00).",
+              "Measured mobile download ~306 Mbps (Ookla, 17 tests over this + neighboring tiles).",
+              "Power access unverified \u2014 no Somerville utility data; confirm on-site outlets/generator."
+            ]
+          }
+        },
+        "21": {
+          "safety": {
+            "score": 68.8,
+            "reasons": [
+              "0 crowd-relevant incident(s) on this block during the evening window (4pm-12am); 59 more at other times (counted at reduced weight).",
+              "Scored on this block only, time-gated to the event window, by incident type \u2014 never a neighborhood blanket label."
+            ]
+          },
+          "functionality": {
+            "score": 98.0,
+            "reasons": [
+              "400 prior public-event/block-party permit(s) within 200m \u2014 permit precedent exists (fast-track signal).",
+              "Zone: Commercial Core 4 (CC4) \u2014 commercial/industrial \u2014 minimal quiet-hours constraint (event 21:00).",
+              "Measured mobile download ~306 Mbps (Ookla, 17 tests over this + neighboring tiles).",
+              "Power access unverified \u2014 no Somerville utility data; confirm on-site outlets/generator."
+            ]
+          }
+        }
+      }
+    },
+    "davis_sq-1": {
+      "crowd": {
+        "score": 97.9,
+        "reasons": [
+          "Fronts Park Avenue (~1,500 est. vehicles/day, residential) 11m away.",
+          "11 independent road egress route(s) within 120m (16 lanes total), plus pedestrian paths for foot dispersal.",
+          "Subway/rail station 135m away; 13 bus stop(s) within 450m (MBTA).",
+          "4 licensed alcohol establishment(s) within 200m (active Somerville alcohol licenses)."
+        ]
+      },
+      "block": "250173505001006",
+      "by_hour": {
+        "12": {
+          "safety": {
+            "score": 26.2,
+            "reasons": [
+              "22 crowd-relevant incident(s) on this block during the day window (8am-4pm); 21 more at other times (counted at reduced weight).",
+              "Above the 75th-percentile Somerville block for relevant crime at this time.",
+              "Scored on this block only, time-gated to the event window, by incident type \u2014 never a neighborhood blanket label."
+            ]
+          },
+          "functionality": {
+            "score": 88.0,
+            "reasons": [
+              "190 prior public-event/block-party permit(s) within 200m \u2014 permit precedent exists (fast-track signal).",
+              "Zone: Urban Residential (UR) \u2014 residential \u2014 daytime events tolerated (event 12:00).",
+              "Measured mobile download ~306 Mbps (Ookla, 17 tests over this + neighboring tiles).",
+              "Power access unverified \u2014 no Somerville utility data; confirm on-site outlets/generator."
+            ]
+          }
+        },
+        "15": {
+          "safety": {
+            "score": 26.2,
+            "reasons": [
+              "22 crowd-relevant incident(s) on this block during the day window (8am-4pm); 21 more at other times (counted at reduced weight).",
+              "Above the 75th-percentile Somerville block for relevant crime at this time.",
+              "Scored on this block only, time-gated to the event window, by incident type \u2014 never a neighborhood blanket label."
+            ]
+          },
+          "functionality": {
+            "score": 88.0,
+            "reasons": [
+              "190 prior public-event/block-party permit(s) within 200m \u2014 permit precedent exists (fast-track signal).",
+              "Zone: Urban Residential (UR) \u2014 residential \u2014 daytime events tolerated (event 15:00).",
+              "Measured mobile download ~306 Mbps (Ookla, 17 tests over this + neighboring tiles).",
+              "Power access unverified \u2014 no Somerville utility data; confirm on-site outlets/generator."
+            ]
+          }
+        },
+        "18": {
+          "safety": {
+            "score": 60.8,
+            "reasons": [
+              "0 crowd-relevant incident(s) on this block during the evening window (4pm-12am); 43 more at other times (counted at reduced weight).",
+              "Scored on this block only, time-gated to the event window, by incident type \u2014 never a neighborhood blanket label."
+            ]
+          },
+          "functionality": {
+            "score": 88.0,
+            "reasons": [
+              "190 prior public-event/block-party permit(s) within 200m \u2014 permit precedent exists (fast-track signal).",
+              "Zone: Urban Residential (UR) \u2014 residential \u2014 daytime events tolerated (event 18:00).",
+              "Measured mobile download ~306 Mbps (Ookla, 17 tests over this + neighboring tiles).",
+              "Power access unverified \u2014 no Somerville utility data; confirm on-site outlets/generator."
+            ]
+          }
+        },
+        "21": {
+          "safety": {
+            "score": 60.8,
+            "reasons": [
+              "0 crowd-relevant incident(s) on this block during the evening window (4pm-12am); 43 more at other times (counted at reduced weight).",
+              "Scored on this block only, time-gated to the event window, by incident type \u2014 never a neighborhood blanket label."
+            ]
+          },
+          "functionality": {
+            "score": 78.0,
+            "reasons": [
+              "190 prior public-event/block-party permit(s) within 200m \u2014 permit precedent exists (fast-track signal).",
+              "Zone: Urban Residential (UR) \u2014 approaching residential quiet hours (event 21:00).",
+              "Measured mobile download ~306 Mbps (Ookla, 17 tests over this + neighboring tiles).",
+              "Power access unverified \u2014 no Somerville utility data; confirm on-site outlets/generator."
+            ]
+          }
+        }
+      }
+    },
+    "davis_sq-2": {
+      "crowd": {
+        "score": 83.1,
+        "reasons": [
+          "Fronts Day Street (~12,000 est. vehicles/day, secondary) 5m away.",
+          "12 independent road egress route(s) within 120m (18 lanes total), plus pedestrian paths for foot dispersal.",
+          "Subway/rail station 93m away; 16 bus stop(s) within 450m (MBTA).",
+          "14 licensed alcohol establishment(s) within 200m (active Somerville alcohol licenses)."
+        ]
+      },
+      "block": "250173509003009",
+      "by_hour": {
+        "12": {
+          "safety": {
+            "score": 29.5,
+            "reasons": [
+              "29 crowd-relevant incident(s) on this block during the day window (8am-4pm); 30 more at other times (counted at reduced weight).",
+              "Above the 75th-percentile Somerville block for relevant crime at this time.",
+              "Scored on this block only, time-gated to the event window, by incident type \u2014 never a neighborhood blanket label."
+            ]
+          },
+          "functionality": {
+            "score": 90.0,
+            "reasons": [
+              "382 prior public-event/block-party permit(s) within 200m \u2014 permit precedent exists (fast-track signal).",
+              "Zoning unresolved (right-of-way / unzoned) \u2014 neutral noise assumption.",
+              "Measured mobile download ~306 Mbps (Ookla, 17 tests over this + neighboring tiles).",
+              "Power access unverified \u2014 no Somerville utility data; confirm on-site outlets/generator."
+            ]
+          }
+        },
+        "15": {
+          "safety": {
+            "score": 29.5,
+            "reasons": [
+              "29 crowd-relevant incident(s) on this block during the day window (8am-4pm); 30 more at other times (counted at reduced weight).",
+              "Above the 75th-percentile Somerville block for relevant crime at this time.",
+              "Scored on this block only, time-gated to the event window, by incident type \u2014 never a neighborhood blanket label."
+            ]
+          },
+          "functionality": {
+            "score": 90.0,
+            "reasons": [
+              "382 prior public-event/block-party permit(s) within 200m \u2014 permit precedent exists (fast-track signal).",
+              "Zoning unresolved (right-of-way / unzoned) \u2014 neutral noise assumption.",
+              "Measured mobile download ~306 Mbps (Ookla, 17 tests over this + neighboring tiles).",
+              "Power access unverified \u2014 no Somerville utility data; confirm on-site outlets/generator."
+            ]
+          }
+        },
+        "18": {
+          "safety": {
+            "score": 68.8,
+            "reasons": [
+              "0 crowd-relevant incident(s) on this block during the evening window (4pm-12am); 59 more at other times (counted at reduced weight).",
+              "Scored on this block only, time-gated to the event window, by incident type \u2014 never a neighborhood blanket label."
+            ]
+          },
+          "functionality": {
+            "score": 90.0,
+            "reasons": [
+              "382 prior public-event/block-party permit(s) within 200m \u2014 permit precedent exists (fast-track signal).",
+              "Zoning unresolved (right-of-way / unzoned) \u2014 neutral noise assumption.",
+              "Measured mobile download ~306 Mbps (Ookla, 17 tests over this + neighboring tiles).",
+              "Power access unverified \u2014 no Somerville utility data; confirm on-site outlets/generator."
+            ]
+          }
+        },
+        "21": {
+          "safety": {
+            "score": 68.8,
+            "reasons": [
+              "0 crowd-relevant incident(s) on this block during the evening window (4pm-12am); 59 more at other times (counted at reduced weight).",
+              "Scored on this block only, time-gated to the event window, by incident type \u2014 never a neighborhood blanket label."
+            ]
+          },
+          "functionality": {
+            "score": 90.0,
+            "reasons": [
+              "382 prior public-event/block-party permit(s) within 200m \u2014 permit precedent exists (fast-track signal).",
+              "Zoning unresolved (right-of-way / unzoned) \u2014 neutral noise assumption.",
+              "Measured mobile download ~306 Mbps (Ookla, 17 tests over this + neighboring tiles).",
+              "Power access unverified \u2014 no Somerville utility data; confirm on-site outlets/generator."
+            ]
+          }
+        }
+      }
+    },
+    "davis_sq-3": {
+      "crowd": {
+        "score": 83.1,
+        "reasons": [
+          "Fronts Holland Street (~12,000 est. vehicles/day, secondary) 11m away.",
+          "14 independent road egress route(s) within 120m (19 lanes total), plus pedestrian paths for foot dispersal.",
+          "Subway/rail station 110m away; 13 bus stop(s) within 450m (MBTA).",
+          "7 licensed alcohol establishment(s) within 200m (active Somerville alcohol licenses)."
+        ]
+      },
+      "block": "250173505001008",
+      "by_hour": {
+        "12": {
+          "safety": {
+            "score": 24.3,
+            "reasons": [
+              "27 crowd-relevant incident(s) on this block during the day window (8am-4pm); 33 more at other times (counted at reduced weight).",
+              "Above the 75th-percentile Somerville block for relevant crime at this time.",
+              "Scored on this block only, time-gated to the event window, by incident type \u2014 never a neighborhood blanket label."
+            ]
+          },
+          "functionality": {
+            "score": 94.0,
+            "reasons": [
+              "224 prior public-event/block-party permit(s) within 200m \u2014 permit precedent exists (fast-track signal).",
+              "Zone: Mid Rise 4 (MR4) \u2014 mixed-use, residential above retail (event 12:00).",
+              "Measured mobile download ~306 Mbps (Ookla, 17 tests over this + neighboring tiles).",
+              "Power access unverified \u2014 no Somerville utility data; confirm on-site outlets/generator."
+            ]
+          }
+        },
+        "15": {
+          "safety": {
+            "score": 24.3,
+            "reasons": [
+              "27 crowd-relevant incident(s) on this block during the day window (8am-4pm); 33 more at other times (counted at reduced weight).",
+              "Above the 75th-percentile Somerville block for relevant crime at this time.",
+              "Scored on this block only, time-gated to the event window, by incident type \u2014 never a neighborhood blanket label."
+            ]
+          },
+          "functionality": {
+            "score": 94.0,
+            "reasons": [
+              "224 prior public-event/block-party permit(s) within 200m \u2014 permit precedent exists (fast-track signal).",
+              "Zone: Mid Rise 4 (MR4) \u2014 mixed-use, residential above retail (event 15:00).",
+              "Measured mobile download ~306 Mbps (Ookla, 17 tests over this + neighboring tiles).",
+              "Power access unverified \u2014 no Somerville utility data; confirm on-site outlets/generator."
+            ]
+          }
+        },
+        "18": {
+          "safety": {
+            "score": 58.0,
+            "reasons": [
+              "0 crowd-relevant incident(s) on this block during the evening window (4pm-12am); 60 more at other times (counted at reduced weight).",
+              "Scored on this block only, time-gated to the event window, by incident type \u2014 never a neighborhood blanket label."
+            ]
+          },
+          "functionality": {
+            "score": 94.0,
+            "reasons": [
+              "224 prior public-event/block-party permit(s) within 200m \u2014 permit precedent exists (fast-track signal).",
+              "Zone: Mid Rise 4 (MR4) \u2014 mixed-use, residential above retail (event 18:00).",
+              "Measured mobile download ~306 Mbps (Ookla, 17 tests over this + neighboring tiles).",
+              "Power access unverified \u2014 no Somerville utility data; confirm on-site outlets/generator."
+            ]
+          }
+        },
+        "21": {
+          "safety": {
+            "score": 58.0,
+            "reasons": [
+              "0 crowd-relevant incident(s) on this block during the evening window (4pm-12am); 60 more at other times (counted at reduced weight).",
+              "Scored on this block only, time-gated to the event window, by incident type \u2014 never a neighborhood blanket label."
+            ]
+          },
+          "functionality": {
+            "score": 94.0,
+            "reasons": [
+              "224 prior public-event/block-party permit(s) within 200m \u2014 permit precedent exists (fast-track signal).",
+              "Zone: Mid Rise 4 (MR4) \u2014 mixed-use, residential above retail (event 21:00).",
+              "Measured mobile download ~306 Mbps (Ookla, 17 tests over this + neighboring tiles).",
+              "Power access unverified \u2014 no Somerville utility data; confirm on-site outlets/generator."
+            ]
+          }
+        }
+      }
+    },
+    "davis_sq-4": {
+      "crowd": {
+        "score": 83.1,
+        "reasons": [
+          "Fronts Holland Street (~12,000 est. vehicles/day, secondary) 2m away.",
+          "13 independent road egress route(s) within 120m (19 lanes total), plus pedestrian paths for foot dispersal.",
+          "Subway/rail station 72m away; 15 bus stop(s) within 450m (MBTA).",
+          "14 licensed alcohol establishment(s) within 200m (active Somerville alcohol licenses)."
+        ]
+      },
+      "block": "250173509003001",
+      "by_hour": {
+        "12": {
+          "safety": {
+            "score": 7.8,
+            "reasons": [
+              "77 crowd-relevant incident(s) on this block during the day window (8am-4pm); 105 more at other times (counted at reduced weight).",
+              "Above the 75th-percentile Somerville block for relevant crime at this time.",
+              "Scored on this block only, time-gated to the event window, by incident type \u2014 never a neighborhood blanket label."
+            ]
+          },
+          "functionality": {
+            "score": 90.0,
+            "reasons": [
+              "399 prior public-event/block-party permit(s) within 200m \u2014 permit precedent exists (fast-track signal).",
+              "Zoning unresolved (right-of-way / unzoned) \u2014 neutral noise assumption.",
+              "Measured mobile download ~306 Mbps (Ookla, 17 tests over this + neighboring tiles).",
+              "Power access unverified \u2014 no Somerville utility data; confirm on-site outlets/generator."
+            ]
+          }
+        },
+        "15": {
+          "safety": {
+            "score": 7.8,
+            "reasons": [
+              "77 crowd-relevant incident(s) on this block during the day window (8am-4pm); 105 more at other times (counted at reduced weight).",
+              "Above the 75th-percentile Somerville block for relevant crime at this time.",
+              "Scored on this block only, time-gated to the event window, by incident type \u2014 never a neighborhood blanket label."
+            ]
+          },
+          "functionality": {
+            "score": 90.0,
+            "reasons": [
+              "399 prior public-event/block-party permit(s) within 200m \u2014 permit precedent exists (fast-track signal).",
+              "Zoning unresolved (right-of-way / unzoned) \u2014 neutral noise assumption.",
+              "Measured mobile download ~306 Mbps (Ookla, 17 tests over this + neighboring tiles).",
+              "Power access unverified \u2014 no Somerville utility data; confirm on-site outlets/generator."
+            ]
+          }
+        },
+        "18": {
+          "safety": {
+            "score": 28.8,
+            "reasons": [
+              "0 crowd-relevant incident(s) on this block during the evening window (4pm-12am); 182 more at other times (counted at reduced weight).",
+              "Above the 75th-percentile Somerville block for relevant crime at this time.",
+              "Scored on this block only, time-gated to the event window, by incident type \u2014 never a neighborhood blanket label."
+            ]
+          },
+          "functionality": {
+            "score": 90.0,
+            "reasons": [
+              "399 prior public-event/block-party permit(s) within 200m \u2014 permit precedent exists (fast-track signal).",
+              "Zoning unresolved (right-of-way / unzoned) \u2014 neutral noise assumption.",
+              "Measured mobile download ~306 Mbps (Ookla, 17 tests over this + neighboring tiles).",
+              "Power access unverified \u2014 no Somerville utility data; confirm on-site outlets/generator."
+            ]
+          }
+        },
+        "21": {
+          "safety": {
+            "score": 28.8,
+            "reasons": [
+              "0 crowd-relevant incident(s) on this block during the evening window (4pm-12am); 182 more at other times (counted at reduced weight).",
+              "Above the 75th-percentile Somerville block for relevant crime at this time.",
+              "Scored on this block only, time-gated to the event window, by incident type \u2014 never a neighborhood blanket label."
+            ]
+          },
+          "functionality": {
+            "score": 90.0,
+            "reasons": [
+              "399 prior public-event/block-party permit(s) within 200m \u2014 permit precedent exists (fast-track signal).",
+              "Zoning unresolved (right-of-way / unzoned) \u2014 neutral noise assumption.",
+              "Measured mobile download ~306 Mbps (Ookla, 17 tests over this + neighboring tiles).",
+              "Power access unverified \u2014 no Somerville utility data; confirm on-site outlets/generator."
+            ]
+          }
+        }
+      }
+    },
+    "davis_sq-5": {
+      "crowd": {
+        "score": 83.1,
+        "reasons": [
+          "Fronts Holland Street (~12,000 est. vehicles/day, secondary) 1m away.",
+          "13 independent road egress route(s) within 120m (19 lanes total), plus pedestrian paths for foot dispersal.",
+          "Subway/rail station 70m away; 15 bus stop(s) within 450m (MBTA).",
+          "14 licensed alcohol establishment(s) within 200m (active Somerville alcohol licenses)."
+        ]
+      },
+      "block": "250173509003001",
+      "by_hour": {
+        "12": {
+          "safety": {
+            "score": 7.8,
+            "reasons": [
+              "77 crowd-relevant incident(s) on this block during the day window (8am-4pm); 105 more at other times (counted at reduced weight).",
+              "Above the 75th-percentile Somerville block for relevant crime at this time.",
+              "Scored on this block only, time-gated to the event window, by incident type \u2014 never a neighborhood blanket label."
+            ]
+          },
+          "functionality": {
+            "score": 90.0,
+            "reasons": [
+              "399 prior public-event/block-party permit(s) within 200m \u2014 permit precedent exists (fast-track signal).",
+              "Zoning unresolved (right-of-way / unzoned) \u2014 neutral noise assumption.",
+              "Measured mobile download ~306 Mbps (Ookla, 17 tests over this + neighboring tiles).",
+              "Power access unverified \u2014 no Somerville utility data; confirm on-site outlets/generator."
+            ]
+          }
+        },
+        "15": {
+          "safety": {
+            "score": 7.8,
+            "reasons": [
+              "77 crowd-relevant incident(s) on this block during the day window (8am-4pm); 105 more at other times (counted at reduced weight).",
+              "Above the 75th-percentile Somerville block for relevant crime at this time.",
+              "Scored on this block only, time-gated to the event window, by incident type \u2014 never a neighborhood blanket label."
+            ]
+          },
+          "functionality": {
+            "score": 90.0,
+            "reasons": [
+              "399 prior public-event/block-party permit(s) within 200m \u2014 permit precedent exists (fast-track signal).",
+              "Zoning unresolved (right-of-way / unzoned) \u2014 neutral noise assumption.",
+              "Measured mobile download ~306 Mbps (Ookla, 17 tests over this + neighboring tiles).",
+              "Power access unverified \u2014 no Somerville utility data; confirm on-site outlets/generator."
+            ]
+          }
+        },
+        "18": {
+          "safety": {
+            "score": 28.8,
+            "reasons": [
+              "0 crowd-relevant incident(s) on this block during the evening window (4pm-12am); 182 more at other times (counted at reduced weight).",
+              "Above the 75th-percentile Somerville block for relevant crime at this time.",
+              "Scored on this block only, time-gated to the event window, by incident type \u2014 never a neighborhood blanket label."
+            ]
+          },
+          "functionality": {
+            "score": 90.0,
+            "reasons": [
+              "399 prior public-event/block-party permit(s) within 200m \u2014 permit precedent exists (fast-track signal).",
+              "Zoning unresolved (right-of-way / unzoned) \u2014 neutral noise assumption.",
+              "Measured mobile download ~306 Mbps (Ookla, 17 tests over this + neighboring tiles).",
+              "Power access unverified \u2014 no Somerville utility data; confirm on-site outlets/generator."
+            ]
+          }
+        },
+        "21": {
+          "safety": {
+            "score": 28.8,
+            "reasons": [
+              "0 crowd-relevant incident(s) on this block during the evening window (4pm-12am); 182 more at other times (counted at reduced weight).",
+              "Above the 75th-percentile Somerville block for relevant crime at this time.",
+              "Scored on this block only, time-gated to the event window, by incident type \u2014 never a neighborhood blanket label."
+            ]
+          },
+          "functionality": {
+            "score": 90.0,
+            "reasons": [
+              "399 prior public-event/block-party permit(s) within 200m \u2014 permit precedent exists (fast-track signal).",
+              "Zoning unresolved (right-of-way / unzoned) \u2014 neutral noise assumption.",
+              "Measured mobile download ~306 Mbps (Ookla, 17 tests over this + neighboring tiles).",
+              "Power access unverified \u2014 no Somerville utility data; confirm on-site outlets/generator."
+            ]
+          }
+        }
+      }
+    },
+    "davis_sq-6": {
+      "crowd": {
+        "score": 83.1,
+        "reasons": [
+          "Fronts Dover Street (~12,000 est. vehicles/day, secondary) 6m away.",
+          "11 independent road egress route(s) within 120m (17 lanes total), plus pedestrian paths for foot dispersal.",
+          "Subway/rail station 92m away; 15 bus stop(s) within 450m (MBTA).",
+          "13 licensed alcohol establishment(s) within 200m (active Somerville alcohol licenses)."
+        ]
+      },
+      "block": "250173509003008",
+      "by_hour": {
+        "12": {
+          "safety": {
+            "score": 18.1,
+            "reasons": [
+              "32 crowd-relevant incident(s) on this block during the day window (8am-4pm); 49 more at other times (counted at reduced weight).",
+              "Above the 75th-percentile Somerville block for relevant crime at this time.",
+              "Scored on this block only, time-gated to the event window, by incident type \u2014 never a neighborhood blanket label."
+            ]
+          },
+          "functionality": {
+            "score": 90.0,
+            "reasons": [
+              "396 prior public-event/block-party permit(s) within 200m \u2014 permit precedent exists (fast-track signal).",
+              "Zoning unresolved (right-of-way / unzoned) \u2014 neutral noise assumption.",
+              "Measured mobile download ~306 Mbps (Ookla, 17 tests over this + neighboring tiles).",
+              "Power access unverified \u2014 no Somerville utility data; confirm on-site outlets/generator."
+            ]
+          }
+        },
+        "15": {
+          "safety": {
+            "score": 18.1,
+            "reasons": [
+              "32 crowd-relevant incident(s) on this block during the day window (8am-4pm); 49 more at other times (counted at reduced weight).",
+              "Above the 75th-percentile Somerville block for relevant crime at this time.",
+              "Scored on this block only, time-gated to the event window, by incident type \u2014 never a neighborhood blanket label."
+            ]
+          },
+          "functionality": {
+            "score": 90.0,
+            "reasons": [
+              "396 prior public-event/block-party permit(s) within 200m \u2014 permit precedent exists (fast-track signal).",
+              "Zoning unresolved (right-of-way / unzoned) \u2014 neutral noise assumption.",
+              "Measured mobile download ~306 Mbps (Ookla, 17 tests over this + neighboring tiles).",
+              "Power access unverified \u2014 no Somerville utility data; confirm on-site outlets/generator."
+            ]
+          }
+        },
+        "18": {
+          "safety": {
+            "score": 45.8,
+            "reasons": [
+              "0 crowd-relevant incident(s) on this block during the evening window (4pm-12am); 81 more at other times (counted at reduced weight).",
+              "Above the 75th-percentile Somerville block for relevant crime at this time.",
+              "Scored on this block only, time-gated to the event window, by incident type \u2014 never a neighborhood blanket label."
+            ]
+          },
+          "functionality": {
+            "score": 90.0,
+            "reasons": [
+              "396 prior public-event/block-party permit(s) within 200m \u2014 permit precedent exists (fast-track signal).",
+              "Zoning unresolved (right-of-way / unzoned) \u2014 neutral noise assumption.",
+              "Measured mobile download ~306 Mbps (Ookla, 17 tests over this + neighboring tiles).",
+              "Power access unverified \u2014 no Somerville utility data; confirm on-site outlets/generator."
+            ]
+          }
+        },
+        "21": {
+          "safety": {
+            "score": 45.8,
+            "reasons": [
+              "0 crowd-relevant incident(s) on this block during the evening window (4pm-12am); 81 more at other times (counted at reduced weight).",
+              "Above the 75th-percentile Somerville block for relevant crime at this time.",
+              "Scored on this block only, time-gated to the event window, by incident type \u2014 never a neighborhood blanket label."
+            ]
+          },
+          "functionality": {
+            "score": 90.0,
+            "reasons": [
+              "396 prior public-event/block-party permit(s) within 200m \u2014 permit precedent exists (fast-track signal).",
+              "Zoning unresolved (right-of-way / unzoned) \u2014 neutral noise assumption.",
+              "Measured mobile download ~306 Mbps (Ookla, 17 tests over this + neighboring tiles).",
+              "Power access unverified \u2014 no Somerville utility data; confirm on-site outlets/generator."
+            ]
+          }
+        }
+      }
+    },
+    "davis_sq-7": {
+      "crowd": {
+        "score": 83.1,
+        "reasons": [
+          "Fronts Holland Street (~12,000 est. vehicles/day, secondary) 2m away.",
+          "13 independent road egress route(s) within 120m (19 lanes total), plus pedestrian paths for foot dispersal.",
+          "Subway/rail station 70m away; 15 bus stop(s) within 450m (MBTA).",
+          "13 licensed alcohol establishment(s) within 200m (active Somerville alcohol licenses)."
+        ]
+      },
+      "block": "250173509003008",
+      "by_hour": {
+        "12": {
+          "safety": {
+            "score": 18.1,
+            "reasons": [
+              "32 crowd-relevant incident(s) on this block during the day window (8am-4pm); 49 more at other times (counted at reduced weight).",
+              "Above the 75th-percentile Somerville block for relevant crime at this time.",
+              "Scored on this block only, time-gated to the event window, by incident type \u2014 never a neighborhood blanket label."
+            ]
+          },
+          "functionality": {
+            "score": 90.0,
+            "reasons": [
+              "402 prior public-event/block-party permit(s) within 200m \u2014 permit precedent exists (fast-track signal).",
+              "Zoning unresolved (right-of-way / unzoned) \u2014 neutral noise assumption.",
+              "Measured mobile download ~306 Mbps (Ookla, 17 tests over this + neighboring tiles).",
+              "Power access unverified \u2014 no Somerville utility data; confirm on-site outlets/generator."
+            ]
+          }
+        },
+        "15": {
+          "safety": {
+            "score": 18.1,
+            "reasons": [
+              "32 crowd-relevant incident(s) on this block during the day window (8am-4pm); 49 more at other times (counted at reduced weight).",
+              "Above the 75th-percentile Somerville block for relevant crime at this time.",
+              "Scored on this block only, time-gated to the event window, by incident type \u2014 never a neighborhood blanket label."
+            ]
+          },
+          "functionality": {
+            "score": 90.0,
+            "reasons": [
+              "402 prior public-event/block-party permit(s) within 200m \u2014 permit precedent exists (fast-track signal).",
+              "Zoning unresolved (right-of-way / unzoned) \u2014 neutral noise assumption.",
+              "Measured mobile download ~306 Mbps (Ookla, 17 tests over this + neighboring tiles).",
+              "Power access unverified \u2014 no Somerville utility data; confirm on-site outlets/generator."
+            ]
+          }
+        },
+        "18": {
+          "safety": {
+            "score": 45.8,
+            "reasons": [
+              "0 crowd-relevant incident(s) on this block during the evening window (4pm-12am); 81 more at other times (counted at reduced weight).",
+              "Above the 75th-percentile Somerville block for relevant crime at this time.",
+              "Scored on this block only, time-gated to the event window, by incident type \u2014 never a neighborhood blanket label."
+            ]
+          },
+          "functionality": {
+            "score": 90.0,
+            "reasons": [
+              "402 prior public-event/block-party permit(s) within 200m \u2014 permit precedent exists (fast-track signal).",
+              "Zoning unresolved (right-of-way / unzoned) \u2014 neutral noise assumption.",
+              "Measured mobile download ~306 Mbps (Ookla, 17 tests over this + neighboring tiles).",
+              "Power access unverified \u2014 no Somerville utility data; confirm on-site outlets/generator."
+            ]
+          }
+        },
+        "21": {
+          "safety": {
+            "score": 45.8,
+            "reasons": [
+              "0 crowd-relevant incident(s) on this block during the evening window (4pm-12am); 81 more at other times (counted at reduced weight).",
+              "Above the 75th-percentile Somerville block for relevant crime at this time.",
+              "Scored on this block only, time-gated to the event window, by incident type \u2014 never a neighborhood blanket label."
+            ]
+          },
+          "functionality": {
+            "score": 90.0,
+            "reasons": [
+              "402 prior public-event/block-party permit(s) within 200m \u2014 permit precedent exists (fast-track signal).",
+              "Zoning unresolved (right-of-way / unzoned) \u2014 neutral noise assumption.",
+              "Measured mobile download ~306 Mbps (Ookla, 17 tests over this + neighboring tiles).",
+              "Power access unverified \u2014 no Somerville utility data; confirm on-site outlets/generator."
+            ]
+          }
+        }
+      }
+    },
+    "davis_sq-8": {
+      "crowd": {
+        "score": 83.1,
+        "reasons": [
+          "Fronts College Avenue (~12,000 est. vehicles/day, secondary) 9m away.",
+          "16 independent road egress route(s) within 120m (23 lanes total), plus pedestrian paths for foot dispersal.",
+          "Subway/rail station 44m away; 13 bus stop(s) within 450m (MBTA).",
+          "12 licensed alcohol establishment(s) within 200m (active Somerville alcohol licenses)."
+        ]
+      },
+      "block": "250173505001008",
+      "by_hour": {
+        "12": {
+          "safety": {
+            "score": 24.3,
+            "reasons": [
+              "27 crowd-relevant incident(s) on this block during the day window (8am-4pm); 33 more at other times (counted at reduced weight).",
+              "Above the 75th-percentile Somerville block for relevant crime at this time.",
+              "Scored on this block only, time-gated to the event window, by incident type \u2014 never a neighborhood blanket label."
+            ]
+          },
+          "functionality": {
+            "score": 90.0,
+            "reasons": [
+              "409 prior public-event/block-party permit(s) within 200m \u2014 permit precedent exists (fast-track signal).",
+              "Zoning unresolved (right-of-way / unzoned) \u2014 neutral noise assumption.",
+              "Measured mobile download ~306 Mbps (Ookla, 17 tests over this + neighboring tiles).",
+              "Power access unverified \u2014 no Somerville utility data; confirm on-site outlets/generator."
+            ]
+          }
+        },
+        "15": {
+          "safety": {
+            "score": 24.3,
+            "reasons": [
+              "27 crowd-relevant incident(s) on this block during the day window (8am-4pm); 33 more at other times (counted at reduced weight).",
+              "Above the 75th-percentile Somerville block for relevant crime at this time.",
+              "Scored on this block only, time-gated to the event window, by incident type \u2014 never a neighborhood blanket label."
+            ]
+          },
+          "functionality": {
+            "score": 90.0,
+            "reasons": [
+              "409 prior public-event/block-party permit(s) within 200m \u2014 permit precedent exists (fast-track signal).",
+              "Zoning unresolved (right-of-way / unzoned) \u2014 neutral noise assumption.",
+              "Measured mobile download ~306 Mbps (Ookla, 17 tests over this + neighboring tiles).",
+              "Power access unverified \u2014 no Somerville utility data; confirm on-site outlets/generator."
+            ]
+          }
+        },
+        "18": {
+          "safety": {
+            "score": 58.0,
+            "reasons": [
+              "0 crowd-relevant incident(s) on this block during the evening window (4pm-12am); 60 more at other times (counted at reduced weight).",
+              "Scored on this block only, time-gated to the event window, by incident type \u2014 never a neighborhood blanket label."
+            ]
+          },
+          "functionality": {
+            "score": 90.0,
+            "reasons": [
+              "409 prior public-event/block-party permit(s) within 200m \u2014 permit precedent exists (fast-track signal).",
+              "Zoning unresolved (right-of-way / unzoned) \u2014 neutral noise assumption.",
+              "Measured mobile download ~306 Mbps (Ookla, 17 tests over this + neighboring tiles).",
+              "Power access unverified \u2014 no Somerville utility data; confirm on-site outlets/generator."
+            ]
+          }
+        },
+        "21": {
+          "safety": {
+            "score": 58.0,
+            "reasons": [
+              "0 crowd-relevant incident(s) on this block during the evening window (4pm-12am); 60 more at other times (counted at reduced weight).",
+              "Scored on this block only, time-gated to the event window, by incident type \u2014 never a neighborhood blanket label."
+            ]
+          },
+          "functionality": {
+            "score": 90.0,
+            "reasons": [
+              "409 prior public-event/block-party permit(s) within 200m \u2014 permit precedent exists (fast-track signal).",
+              "Zoning unresolved (right-of-way / unzoned) \u2014 neutral noise assumption.",
+              "Measured mobile download ~306 Mbps (Ookla, 17 tests over this + neighboring tiles).",
+              "Power access unverified \u2014 no Somerville utility data; confirm on-site outlets/generator."
+            ]
+          }
+        }
+      }
+    },
+    "davis_sq-9": {
+      "crowd": {
+        "score": 83.1,
+        "reasons": [
+          "Fronts Dover Street (~12,000 est. vehicles/day, secondary) 18m away.",
+          "11 independent road egress route(s) within 120m (17 lanes total), plus pedestrian paths for foot dispersal.",
+          "Subway/rail station 93m away; 15 bus stop(s) within 450m (MBTA).",
+          "13 licensed alcohol establishment(s) within 200m (active Somerville alcohol licenses)."
+        ]
+      },
+      "block": "250173509003008",
+      "by_hour": {
+        "12": {
+          "safety": {
+            "score": 18.1,
+            "reasons": [
+              "32 crowd-relevant incident(s) on this block during the day window (8am-4pm); 49 more at other times (counted at reduced weight).",
+              "Above the 75th-percentile Somerville block for relevant crime at this time.",
+              "Scored on this block only, time-gated to the event window, by incident type \u2014 never a neighborhood blanket label."
+            ]
+          },
+          "functionality": {
+            "score": 98.0,
+            "reasons": [
+              "394 prior public-event/block-party permit(s) within 200m \u2014 permit precedent exists (fast-track signal).",
+              "Zone: Commercial Core 4 (CC4) \u2014 commercial/industrial \u2014 minimal quiet-hours constraint (event 12:00).",
+              "Measured mobile download ~306 Mbps (Ookla, 17 tests over this + neighboring tiles).",
+              "Power access unverified \u2014 no Somerville utility data; confirm on-site outlets/generator."
+            ]
+          }
+        },
+        "15": {
+          "safety": {
+            "score": 18.1,
+            "reasons": [
+              "32 crowd-relevant incident(s) on this block during the day window (8am-4pm); 49 more at other times (counted at reduced weight).",
+              "Above the 75th-percentile Somerville block for relevant crime at this time.",
+              "Scored on this block only, time-gated to the event window, by incident type \u2014 never a neighborhood blanket label."
+            ]
+          },
+          "functionality": {
+            "score": 98.0,
+            "reasons": [
+              "394 prior public-event/block-party permit(s) within 200m \u2014 permit precedent exists (fast-track signal).",
+              "Zone: Commercial Core 4 (CC4) \u2014 commercial/industrial \u2014 minimal quiet-hours constraint (event 15:00).",
+              "Measured mobile download ~306 Mbps (Ookla, 17 tests over this + neighboring tiles).",
+              "Power access unverified \u2014 no Somerville utility data; confirm on-site outlets/generator."
+            ]
+          }
+        },
+        "18": {
+          "safety": {
+            "score": 45.8,
+            "reasons": [
+              "0 crowd-relevant incident(s) on this block during the evening window (4pm-12am); 81 more at other times (counted at reduced weight).",
+              "Above the 75th-percentile Somerville block for relevant crime at this time.",
+              "Scored on this block only, time-gated to the event window, by incident type \u2014 never a neighborhood blanket label."
+            ]
+          },
+          "functionality": {
+            "score": 98.0,
+            "reasons": [
+              "394 prior public-event/block-party permit(s) within 200m \u2014 permit precedent exists (fast-track signal).",
+              "Zone: Commercial Core 4 (CC4) \u2014 commercial/industrial \u2014 minimal quiet-hours constraint (event 18:00).",
+              "Measured mobile download ~306 Mbps (Ookla, 17 tests over this + neighboring tiles).",
+              "Power access unverified \u2014 no Somerville utility data; confirm on-site outlets/generator."
+            ]
+          }
+        },
+        "21": {
+          "safety": {
+            "score": 45.8,
+            "reasons": [
+              "0 crowd-relevant incident(s) on this block during the evening window (4pm-12am); 81 more at other times (counted at reduced weight).",
+              "Above the 75th-percentile Somerville block for relevant crime at this time.",
+              "Scored on this block only, time-gated to the event window, by incident type \u2014 never a neighborhood blanket label."
+            ]
+          },
+          "functionality": {
+            "score": 98.0,
+            "reasons": [
+              "394 prior public-event/block-party permit(s) within 200m \u2014 permit precedent exists (fast-track signal).",
+              "Zone: Commercial Core 4 (CC4) \u2014 commercial/industrial \u2014 minimal quiet-hours constraint (event 21:00).",
+              "Measured mobile download ~306 Mbps (Ookla, 17 tests over this + neighboring tiles).",
+              "Power access unverified \u2014 no Somerville utility data; confirm on-site outlets/generator."
+            ]
+          }
+        }
+      }
+    },
+    "davis_sq-10": {
+      "crowd": {
+        "score": 83.1,
+        "reasons": [
+          "Fronts Holland Street (~12,000 est. vehicles/day, secondary) 17m away.",
+          "16 independent road egress route(s) within 120m (23 lanes total), plus pedestrian paths for foot dispersal.",
+          "Subway/rail station 50m away; 13 bus stop(s) within 450m (MBTA).",
+          "11 licensed alcohol establishment(s) within 200m (active Somerville alcohol licenses)."
+        ]
+      },
+      "block": "250173505001008",
+      "by_hour": {
+        "12": {
+          "safety": {
+            "score": 24.3,
+            "reasons": [
+              "27 crowd-relevant incident(s) on this block during the day window (8am-4pm); 33 more at other times (counted at reduced weight).",
+              "Above the 75th-percentile Somerville block for relevant crime at this time.",
+              "Scored on this block only, time-gated to the event window, by incident type \u2014 never a neighborhood blanket label."
+            ]
+          },
+          "functionality": {
+            "score": 90.0,
+            "reasons": [
+              "410 prior public-event/block-party permit(s) within 200m \u2014 permit precedent exists (fast-track signal).",
+              "Zoning unresolved (right-of-way / unzoned) \u2014 neutral noise assumption.",
+              "Measured mobile download ~306 Mbps (Ookla, 17 tests over this + neighboring tiles).",
+              "Power access unverified \u2014 no Somerville utility data; confirm on-site outlets/generator."
+            ]
+          }
+        },
+        "15": {
+          "safety": {
+            "score": 24.3,
+            "reasons": [
+              "27 crowd-relevant incident(s) on this block during the day window (8am-4pm); 33 more at other times (counted at reduced weight).",
+              "Above the 75th-percentile Somerville block for relevant crime at this time.",
+              "Scored on this block only, time-gated to the event window, by incident type \u2014 never a neighborhood blanket label."
+            ]
+          },
+          "functionality": {
+            "score": 90.0,
+            "reasons": [
+              "410 prior public-event/block-party permit(s) within 200m \u2014 permit precedent exists (fast-track signal).",
+              "Zoning unresolved (right-of-way / unzoned) \u2014 neutral noise assumption.",
+              "Measured mobile download ~306 Mbps (Ookla, 17 tests over this + neighboring tiles).",
+              "Power access unverified \u2014 no Somerville utility data; confirm on-site outlets/generator."
+            ]
+          }
+        },
+        "18": {
+          "safety": {
+            "score": 58.0,
+            "reasons": [
+              "0 crowd-relevant incident(s) on this block during the evening window (4pm-12am); 60 more at other times (counted at reduced weight).",
+              "Scored on this block only, time-gated to the event window, by incident type \u2014 never a neighborhood blanket label."
+            ]
+          },
+          "functionality": {
+            "score": 90.0,
+            "reasons": [
+              "410 prior public-event/block-party permit(s) within 200m \u2014 permit precedent exists (fast-track signal).",
+              "Zoning unresolved (right-of-way / unzoned) \u2014 neutral noise assumption.",
+              "Measured mobile download ~306 Mbps (Ookla, 17 tests over this + neighboring tiles).",
+              "Power access unverified \u2014 no Somerville utility data; confirm on-site outlets/generator."
+            ]
+          }
+        },
+        "21": {
+          "safety": {
+            "score": 58.0,
+            "reasons": [
+              "0 crowd-relevant incident(s) on this block during the evening window (4pm-12am); 60 more at other times (counted at reduced weight).",
+              "Scored on this block only, time-gated to the event window, by incident type \u2014 never a neighborhood blanket label."
+            ]
+          },
+          "functionality": {
+            "score": 90.0,
+            "reasons": [
+              "410 prior public-event/block-party permit(s) within 200m \u2014 permit precedent exists (fast-track signal).",
+              "Zoning unresolved (right-of-way / unzoned) \u2014 neutral noise assumption.",
+              "Measured mobile download ~306 Mbps (Ookla, 17 tests over this + neighboring tiles).",
+              "Power access unverified \u2014 no Somerville utility data; confirm on-site outlets/generator."
+            ]
+          }
+        }
+      }
+    },
+    "davis_sq-11": {
+      "crowd": {
+        "score": 83.1,
+        "reasons": [
+          "Fronts Elm Street (~12,000 est. vehicles/day, secondary) 13m away.",
+          "15 independent road egress route(s) within 120m (22 lanes total), plus pedestrian paths for foot dispersal.",
+          "Subway/rail station 73m away; 15 bus stop(s) within 450m (MBTA).",
+          "16 licensed alcohol establishment(s) within 200m (active Somerville alcohol licenses)."
+        ]
+      },
+      "block": "250173509003001",
+      "by_hour": {
+        "12": {
+          "safety": {
+            "score": 7.8,
+            "reasons": [
+              "77 crowd-relevant incident(s) on this block during the day window (8am-4pm); 105 more at other times (counted at reduced weight).",
+              "Above the 75th-percentile Somerville block for relevant crime at this time.",
+              "Scored on this block only, time-gated to the event window, by incident type \u2014 never a neighborhood blanket label."
+            ]
+          },
+          "functionality": {
+            "score": 90.0,
+            "reasons": [
+              "385 prior public-event/block-party permit(s) within 200m \u2014 permit precedent exists (fast-track signal).",
+              "Zoning unresolved (right-of-way / unzoned) \u2014 neutral noise assumption.",
+              "Measured mobile download ~306 Mbps (Ookla, 17 tests over this + neighboring tiles).",
+              "Power access unverified \u2014 no Somerville utility data; confirm on-site outlets/generator."
+            ]
+          }
+        },
+        "15": {
+          "safety": {
+            "score": 7.8,
+            "reasons": [
+              "77 crowd-relevant incident(s) on this block during the day window (8am-4pm); 105 more at other times (counted at reduced weight).",
+              "Above the 75th-percentile Somerville block for relevant crime at this time.",
+              "Scored on this block only, time-gated to the event window, by incident type \u2014 never a neighborhood blanket label."
+            ]
+          },
+          "functionality": {
+            "score": 90.0,
+            "reasons": [
+              "385 prior public-event/block-party permit(s) within 200m \u2014 permit precedent exists (fast-track signal).",
+              "Zoning unresolved (right-of-way / unzoned) \u2014 neutral noise assumption.",
+              "Measured mobile download ~306 Mbps (Ookla, 17 tests over this + neighboring tiles).",
+              "Power access unverified \u2014 no Somerville utility data; confirm on-site outlets/generator."
+            ]
+          }
+        },
+        "18": {
+          "safety": {
+            "score": 28.8,
+            "reasons": [
+              "0 crowd-relevant incident(s) on this block during the evening window (4pm-12am); 182 more at other times (counted at reduced weight).",
+              "Above the 75th-percentile Somerville block for relevant crime at this time.",
+              "Scored on this block only, time-gated to the event window, by incident type \u2014 never a neighborhood blanket label."
+            ]
+          },
+          "functionality": {
+            "score": 90.0,
+            "reasons": [
+              "385 prior public-event/block-party permit(s) within 200m \u2014 permit precedent exists (fast-track signal).",
+              "Zoning unresolved (right-of-way / unzoned) \u2014 neutral noise assumption.",
+              "Measured mobile download ~306 Mbps (Ookla, 17 tests over this + neighboring tiles).",
+              "Power access unverified \u2014 no Somerville utility data; confirm on-site outlets/generator."
+            ]
+          }
+        },
+        "21": {
+          "safety": {
+            "score": 28.8,
+            "reasons": [
+              "0 crowd-relevant incident(s) on this block during the evening window (4pm-12am); 182 more at other times (counted at reduced weight).",
+              "Above the 75th-percentile Somerville block for relevant crime at this time.",
+              "Scored on this block only, time-gated to the event window, by incident type \u2014 never a neighborhood blanket label."
+            ]
+          },
+          "functionality": {
+            "score": 90.0,
+            "reasons": [
+              "385 prior public-event/block-party permit(s) within 200m \u2014 permit precedent exists (fast-track signal).",
+              "Zoning unresolved (right-of-way / unzoned) \u2014 neutral noise assumption.",
+              "Measured mobile download ~306 Mbps (Ookla, 17 tests over this + neighboring tiles).",
+              "Power access unverified \u2014 no Somerville utility data; confirm on-site outlets/generator."
+            ]
+          }
+        }
+      }
+    },
+    "davis_sq-12": {
+      "crowd": {
+        "score": 83.1,
+        "reasons": [
+          "Fronts Dover Street (~12,000 est. vehicles/day, secondary) 18m away.",
+          "11 independent road egress route(s) within 120m (17 lanes total), plus pedestrian paths for foot dispersal.",
+          "Subway/rail station 91m away; 15 bus stop(s) within 450m (MBTA).",
+          "13 licensed alcohol establishment(s) within 200m (active Somerville alcohol licenses)."
+        ]
+      },
+      "block": "250173509003008",
+      "by_hour": {
+        "12": {
+          "safety": {
+            "score": 18.1,
+            "reasons": [
+              "32 crowd-relevant incident(s) on this block during the day window (8am-4pm); 49 more at other times (counted at reduced weight).",
+              "Above the 75th-percentile Somerville block for relevant crime at this time.",
+              "Scored on this block only, time-gated to the event window, by incident type \u2014 never a neighborhood blanket label."
+            ]
+          },
+          "functionality": {
+            "score": 98.0,
+            "reasons": [
+              "394 prior public-event/block-party permit(s) within 200m \u2014 permit precedent exists (fast-track signal).",
+              "Zone: Commercial Core 4 (CC4) \u2014 commercial/industrial \u2014 minimal quiet-hours constraint (event 12:00).",
+              "Measured mobile download ~306 Mbps (Ookla, 17 tests over this + neighboring tiles).",
+              "Power access unverified \u2014 no Somerville utility data; confirm on-site outlets/generator."
+            ]
+          }
+        },
+        "15": {
+          "safety": {
+            "score": 18.1,
+            "reasons": [
+              "32 crowd-relevant incident(s) on this block during the day window (8am-4pm); 49 more at other times (counted at reduced weight).",
+              "Above the 75th-percentile Somerville block for relevant crime at this time.",
+              "Scored on this block only, time-gated to the event window, by incident type \u2014 never a neighborhood blanket label."
+            ]
+          },
+          "functionality": {
+            "score": 98.0,
+            "reasons": [
+              "394 prior public-event/block-party permit(s) within 200m \u2014 permit precedent exists (fast-track signal).",
+              "Zone: Commercial Core 4 (CC4) \u2014 commercial/industrial \u2014 minimal quiet-hours constraint (event 15:00).",
+              "Measured mobile download ~306 Mbps (Ookla, 17 tests over this + neighboring tiles).",
+              "Power access unverified \u2014 no Somerville utility data; confirm on-site outlets/generator."
+            ]
+          }
+        },
+        "18": {
+          "safety": {
+            "score": 45.8,
+            "reasons": [
+              "0 crowd-relevant incident(s) on this block during the evening window (4pm-12am); 81 more at other times (counted at reduced weight).",
+              "Above the 75th-percentile Somerville block for relevant crime at this time.",
+              "Scored on this block only, time-gated to the event window, by incident type \u2014 never a neighborhood blanket label."
+            ]
+          },
+          "functionality": {
+            "score": 98.0,
+            "reasons": [
+              "394 prior public-event/block-party permit(s) within 200m \u2014 permit precedent exists (fast-track signal).",
+              "Zone: Commercial Core 4 (CC4) \u2014 commercial/industrial \u2014 minimal quiet-hours constraint (event 18:00).",
+              "Measured mobile download ~306 Mbps (Ookla, 17 tests over this + neighboring tiles).",
+              "Power access unverified \u2014 no Somerville utility data; confirm on-site outlets/generator."
+            ]
+          }
+        },
+        "21": {
+          "safety": {
+            "score": 45.8,
+            "reasons": [
+              "0 crowd-relevant incident(s) on this block during the evening window (4pm-12am); 81 more at other times (counted at reduced weight).",
+              "Above the 75th-percentile Somerville block for relevant crime at this time.",
+              "Scored on this block only, time-gated to the event window, by incident type \u2014 never a neighborhood blanket label."
+            ]
+          },
+          "functionality": {
+            "score": 98.0,
+            "reasons": [
+              "394 prior public-event/block-party permit(s) within 200m \u2014 permit precedent exists (fast-track signal).",
+              "Zone: Commercial Core 4 (CC4) \u2014 commercial/industrial \u2014 minimal quiet-hours constraint (event 21:00).",
+              "Measured mobile download ~306 Mbps (Ookla, 17 tests over this + neighboring tiles).",
+              "Power access unverified \u2014 no Somerville utility data; confirm on-site outlets/generator."
+            ]
+          }
+        }
+      }
+    },
+    "davis_sq-13": {
+      "crowd": {
+        "score": 83.1,
+        "reasons": [
+          "Fronts Dover Street (~12,000 est. vehicles/day, secondary) 6m away.",
+          "11 independent road egress route(s) within 120m (17 lanes total), plus pedestrian paths for foot dispersal.",
+          "Subway/rail station 90m away; 15 bus stop(s) within 450m (MBTA).",
+          "11 licensed alcohol establishment(s) within 200m (active Somerville alcohol licenses)."
+        ]
+      },
+      "block": "250173509003002",
+      "by_hour": {
+        "12": {
+          "safety": {
+            "score": 17.9,
+            "reasons": [
+              "24 crowd-relevant incident(s) on this block during the day window (8am-4pm); 32 more at other times (counted at reduced weight).",
+              "Above the 75th-percentile Somerville block for relevant crime at this time.",
+              "Scored on this block only, time-gated to the event window, by incident type \u2014 never a neighborhood blanket label."
+            ]
+          },
+          "functionality": {
+            "score": 98.0,
+            "reasons": [
+              "392 prior public-event/block-party permit(s) within 200m \u2014 permit precedent exists (fast-track signal).",
+              "Zone: Commercial Core 4 (CC4) \u2014 commercial/industrial \u2014 minimal quiet-hours constraint (event 12:00).",
+              "Measured mobile download ~306 Mbps (Ookla, 17 tests over this + neighboring tiles).",
+              "Power access unverified \u2014 no Somerville utility data; confirm on-site outlets/generator."
+            ]
+          }
+        },
+        "15": {
+          "safety": {
+            "score": 17.9,
+            "reasons": [
+              "24 crowd-relevant incident(s) on this block during the day window (8am-4pm); 32 more at other times (counted at reduced weight).",
+              "Above the 75th-percentile Somerville block for relevant crime at this time.",
+              "Scored on this block only, time-gated to the event window, by incident type \u2014 never a neighborhood blanket label."
+            ]
+          },
+          "functionality": {
+            "score": 98.0,
+            "reasons": [
+              "392 prior public-event/block-party permit(s) within 200m \u2014 permit precedent exists (fast-track signal).",
+              "Zone: Commercial Core 4 (CC4) \u2014 commercial/industrial \u2014 minimal quiet-hours constraint (event 15:00).",
+              "Measured mobile download ~306 Mbps (Ookla, 17 tests over this + neighboring tiles).",
+              "Power access unverified \u2014 no Somerville utility data; confirm on-site outlets/generator."
+            ]
+          }
+        },
+        "18": {
+          "safety": {
+            "score": 55.3,
+            "reasons": [
+              "0 crowd-relevant incident(s) on this block during the evening window (4pm-12am); 56 more at other times (counted at reduced weight).",
+              "Scored on this block only, time-gated to the event window, by incident type \u2014 never a neighborhood blanket label."
+            ]
+          },
+          "functionality": {
+            "score": 98.0,
+            "reasons": [
+              "392 prior public-event/block-party permit(s) within 200m \u2014 permit precedent exists (fast-track signal).",
+              "Zone: Commercial Core 4 (CC4) \u2014 commercial/industrial \u2014 minimal quiet-hours constraint (event 18:00).",
+              "Measured mobile download ~306 Mbps (Ookla, 17 tests over this + neighboring tiles).",
+              "Power access unverified \u2014 no Somerville utility data; confirm on-site outlets/generator."
+            ]
+          }
+        },
+        "21": {
+          "safety": {
+            "score": 55.3,
+            "reasons": [
+              "0 crowd-relevant incident(s) on this block during the evening window (4pm-12am); 56 more at other times (counted at reduced weight).",
+              "Scored on this block only, time-gated to the event window, by incident type \u2014 never a neighborhood blanket label."
+            ]
+          },
+          "functionality": {
+            "score": 98.0,
+            "reasons": [
+              "392 prior public-event/block-party permit(s) within 200m \u2014 permit precedent exists (fast-track signal).",
+              "Zone: Commercial Core 4 (CC4) \u2014 commercial/industrial \u2014 minimal quiet-hours constraint (event 21:00).",
+              "Measured mobile download ~306 Mbps (Ookla, 17 tests over this + neighboring tiles).",
+              "Power access unverified \u2014 no Somerville utility data; confirm on-site outlets/generator."
+            ]
+          }
+        }
+      }
+    },
+    "davis_sq-14": {
+      "crowd": {
+        "score": 83.1,
+        "reasons": [
+          "Fronts Holland Street (~12,000 est. vehicles/day, secondary) 9m away.",
+          "15 independent road egress route(s) within 120m (20 lanes total), plus pedestrian paths for foot dispersal.",
+          "Subway/rail station 61m away; 13 bus stop(s) within 450m (MBTA).",
+          "11 licensed alcohol establishment(s) within 200m (active Somerville alcohol licenses)."
+        ]
+      },
+      "block": "250173505001008",
+      "by_hour": {
+        "12": {
+          "safety": {
+            "score": 24.3,
+            "reasons": [
+              "27 crowd-relevant incident(s) on this block during the day window (8am-4pm); 33 more at other times (counted at reduced weight).",
+              "Above the 75th-percentile Somerville block for relevant crime at this time.",
+              "Scored on this block only, time-gated to the event window, by incident type \u2014 never a neighborhood blanket label."
+            ]
+          },
+          "functionality": {
+            "score": 90.0,
+            "reasons": [
+              "404 prior public-event/block-party permit(s) within 200m \u2014 permit precedent exists (fast-track signal).",
+              "Zoning unresolved (right-of-way / unzoned) \u2014 neutral noise assumption.",
+              "Measured mobile download ~306 Mbps (Ookla, 17 tests over this + neighboring tiles).",
+              "Power access unverified \u2014 no Somerville utility data; confirm on-site outlets/generator."
+            ]
+          }
+        },
+        "15": {
+          "safety": {
+            "score": 24.3,
+            "reasons": [
+              "27 crowd-relevant incident(s) on this block during the day window (8am-4pm); 33 more at other times (counted at reduced weight).",
+              "Above the 75th-percentile Somerville block for relevant crime at this time.",
+              "Scored on this block only, time-gated to the event window, by incident type \u2014 never a neighborhood blanket label."
+            ]
+          },
+          "functionality": {
+            "score": 90.0,
+            "reasons": [
+              "404 prior public-event/block-party permit(s) within 200m \u2014 permit precedent exists (fast-track signal).",
+              "Zoning unresolved (right-of-way / unzoned) \u2014 neutral noise assumption.",
+              "Measured mobile download ~306 Mbps (Ookla, 17 tests over this + neighboring tiles).",
+              "Power access unverified \u2014 no Somerville utility data; confirm on-site outlets/generator."
+            ]
+          }
+        },
+        "18": {
+          "safety": {
+            "score": 58.0,
+            "reasons": [
+              "0 crowd-relevant incident(s) on this block during the evening window (4pm-12am); 60 more at other times (counted at reduced weight).",
+              "Scored on this block only, time-gated to the event window, by incident type \u2014 never a neighborhood blanket label."
+            ]
+          },
+          "functionality": {
+            "score": 90.0,
+            "reasons": [
+              "404 prior public-event/block-party permit(s) within 200m \u2014 permit precedent exists (fast-track signal).",
+              "Zoning unresolved (right-of-way / unzoned) \u2014 neutral noise assumption.",
+              "Measured mobile download ~306 Mbps (Ookla, 17 tests over this + neighboring tiles).",
+              "Power access unverified \u2014 no Somerville utility data; confirm on-site outlets/generator."
+            ]
+          }
+        },
+        "21": {
+          "safety": {
+            "score": 58.0,
+            "reasons": [
+              "0 crowd-relevant incident(s) on this block during the evening window (4pm-12am); 60 more at other times (counted at reduced weight).",
+              "Scored on this block only, time-gated to the event window, by incident type \u2014 never a neighborhood blanket label."
+            ]
+          },
+          "functionality": {
+            "score": 90.0,
+            "reasons": [
+              "404 prior public-event/block-party permit(s) within 200m \u2014 permit precedent exists (fast-track signal).",
+              "Zoning unresolved (right-of-way / unzoned) \u2014 neutral noise assumption.",
+              "Measured mobile download ~306 Mbps (Ookla, 17 tests over this + neighboring tiles).",
+              "Power access unverified \u2014 no Somerville utility data; confirm on-site outlets/generator."
+            ]
+          }
+        }
+      }
+    },
+    "davis_sq-15": {
+      "crowd": {
+        "score": 83.1,
+        "reasons": [
+          "Fronts Holland Street (~12,000 est. vehicles/day, secondary) 13m away.",
+          "11 independent road egress route(s) within 120m (14 lanes total), plus pedestrian paths for foot dispersal.",
+          "Subway/rail station 148m away; 13 bus stop(s) within 450m (MBTA).",
+          "8 licensed alcohol establishment(s) within 200m (active Somerville alcohol licenses)."
+        ]
+      },
+      "block": "250173508002005",
+      "by_hour": {
+        "12": {
+          "safety": {
+            "score": 65.9,
+            "reasons": [
+              "9 crowd-relevant incident(s) on this block during the day window (8am-4pm); 11 more at other times (counted at reduced weight).",
+              "Scored on this block only, time-gated to the event window, by incident type \u2014 never a neighborhood blanket label."
+            ]
+          },
+          "functionality": {
+            "score": 98.0,
+            "reasons": [
+              "221 prior public-event/block-party permit(s) within 200m \u2014 permit precedent exists (fast-track signal).",
+              "Zone: Commercial Core 4 (CC4) \u2014 commercial/industrial \u2014 minimal quiet-hours constraint (event 12:00).",
+              "Measured mobile download ~306 Mbps (Ookla, 17 tests over this + neighboring tiles).",
+              "Power access unverified \u2014 no Somerville utility data; confirm on-site outlets/generator."
+            ]
+          }
+        },
+        "15": {
+          "safety": {
+            "score": 65.9,
+            "reasons": [
+              "9 crowd-relevant incident(s) on this block during the day window (8am-4pm); 11 more at other times (counted at reduced weight).",
+              "Scored on this block only, time-gated to the event window, by incident type \u2014 never a neighborhood blanket label."
+            ]
+          },
+          "functionality": {
+            "score": 98.0,
+            "reasons": [
+              "221 prior public-event/block-party permit(s) within 200m \u2014 permit precedent exists (fast-track signal).",
+              "Zone: Commercial Core 4 (CC4) \u2014 commercial/industrial \u2014 minimal quiet-hours constraint (event 15:00).",
+              "Measured mobile download ~306 Mbps (Ookla, 17 tests over this + neighboring tiles).",
+              "Power access unverified \u2014 no Somerville utility data; confirm on-site outlets/generator."
+            ]
+          }
+        },
+        "18": {
+          "safety": {
+            "score": 82.1,
+            "reasons": [
+              "0 crowd-relevant incident(s) on this block during the evening window (4pm-12am); 20 more at other times (counted at reduced weight).",
+              "At or below the typical Somerville block for this time of day.",
+              "Scored on this block only, time-gated to the event window, by incident type \u2014 never a neighborhood blanket label."
+            ]
+          },
+          "functionality": {
+            "score": 98.0,
+            "reasons": [
+              "221 prior public-event/block-party permit(s) within 200m \u2014 permit precedent exists (fast-track signal).",
+              "Zone: Commercial Core 4 (CC4) \u2014 commercial/industrial \u2014 minimal quiet-hours constraint (event 18:00).",
+              "Measured mobile download ~306 Mbps (Ookla, 17 tests over this + neighboring tiles).",
+              "Power access unverified \u2014 no Somerville utility data; confirm on-site outlets/generator."
+            ]
+          }
+        },
+        "21": {
+          "safety": {
+            "score": 82.1,
+            "reasons": [
+              "0 crowd-relevant incident(s) on this block during the evening window (4pm-12am); 20 more at other times (counted at reduced weight).",
+              "At or below the typical Somerville block for this time of day.",
+              "Scored on this block only, time-gated to the event window, by incident type \u2014 never a neighborhood blanket label."
+            ]
+          },
+          "functionality": {
+            "score": 98.0,
+            "reasons": [
+              "221 prior public-event/block-party permit(s) within 200m \u2014 permit precedent exists (fast-track signal).",
+              "Zone: Commercial Core 4 (CC4) \u2014 commercial/industrial \u2014 minimal quiet-hours constraint (event 21:00).",
+              "Measured mobile download ~306 Mbps (Ookla, 17 tests over this + neighboring tiles).",
+              "Power access unverified \u2014 no Somerville utility data; confirm on-site outlets/generator."
+            ]
+          }
+        }
+      }
+    },
+    "davis_sq-16": {
+      "crowd": {
+        "score": 83.1,
+        "reasons": [
+          "Fronts Holland Street (~12,000 est. vehicles/day, secondary) 7m away.",
+          "12 independent road egress route(s) within 120m (17 lanes total), plus pedestrian paths for foot dispersal.",
+          "Subway/rail station 78m away; 14 bus stop(s) within 450m (MBTA).",
+          "11 licensed alcohol establishment(s) within 200m (active Somerville alcohol licenses)."
+        ]
+      },
+      "block": "250173509003002",
+      "by_hour": {
+        "12": {
+          "safety": {
+            "score": 17.9,
+            "reasons": [
+              "24 crowd-relevant incident(s) on this block during the day window (8am-4pm); 32 more at other times (counted at reduced weight).",
+              "Above the 75th-percentile Somerville block for relevant crime at this time.",
+              "Scored on this block only, time-gated to the event window, by incident type \u2014 never a neighborhood blanket label."
+            ]
+          },
+          "functionality": {
+            "score": 98.0,
+            "reasons": [
+              "406 prior public-event/block-party permit(s) within 200m \u2014 permit precedent exists (fast-track signal).",
+              "Zone: Commercial Core 4 (CC4) \u2014 commercial/industrial \u2014 minimal quiet-hours constraint (event 12:00).",
+              "Measured mobile download ~306 Mbps (Ookla, 17 tests over this + neighboring tiles).",
+              "Power access unverified \u2014 no Somerville utility data; confirm on-site outlets/generator."
+            ]
+          }
+        },
+        "15": {
+          "safety": {
+            "score": 17.9,
+            "reasons": [
+              "24 crowd-relevant incident(s) on this block during the day window (8am-4pm); 32 more at other times (counted at reduced weight).",
+              "Above the 75th-percentile Somerville block for relevant crime at this time.",
+              "Scored on this block only, time-gated to the event window, by incident type \u2014 never a neighborhood blanket label."
+            ]
+          },
+          "functionality": {
+            "score": 98.0,
+            "reasons": [
+              "406 prior public-event/block-party permit(s) within 200m \u2014 permit precedent exists (fast-track signal).",
+              "Zone: Commercial Core 4 (CC4) \u2014 commercial/industrial \u2014 minimal quiet-hours constraint (event 15:00).",
+              "Measured mobile download ~306 Mbps (Ookla, 17 tests over this + neighboring tiles).",
+              "Power access unverified \u2014 no Somerville utility data; confirm on-site outlets/generator."
+            ]
+          }
+        },
+        "18": {
+          "safety": {
+            "score": 55.3,
+            "reasons": [
+              "0 crowd-relevant incident(s) on this block during the evening window (4pm-12am); 56 more at other times (counted at reduced weight).",
+              "Scored on this block only, time-gated to the event window, by incident type \u2014 never a neighborhood blanket label."
+            ]
+          },
+          "functionality": {
+            "score": 98.0,
+            "reasons": [
+              "406 prior public-event/block-party permit(s) within 200m \u2014 permit precedent exists (fast-track signal).",
+              "Zone: Commercial Core 4 (CC4) \u2014 commercial/industrial \u2014 minimal quiet-hours constraint (event 18:00).",
+              "Measured mobile download ~306 Mbps (Ookla, 17 tests over this + neighboring tiles).",
+              "Power access unverified \u2014 no Somerville utility data; confirm on-site outlets/generator."
+            ]
+          }
+        },
+        "21": {
+          "safety": {
+            "score": 55.3,
+            "reasons": [
+              "0 crowd-relevant incident(s) on this block during the evening window (4pm-12am); 56 more at other times (counted at reduced weight).",
+              "Scored on this block only, time-gated to the event window, by incident type \u2014 never a neighborhood blanket label."
+            ]
+          },
+          "functionality": {
+            "score": 98.0,
+            "reasons": [
+              "406 prior public-event/block-party permit(s) within 200m \u2014 permit precedent exists (fast-track signal).",
+              "Zone: Commercial Core 4 (CC4) \u2014 commercial/industrial \u2014 minimal quiet-hours constraint (event 21:00).",
+              "Measured mobile download ~306 Mbps (Ookla, 17 tests over this + neighboring tiles).",
+              "Power access unverified \u2014 no Somerville utility data; confirm on-site outlets/generator."
+            ]
+          }
+        }
+      }
+    },
+    "davis_sq-17": {
+      "crowd": {
+        "score": 83.1,
+        "reasons": [
+          "Fronts Holland Street (~12,000 est. vehicles/day, secondary) 6m away.",
+          "11 independent road egress route(s) within 120m (16 lanes total), plus pedestrian paths for foot dispersal.",
+          "Subway/rail station 54m away; 13 bus stop(s) within 450m (OSM) [OSM fallback].",
+          "8 licensed alcohol establishment(s) within 200m (active Somerville alcohol licenses)."
+        ]
+      },
+      "block": "250173505001008",
+      "by_hour": {
+        "12": {
+          "safety": {
+            "score": 24.3,
+            "reasons": [
+              "27 crowd-relevant incident(s) on this block during the day window (8am-4pm); 33 more at other times (counted at reduced weight).",
+              "Above the 75th-percentile Somerville block for relevant crime at this time.",
+              "Scored on this block only, time-gated to the event window, by incident type \u2014 never a neighborhood blanket label."
+            ]
+          },
+          "functionality": {
+            "score": 90.0,
+            "reasons": [
+              "220 prior public-event/block-party permit(s) within 200m \u2014 permit precedent exists (fast-track signal).",
+              "Zoning unresolved (right-of-way / unzoned) \u2014 neutral noise assumption.",
+              "Measured mobile download ~306 Mbps (Ookla, 17 tests over this + neighboring tiles).",
+              "Power access unverified \u2014 no Somerville utility data; confirm on-site outlets/generator."
+            ]
+          }
+        },
+        "15": {
+          "safety": {
+            "score": 24.3,
+            "reasons": [
+              "27 crowd-relevant incident(s) on this block during the day window (8am-4pm); 33 more at other times (counted at reduced weight).",
+              "Above the 75th-percentile Somerville block for relevant crime at this time.",
+              "Scored on this block only, time-gated to the event window, by incident type \u2014 never a neighborhood blanket label."
+            ]
+          },
+          "functionality": {
+            "score": 90.0,
+            "reasons": [
+              "220 prior public-event/block-party permit(s) within 200m \u2014 permit precedent exists (fast-track signal).",
+              "Zoning unresolved (right-of-way / unzoned) \u2014 neutral noise assumption.",
+              "Measured mobile download ~306 Mbps (Ookla, 17 tests over this + neighboring tiles).",
+              "Power access unverified \u2014 no Somerville utility data; confirm on-site outlets/generator."
+            ]
+          }
+        },
+        "18": {
+          "safety": {
+            "score": 58.0,
+            "reasons": [
+              "0 crowd-relevant incident(s) on this block during the evening window (4pm-12am); 60 more at other times (counted at reduced weight).",
+              "Scored on this block only, time-gated to the event window, by incident type \u2014 never a neighborhood blanket label."
+            ]
+          },
+          "functionality": {
+            "score": 90.0,
+            "reasons": [
+              "220 prior public-event/block-party permit(s) within 200m \u2014 permit precedent exists (fast-track signal).",
+              "Zoning unresolved (right-of-way / unzoned) \u2014 neutral noise assumption.",
+              "Measured mobile download ~306 Mbps (Ookla, 17 tests over this + neighboring tiles).",
+              "Power access unverified \u2014 no Somerville utility data; confirm on-site outlets/generator."
+            ]
+          }
+        },
+        "21": {
+          "safety": {
+            "score": 58.0,
+            "reasons": [
+              "0 crowd-relevant incident(s) on this block during the evening window (4pm-12am); 60 more at other times (counted at reduced weight).",
+              "Scored on this block only, time-gated to the event window, by incident type \u2014 never a neighborhood blanket label."
+            ]
+          },
+          "functionality": {
+            "score": 90.0,
+            "reasons": [
+              "220 prior public-event/block-party permit(s) within 200m \u2014 permit precedent exists (fast-track signal).",
+              "Zoning unresolved (right-of-way / unzoned) \u2014 neutral noise assumption.",
+              "Measured mobile download ~306 Mbps (Ookla, 17 tests over this + neighboring tiles).",
+              "Power access unverified \u2014 no Somerville utility data; confirm on-site outlets/generator."
+            ]
+          }
+        }
+      }
+    },
+    "davis_sq-18": {
+      "crowd": {
+        "score": 99.4,
+        "reasons": [
+          "Fronts service (~400 est. vehicles/day, service) 11m away.",
+          "15 independent road egress route(s) within 120m (20 lanes total), plus pedestrian paths for foot dispersal.",
+          "Subway/rail station 41m away; 13 bus stop(s) within 450m (OSM) [OSM fallback].",
+          "11 licensed alcohol establishment(s) within 200m (active Somerville alcohol licenses)."
+        ]
+      },
+      "block": "250173505001008",
+      "by_hour": {
+        "12": {
+          "safety": {
+            "score": 24.3,
+            "reasons": [
+              "27 crowd-relevant incident(s) on this block during the day window (8am-4pm); 33 more at other times (counted at reduced weight).",
+              "Above the 75th-percentile Somerville block for relevant crime at this time.",
+              "Scored on this block only, time-gated to the event window, by incident type \u2014 never a neighborhood blanket label."
+            ]
+          },
+          "functionality": {
+            "score": 94.0,
+            "reasons": [
+              "401 prior public-event/block-party permit(s) within 200m \u2014 permit precedent exists (fast-track signal).",
+              "Zone: Mid Rise 4 (MR4) \u2014 mixed-use, residential above retail (event 12:00).",
+              "Measured mobile download ~306 Mbps (Ookla, 17 tests over this + neighboring tiles).",
+              "Power access unverified \u2014 no Somerville utility data; confirm on-site outlets/generator."
+            ]
+          }
+        },
+        "15": {
+          "safety": {
+            "score": 24.3,
+            "reasons": [
+              "27 crowd-relevant incident(s) on this block during the day window (8am-4pm); 33 more at other times (counted at reduced weight).",
+              "Above the 75th-percentile Somerville block for relevant crime at this time.",
+              "Scored on this block only, time-gated to the event window, by incident type \u2014 never a neighborhood blanket label."
+            ]
+          },
+          "functionality": {
+            "score": 94.0,
+            "reasons": [
+              "401 prior public-event/block-party permit(s) within 200m \u2014 permit precedent exists (fast-track signal).",
+              "Zone: Mid Rise 4 (MR4) \u2014 mixed-use, residential above retail (event 15:00).",
+              "Measured mobile download ~306 Mbps (Ookla, 17 tests over this + neighboring tiles).",
+              "Power access unverified \u2014 no Somerville utility data; confirm on-site outlets/generator."
+            ]
+          }
+        },
+        "18": {
+          "safety": {
+            "score": 58.0,
+            "reasons": [
+              "0 crowd-relevant incident(s) on this block during the evening window (4pm-12am); 60 more at other times (counted at reduced weight).",
+              "Scored on this block only, time-gated to the event window, by incident type \u2014 never a neighborhood blanket label."
+            ]
+          },
+          "functionality": {
+            "score": 94.0,
+            "reasons": [
+              "401 prior public-event/block-party permit(s) within 200m \u2014 permit precedent exists (fast-track signal).",
+              "Zone: Mid Rise 4 (MR4) \u2014 mixed-use, residential above retail (event 18:00).",
+              "Measured mobile download ~306 Mbps (Ookla, 17 tests over this + neighboring tiles).",
+              "Power access unverified \u2014 no Somerville utility data; confirm on-site outlets/generator."
+            ]
+          }
+        },
+        "21": {
+          "safety": {
+            "score": 58.0,
+            "reasons": [
+              "0 crowd-relevant incident(s) on this block during the evening window (4pm-12am); 60 more at other times (counted at reduced weight).",
+              "Scored on this block only, time-gated to the event window, by incident type \u2014 never a neighborhood blanket label."
+            ]
+          },
+          "functionality": {
+            "score": 94.0,
+            "reasons": [
+              "401 prior public-event/block-party permit(s) within 200m \u2014 permit precedent exists (fast-track signal).",
+              "Zone: Mid Rise 4 (MR4) \u2014 mixed-use, residential above retail (event 21:00).",
+              "Measured mobile download ~306 Mbps (Ookla, 17 tests over this + neighboring tiles).",
+              "Power access unverified \u2014 no Somerville utility data; confirm on-site outlets/generator."
+            ]
+          }
+        }
+      }
+    },
+    "davis_sq-19": {
+      "crowd": {
+        "score": 83.1,
+        "reasons": [
+          "Fronts Elm Street (~12,000 est. vehicles/day, secondary) 7m away.",
+          "12 independent road egress route(s) within 120m (18 lanes total), plus pedestrian paths for foot dispersal.",
+          "Subway/rail station 90m away; 16 bus stop(s) within 450m (MBTA).",
+          "16 licensed alcohol establishment(s) within 200m (active Somerville alcohol licenses)."
+        ]
+      },
+      "block": "250173509003009",
+      "by_hour": {
+        "12": {
+          "safety": {
+            "score": 29.5,
+            "reasons": [
+              "29 crowd-relevant incident(s) on this block during the day window (8am-4pm); 30 more at other times (counted at reduced weight).",
+              "Above the 75th-percentile Somerville block for relevant crime at this time.",
+              "Scored on this block only, time-gated to the event window, by incident type \u2014 never a neighborhood blanket label."
+            ]
+          },
+          "functionality": {
+            "score": 90.0,
+            "reasons": [
+              "381 prior public-event/block-party permit(s) within 200m \u2014 permit precedent exists (fast-track signal).",
+              "Zoning unresolved (right-of-way / unzoned) \u2014 neutral noise assumption.",
+              "Measured mobile download ~306 Mbps (Ookla, 17 tests over this + neighboring tiles).",
+              "Power access unverified \u2014 no Somerville utility data; confirm on-site outlets/generator."
+            ]
+          }
+        },
+        "15": {
+          "safety": {
+            "score": 29.5,
+            "reasons": [
+              "29 crowd-relevant incident(s) on this block during the day window (8am-4pm); 30 more at other times (counted at reduced weight).",
+              "Above the 75th-percentile Somerville block for relevant crime at this time.",
+              "Scored on this block only, time-gated to the event window, by incident type \u2014 never a neighborhood blanket label."
+            ]
+          },
+          "functionality": {
+            "score": 90.0,
+            "reasons": [
+              "381 prior public-event/block-party permit(s) within 200m \u2014 permit precedent exists (fast-track signal).",
+              "Zoning unresolved (right-of-way / unzoned) \u2014 neutral noise assumption.",
+              "Measured mobile download ~306 Mbps (Ookla, 17 tests over this + neighboring tiles).",
+              "Power access unverified \u2014 no Somerville utility data; confirm on-site outlets/generator."
+            ]
+          }
+        },
+        "18": {
+          "safety": {
+            "score": 68.8,
+            "reasons": [
+              "0 crowd-relevant incident(s) on this block during the evening window (4pm-12am); 59 more at other times (counted at reduced weight).",
+              "Scored on this block only, time-gated to the event window, by incident type \u2014 never a neighborhood blanket label."
+            ]
+          },
+          "functionality": {
+            "score": 90.0,
+            "reasons": [
+              "381 prior public-event/block-party permit(s) within 200m \u2014 permit precedent exists (fast-track signal).",
+              "Zoning unresolved (right-of-way / unzoned) \u2014 neutral noise assumption.",
+              "Measured mobile download ~306 Mbps (Ookla, 17 tests over this + neighboring tiles).",
+              "Power access unverified \u2014 no Somerville utility data; confirm on-site outlets/generator."
+            ]
+          }
+        },
+        "21": {
+          "safety": {
+            "score": 68.8,
+            "reasons": [
+              "0 crowd-relevant incident(s) on this block during the evening window (4pm-12am); 59 more at other times (counted at reduced weight).",
+              "Scored on this block only, time-gated to the event window, by incident type \u2014 never a neighborhood blanket label."
+            ]
+          },
+          "functionality": {
+            "score": 90.0,
+            "reasons": [
+              "381 prior public-event/block-party permit(s) within 200m \u2014 permit precedent exists (fast-track signal).",
+              "Zoning unresolved (right-of-way / unzoned) \u2014 neutral noise assumption.",
+              "Measured mobile download ~306 Mbps (Ookla, 17 tests over this + neighboring tiles).",
+              "Power access unverified \u2014 no Somerville utility data; confirm on-site outlets/generator."
+            ]
+          }
+        }
+      }
+    },
+    "davis_sq-20": {
+      "crowd": {
+        "score": 83.1,
+        "reasons": [
+          "Fronts Dover Street (~12,000 est. vehicles/day, secondary) 10m away.",
+          "12 independent road egress route(s) within 120m (18 lanes total), plus pedestrian paths for foot dispersal.",
+          "Subway/rail station 81m away; 15 bus stop(s) within 450m (MBTA).",
+          "13 licensed alcohol establishment(s) within 200m (active Somerville alcohol licenses)."
+        ]
+      },
+      "block": "250173509003008",
+      "by_hour": {
+        "12": {
+          "safety": {
+            "score": 18.1,
+            "reasons": [
+              "32 crowd-relevant incident(s) on this block during the day window (8am-4pm); 49 more at other times (counted at reduced weight).",
+              "Above the 75th-percentile Somerville block for relevant crime at this time.",
+              "Scored on this block only, time-gated to the event window, by incident type \u2014 never a neighborhood blanket label."
+            ]
+          },
+          "functionality": {
+            "score": 98.0,
+            "reasons": [
+              "402 prior public-event/block-party permit(s) within 200m \u2014 permit precedent exists (fast-track signal).",
+              "Zone: Commercial Core 4 (CC4) \u2014 commercial/industrial \u2014 minimal quiet-hours constraint (event 12:00).",
+              "Measured mobile download ~306 Mbps (Ookla, 17 tests over this + neighboring tiles).",
+              "Power access unverified \u2014 no Somerville utility data; confirm on-site outlets/generator."
+            ]
+          }
+        },
+        "15": {
+          "safety": {
+            "score": 18.1,
+            "reasons": [
+              "32 crowd-relevant incident(s) on this block during the day window (8am-4pm); 49 more at other times (counted at reduced weight).",
+              "Above the 75th-percentile Somerville block for relevant crime at this time.",
+              "Scored on this block only, time-gated to the event window, by incident type \u2014 never a neighborhood blanket label."
+            ]
+          },
+          "functionality": {
+            "score": 98.0,
+            "reasons": [
+              "402 prior public-event/block-party permit(s) within 200m \u2014 permit precedent exists (fast-track signal).",
+              "Zone: Commercial Core 4 (CC4) \u2014 commercial/industrial \u2014 minimal quiet-hours constraint (event 15:00).",
+              "Measured mobile download ~306 Mbps (Ookla, 17 tests over this + neighboring tiles).",
+              "Power access unverified \u2014 no Somerville utility data; confirm on-site outlets/generator."
+            ]
+          }
+        },
+        "18": {
+          "safety": {
+            "score": 45.8,
+            "reasons": [
+              "0 crowd-relevant incident(s) on this block during the evening window (4pm-12am); 81 more at other times (counted at reduced weight).",
+              "Above the 75th-percentile Somerville block for relevant crime at this time.",
+              "Scored on this block only, time-gated to the event window, by incident type \u2014 never a neighborhood blanket label."
+            ]
+          },
+          "functionality": {
+            "score": 98.0,
+            "reasons": [
+              "402 prior public-event/block-party permit(s) within 200m \u2014 permit precedent exists (fast-track signal).",
+              "Zone: Commercial Core 4 (CC4) \u2014 commercial/industrial \u2014 minimal quiet-hours constraint (event 18:00).",
+              "Measured mobile download ~306 Mbps (Ookla, 17 tests over this + neighboring tiles).",
+              "Power access unverified \u2014 no Somerville utility data; confirm on-site outlets/generator."
+            ]
+          }
+        },
+        "21": {
+          "safety": {
+            "score": 45.8,
+            "reasons": [
+              "0 crowd-relevant incident(s) on this block during the evening window (4pm-12am); 81 more at other times (counted at reduced weight).",
+              "Above the 75th-percentile Somerville block for relevant crime at this time.",
+              "Scored on this block only, time-gated to the event window, by incident type \u2014 never a neighborhood blanket label."
+            ]
+          },
+          "functionality": {
+            "score": 98.0,
+            "reasons": [
+              "402 prior public-event/block-party permit(s) within 200m \u2014 permit precedent exists (fast-track signal).",
+              "Zone: Commercial Core 4 (CC4) \u2014 commercial/industrial \u2014 minimal quiet-hours constraint (event 21:00).",
+              "Measured mobile download ~306 Mbps (Ookla, 17 tests over this + neighboring tiles).",
+              "Power access unverified \u2014 no Somerville utility data; confirm on-site outlets/generator."
+            ]
+          }
+        }
+      }
+    },
+    "davis_sq-21": {
+      "crowd": {
+        "score": 83.1,
+        "reasons": [
+          "Fronts Dover Street (~12,000 est. vehicles/day, secondary) 9m away.",
+          "12 independent road egress route(s) within 120m (18 lanes total), plus pedestrian paths for foot dispersal.",
+          "Subway/rail station 80m away; 15 bus stop(s) within 450m (MBTA).",
+          "13 licensed alcohol establishment(s) within 200m (active Somerville alcohol licenses)."
+        ]
+      },
+      "block": "250173509003008",
+      "by_hour": {
+        "12": {
+          "safety": {
+            "score": 18.1,
+            "reasons": [
+              "32 crowd-relevant incident(s) on this block during the day window (8am-4pm); 49 more at other times (counted at reduced weight).",
+              "Above the 75th-percentile Somerville block for relevant crime at this time.",
+              "Scored on this block only, time-gated to the event window, by incident type \u2014 never a neighborhood blanket label."
+            ]
+          },
+          "functionality": {
+            "score": 98.0,
+            "reasons": [
+              "402 prior public-event/block-party permit(s) within 200m \u2014 permit precedent exists (fast-track signal).",
+              "Zone: Commercial Core 4 (CC4) \u2014 commercial/industrial \u2014 minimal quiet-hours constraint (event 12:00).",
+              "Measured mobile download ~306 Mbps (Ookla, 17 tests over this + neighboring tiles).",
+              "Power access unverified \u2014 no Somerville utility data; confirm on-site outlets/generator."
+            ]
+          }
+        },
+        "15": {
+          "safety": {
+            "score": 18.1,
+            "reasons": [
+              "32 crowd-relevant incident(s) on this block during the day window (8am-4pm); 49 more at other times (counted at reduced weight).",
+              "Above the 75th-percentile Somerville block for relevant crime at this time.",
+              "Scored on this block only, time-gated to the event window, by incident type \u2014 never a neighborhood blanket label."
+            ]
+          },
+          "functionality": {
+            "score": 98.0,
+            "reasons": [
+              "402 prior public-event/block-party permit(s) within 200m \u2014 permit precedent exists (fast-track signal).",
+              "Zone: Commercial Core 4 (CC4) \u2014 commercial/industrial \u2014 minimal quiet-hours constraint (event 15:00).",
+              "Measured mobile download ~306 Mbps (Ookla, 17 tests over this + neighboring tiles).",
+              "Power access unverified \u2014 no Somerville utility data; confirm on-site outlets/generator."
+            ]
+          }
+        },
+        "18": {
+          "safety": {
+            "score": 45.8,
+            "reasons": [
+              "0 crowd-relevant incident(s) on this block during the evening window (4pm-12am); 81 more at other times (counted at reduced weight).",
+              "Above the 75th-percentile Somerville block for relevant crime at this time.",
+              "Scored on this block only, time-gated to the event window, by incident type \u2014 never a neighborhood blanket label."
+            ]
+          },
+          "functionality": {
+            "score": 98.0,
+            "reasons": [
+              "402 prior public-event/block-party permit(s) within 200m \u2014 permit precedent exists (fast-track signal).",
+              "Zone: Commercial Core 4 (CC4) \u2014 commercial/industrial \u2014 minimal quiet-hours constraint (event 18:00).",
+              "Measured mobile download ~306 Mbps (Ookla, 17 tests over this + neighboring tiles).",
+              "Power access unverified \u2014 no Somerville utility data; confirm on-site outlets/generator."
+            ]
+          }
+        },
+        "21": {
+          "safety": {
+            "score": 45.8,
+            "reasons": [
+              "0 crowd-relevant incident(s) on this block during the evening window (4pm-12am); 81 more at other times (counted at reduced weight).",
+              "Above the 75th-percentile Somerville block for relevant crime at this time.",
+              "Scored on this block only, time-gated to the event window, by incident type \u2014 never a neighborhood blanket label."
+            ]
+          },
+          "functionality": {
+            "score": 98.0,
+            "reasons": [
+              "402 prior public-event/block-party permit(s) within 200m \u2014 permit precedent exists (fast-track signal).",
+              "Zone: Commercial Core 4 (CC4) \u2014 commercial/industrial \u2014 minimal quiet-hours constraint (event 21:00).",
+              "Measured mobile download ~306 Mbps (Ookla, 17 tests over this + neighboring tiles).",
+              "Power access unverified \u2014 no Somerville utility data; confirm on-site outlets/generator."
+            ]
+          }
+        }
+      }
+    },
+    "davis_sq-22": {
+      "crowd": {
+        "score": 83.1,
+        "reasons": [
+          "Fronts Holland Street (~12,000 est. vehicles/day, secondary) 5m away.",
+          "11 independent road egress route(s) within 120m (16 lanes total), plus pedestrian paths for foot dispersal.",
+          "Subway/rail station 144m away; 13 bus stop(s) within 450m (MBTA).",
+          "8 licensed alcohol establishment(s) within 200m (active Somerville alcohol licenses)."
+        ]
+      },
+      "block": "250173505001008",
+      "by_hour": {
+        "12": {
+          "safety": {
+            "score": 24.3,
+            "reasons": [
+              "27 crowd-relevant incident(s) on this block during the day window (8am-4pm); 33 more at other times (counted at reduced weight).",
+              "Above the 75th-percentile Somerville block for relevant crime at this time.",
+              "Scored on this block only, time-gated to the event window, by incident type \u2014 never a neighborhood blanket label."
+            ]
+          },
+          "functionality": {
+            "score": 90.0,
+            "reasons": [
+              "220 prior public-event/block-party permit(s) within 200m \u2014 permit precedent exists (fast-track signal).",
+              "Zoning unresolved (right-of-way / unzoned) \u2014 neutral noise assumption.",
+              "Measured mobile download ~306 Mbps (Ookla, 17 tests over this + neighboring tiles).",
+              "Power access unverified \u2014 no Somerville utility data; confirm on-site outlets/generator."
+            ]
+          }
+        },
+        "15": {
+          "safety": {
+            "score": 24.3,
+            "reasons": [
+              "27 crowd-relevant incident(s) on this block during the day window (8am-4pm); 33 more at other times (counted at reduced weight).",
+              "Above the 75th-percentile Somerville block for relevant crime at this time.",
+              "Scored on this block only, time-gated to the event window, by incident type \u2014 never a neighborhood blanket label."
+            ]
+          },
+          "functionality": {
+            "score": 90.0,
+            "reasons": [
+              "220 prior public-event/block-party permit(s) within 200m \u2014 permit precedent exists (fast-track signal).",
+              "Zoning unresolved (right-of-way / unzoned) \u2014 neutral noise assumption.",
+              "Measured mobile download ~306 Mbps (Ookla, 17 tests over this + neighboring tiles).",
+              "Power access unverified \u2014 no Somerville utility data; confirm on-site outlets/generator."
+            ]
+          }
+        },
+        "18": {
+          "safety": {
+            "score": 58.0,
+            "reasons": [
+              "0 crowd-relevant incident(s) on this block during the evening window (4pm-12am); 60 more at other times (counted at reduced weight).",
+              "Scored on this block only, time-gated to the event window, by incident type \u2014 never a neighborhood blanket label."
+            ]
+          },
+          "functionality": {
+            "score": 90.0,
+            "reasons": [
+              "220 prior public-event/block-party permit(s) within 200m \u2014 permit precedent exists (fast-track signal).",
+              "Zoning unresolved (right-of-way / unzoned) \u2014 neutral noise assumption.",
+              "Measured mobile download ~306 Mbps (Ookla, 17 tests over this + neighboring tiles).",
+              "Power access unverified \u2014 no Somerville utility data; confirm on-site outlets/generator."
+            ]
+          }
+        },
+        "21": {
+          "safety": {
+            "score": 58.0,
+            "reasons": [
+              "0 crowd-relevant incident(s) on this block during the evening window (4pm-12am); 60 more at other times (counted at reduced weight).",
+              "Scored on this block only, time-gated to the event window, by incident type \u2014 never a neighborhood blanket label."
+            ]
+          },
+          "functionality": {
+            "score": 90.0,
+            "reasons": [
+              "220 prior public-event/block-party permit(s) within 200m \u2014 permit precedent exists (fast-track signal).",
+              "Zoning unresolved (right-of-way / unzoned) \u2014 neutral noise assumption.",
+              "Measured mobile download ~306 Mbps (Ookla, 17 tests over this + neighboring tiles).",
+              "Power access unverified \u2014 no Somerville utility data; confirm on-site outlets/generator."
+            ]
+          }
+        }
+      }
+    },
+    "union_sq-23": {
+      "crowd": {
+        "score": 98.2,
+        "reasons": [
+          "Fronts service (~400 est. vehicles/day, service) 4m away.",
+          "16 independent road egress route(s) within 120m (27 lanes total), plus pedestrian paths for foot dispersal.",
+          "Subway/rail station 263m away; 22 bus stop(s) within 450m (MBTA).",
+          "9 licensed alcohol establishment(s) within 200m (active Somerville alcohol licenses)."
+        ]
+      },
+      "block": "250173515003005",
+      "by_hour": {
+        "12": {
+          "safety": {
+            "score": 38.5,
+            "reasons": [
+              "18 crowd-relevant incident(s) on this block during the day window (8am-4pm); 27 more at other times (counted at reduced weight).",
+              "Above the 75th-percentile Somerville block for relevant crime at this time.",
+              "Scored on this block only, time-gated to the event window, by incident type \u2014 never a neighborhood blanket label."
+            ]
+          },
+          "functionality": {
+            "score": 98.0,
+            "reasons": [
+              "401 prior public-event/block-party permit(s) within 200m \u2014 permit precedent exists (fast-track signal).",
+              "Zone: Commercial Core 5 (CC5) \u2014 commercial/industrial \u2014 minimal quiet-hours constraint (event 12:00).",
+              "Measured mobile download ~293 Mbps (Ookla, 14 tests over this + neighboring tiles).",
+              "Power access unverified \u2014 no Somerville utility data; confirm on-site outlets/generator."
+            ]
+          }
+        },
+        "15": {
+          "safety": {
+            "score": 38.5,
+            "reasons": [
+              "18 crowd-relevant incident(s) on this block during the day window (8am-4pm); 27 more at other times (counted at reduced weight).",
+              "Above the 75th-percentile Somerville block for relevant crime at this time.",
+              "Scored on this block only, time-gated to the event window, by incident type \u2014 never a neighborhood blanket label."
+            ]
+          },
+          "functionality": {
+            "score": 98.0,
+            "reasons": [
+              "401 prior public-event/block-party permit(s) within 200m \u2014 permit precedent exists (fast-track signal).",
+              "Zone: Commercial Core 5 (CC5) \u2014 commercial/industrial \u2014 minimal quiet-hours constraint (event 15:00).",
+              "Measured mobile download ~293 Mbps (Ookla, 14 tests over this + neighboring tiles).",
+              "Power access unverified \u2014 no Somerville utility data; confirm on-site outlets/generator."
+            ]
+          }
+        },
+        "18": {
+          "safety": {
+            "score": 75.6,
+            "reasons": [
+              "0 crowd-relevant incident(s) on this block during the evening window (4pm-12am); 45 more at other times (counted at reduced weight).",
+              "At or below the typical Somerville block for this time of day.",
+              "Scored on this block only, time-gated to the event window, by incident type \u2014 never a neighborhood blanket label."
+            ]
+          },
+          "functionality": {
+            "score": 98.0,
+            "reasons": [
+              "401 prior public-event/block-party permit(s) within 200m \u2014 permit precedent exists (fast-track signal).",
+              "Zone: Commercial Core 5 (CC5) \u2014 commercial/industrial \u2014 minimal quiet-hours constraint (event 18:00).",
+              "Measured mobile download ~293 Mbps (Ookla, 14 tests over this + neighboring tiles).",
+              "Power access unverified \u2014 no Somerville utility data; confirm on-site outlets/generator."
+            ]
+          }
+        },
+        "21": {
+          "safety": {
+            "score": 75.6,
+            "reasons": [
+              "0 crowd-relevant incident(s) on this block during the evening window (4pm-12am); 45 more at other times (counted at reduced weight).",
+              "At or below the typical Somerville block for this time of day.",
+              "Scored on this block only, time-gated to the event window, by incident type \u2014 never a neighborhood blanket label."
+            ]
+          },
+          "functionality": {
+            "score": 98.0,
+            "reasons": [
+              "401 prior public-event/block-party permit(s) within 200m \u2014 permit precedent exists (fast-track signal).",
+              "Zone: Commercial Core 5 (CC5) \u2014 commercial/industrial \u2014 minimal quiet-hours constraint (event 21:00).",
+              "Measured mobile download ~293 Mbps (Ookla, 14 tests over this + neighboring tiles).",
+              "Power access unverified \u2014 no Somerville utility data; confirm on-site outlets/generator."
+            ]
+          }
+        }
+      }
+    },
+    "davis_sq-24": {
+      "crowd": {
+        "score": 97.9,
+        "reasons": [
+          "Fronts Park Avenue (~1,500 est. vehicles/day, residential) 9m away.",
+          "12 independent road egress route(s) within 120m (19 lanes total), plus pedestrian paths for foot dispersal.",
+          "Subway/rail station 167m away; 14 bus stop(s) within 450m (MBTA).",
+          "6 licensed alcohol establishment(s) within 200m (active Somerville alcohol licenses)."
+        ]
+      },
+      "block": "250173505001007",
+      "by_hour": {
+        "12": {
+          "safety": {
+            "score": 35.3,
+            "reasons": [
+              "17 crowd-relevant incident(s) on this block during the day window (8am-4pm); 18 more at other times (counted at reduced weight).",
+              "Above the 75th-percentile Somerville block for relevant crime at this time.",
+              "Scored on this block only, time-gated to the event window, by incident type \u2014 never a neighborhood blanket label."
+            ]
+          },
+          "functionality": {
+            "score": 88.0,
+            "reasons": [
+              "192 prior public-event/block-party permit(s) within 200m \u2014 permit precedent exists (fast-track signal).",
+              "Zone: Neighborhood Residential (NR) \u2014 residential \u2014 daytime events tolerated (event 12:00).",
+              "Measured mobile download ~306 Mbps (Ookla, 17 tests over this + neighboring tiles).",
+              "Power access unverified \u2014 no Somerville utility data; confirm on-site outlets/generator."
+            ]
+          }
+        },
+        "15": {
+          "safety": {
+            "score": 35.3,
+            "reasons": [
+              "17 crowd-relevant incident(s) on this block during the day window (8am-4pm); 18 more at other times (counted at reduced weight).",
+              "Above the 75th-percentile Somerville block for relevant crime at this time.",
+              "Scored on this block only, time-gated to the event window, by incident type \u2014 never a neighborhood blanket label."
+            ]
+          },
+          "functionality": {
+            "score": 88.0,
+            "reasons": [
+              "192 prior public-event/block-party permit(s) within 200m \u2014 permit precedent exists (fast-track signal).",
+              "Zone: Neighborhood Residential (NR) \u2014 residential \u2014 daytime events tolerated (event 15:00).",
+              "Measured mobile download ~306 Mbps (Ookla, 17 tests over this + neighboring tiles).",
+              "Power access unverified \u2014 no Somerville utility data; confirm on-site outlets/generator."
+            ]
+          }
+        },
+        "18": {
+          "safety": {
+            "score": 74.4,
+            "reasons": [
+              "0 crowd-relevant incident(s) on this block during the evening window (4pm-12am); 35 more at other times (counted at reduced weight).",
+              "At or below the typical Somerville block for this time of day.",
+              "Scored on this block only, time-gated to the event window, by incident type \u2014 never a neighborhood blanket label."
+            ]
+          },
+          "functionality": {
+            "score": 88.0,
+            "reasons": [
+              "192 prior public-event/block-party permit(s) within 200m \u2014 permit precedent exists (fast-track signal).",
+              "Zone: Neighborhood Residential (NR) \u2014 residential \u2014 daytime events tolerated (event 18:00).",
+              "Measured mobile download ~306 Mbps (Ookla, 17 tests over this + neighboring tiles).",
+              "Power access unverified \u2014 no Somerville utility data; confirm on-site outlets/generator."
+            ]
+          }
+        },
+        "21": {
+          "safety": {
+            "score": 74.4,
+            "reasons": [
+              "0 crowd-relevant incident(s) on this block during the evening window (4pm-12am); 35 more at other times (counted at reduced weight).",
+              "At or below the typical Somerville block for this time of day.",
+              "Scored on this block only, time-gated to the event window, by incident type \u2014 never a neighborhood blanket label."
+            ]
+          },
+          "functionality": {
+            "score": 78.0,
+            "reasons": [
+              "192 prior public-event/block-party permit(s) within 200m \u2014 permit precedent exists (fast-track signal).",
+              "Zone: Neighborhood Residential (NR) \u2014 approaching residential quiet hours (event 21:00).",
+              "Measured mobile download ~306 Mbps (Ookla, 17 tests over this + neighboring tiles).",
+              "Power access unverified \u2014 no Somerville utility data; confirm on-site outlets/generator."
+            ]
+          }
+        }
+      }
+    },
+    "davis_sq-25": {
+      "crowd": {
+        "score": 83.1,
+        "reasons": [
+          "Fronts Holland Street (~12,000 est. vehicles/day, secondary) 18m away.",
+          "14 independent road egress route(s) within 120m (20 lanes total), plus pedestrian paths for foot dispersal.",
+          "Subway/rail station 143m away; 12 bus stop(s) within 450m (MBTA).",
+          "8 licensed alcohol establishment(s) within 200m (active Somerville alcohol licenses)."
+        ]
+      },
+      "block": "250173508002005",
+      "by_hour": {
+        "12": {
+          "safety": {
+            "score": 65.9,
+            "reasons": [
+              "9 crowd-relevant incident(s) on this block during the day window (8am-4pm); 11 more at other times (counted at reduced weight).",
+              "Scored on this block only, time-gated to the event window, by incident type \u2014 never a neighborhood blanket label."
+            ]
+          },
+          "functionality": {
+            "score": 98.0,
+            "reasons": [
+              "230 prior public-event/block-party permit(s) within 200m \u2014 permit precedent exists (fast-track signal).",
+              "Zone: Commercial Core 4 (CC4) \u2014 commercial/industrial \u2014 minimal quiet-hours constraint (event 12:00).",
+              "Measured mobile download ~306 Mbps (Ookla, 17 tests over this + neighboring tiles).",
+              "Power access unverified \u2014 no Somerville utility data; confirm on-site outlets/generator."
+            ]
+          }
+        },
+        "15": {
+          "safety": {
+            "score": 65.9,
+            "reasons": [
+              "9 crowd-relevant incident(s) on this block during the day window (8am-4pm); 11 more at other times (counted at reduced weight).",
+              "Scored on this block only, time-gated to the event window, by incident type \u2014 never a neighborhood blanket label."
+            ]
+          },
+          "functionality": {
+            "score": 98.0,
+            "reasons": [
+              "230 prior public-event/block-party permit(s) within 200m \u2014 permit precedent exists (fast-track signal).",
+              "Zone: Commercial Core 4 (CC4) \u2014 commercial/industrial \u2014 minimal quiet-hours constraint (event 15:00).",
+              "Measured mobile download ~306 Mbps (Ookla, 17 tests over this + neighboring tiles).",
+              "Power access unverified \u2014 no Somerville utility data; confirm on-site outlets/generator."
+            ]
+          }
+        },
+        "18": {
+          "safety": {
+            "score": 82.1,
+            "reasons": [
+              "0 crowd-relevant incident(s) on this block during the evening window (4pm-12am); 20 more at other times (counted at reduced weight).",
+              "At or below the typical Somerville block for this time of day.",
+              "Scored on this block only, time-gated to the event window, by incident type \u2014 never a neighborhood blanket label."
+            ]
+          },
+          "functionality": {
+            "score": 98.0,
+            "reasons": [
+              "230 prior public-event/block-party permit(s) within 200m \u2014 permit precedent exists (fast-track signal).",
+              "Zone: Commercial Core 4 (CC4) \u2014 commercial/industrial \u2014 minimal quiet-hours constraint (event 18:00).",
+              "Measured mobile download ~306 Mbps (Ookla, 17 tests over this + neighboring tiles).",
+              "Power access unverified \u2014 no Somerville utility data; confirm on-site outlets/generator."
+            ]
+          }
+        },
+        "21": {
+          "safety": {
+            "score": 82.1,
+            "reasons": [
+              "0 crowd-relevant incident(s) on this block during the evening window (4pm-12am); 20 more at other times (counted at reduced weight).",
+              "At or below the typical Somerville block for this time of day.",
+              "Scored on this block only, time-gated to the event window, by incident type \u2014 never a neighborhood blanket label."
+            ]
+          },
+          "functionality": {
+            "score": 98.0,
+            "reasons": [
+              "230 prior public-event/block-party permit(s) within 200m \u2014 permit precedent exists (fast-track signal).",
+              "Zone: Commercial Core 4 (CC4) \u2014 commercial/industrial \u2014 minimal quiet-hours constraint (event 21:00).",
+              "Measured mobile download ~306 Mbps (Ookla, 17 tests over this + neighboring tiles).",
+              "Power access unverified \u2014 no Somerville utility data; confirm on-site outlets/generator."
+            ]
+          }
+        }
+      }
+    },
+    "davis_sq-26": {
+      "crowd": {
+        "score": 83.1,
+        "reasons": [
+          "Fronts Highland Avenue (~12,000 est. vehicles/day, secondary) 12m away.",
+          "15 independent road egress route(s) within 120m (22 lanes total), plus pedestrian paths for foot dispersal.",
+          "Subway/rail station 35m away; 13 bus stop(s) within 450m (MBTA).",
+          "13 licensed alcohol establishment(s) within 200m (active Somerville alcohol licenses)."
+        ]
+      },
+      "block": "250173509003000",
+      "by_hour": {
+        "12": {
+          "safety": {
+            "score": 33.0,
+            "reasons": [
+              "26 crowd-relevant incident(s) on this block during the day window (8am-4pm); 18 more at other times (counted at reduced weight).",
+              "Above the 75th-percentile Somerville block for relevant crime at this time.",
+              "Scored on this block only, time-gated to the event window, by incident type \u2014 never a neighborhood blanket label."
+            ]
+          },
+          "functionality": {
+            "score": 94.0,
+            "reasons": [
+              "402 prior public-event/block-party permit(s) within 200m \u2014 permit precedent exists (fast-track signal).",
+              "Zone: Mid Rise 4 (MR4) \u2014 mixed-use, residential above retail (event 12:00).",
+              "Measured mobile download ~306 Mbps (Ookla, 17 tests over this + neighboring tiles).",
+              "Power access unverified \u2014 no Somerville utility data; confirm on-site outlets/generator."
+            ]
+          }
+        },
+        "15": {
+          "safety": {
+            "score": 33.0,
+            "reasons": [
+              "26 crowd-relevant incident(s) on this block during the day window (8am-4pm); 18 more at other times (counted at reduced weight).",
+              "Above the 75th-percentile Somerville block for relevant crime at this time.",
+              "Scored on this block only, time-gated to the event window, by incident type \u2014 never a neighborhood blanket label."
+            ]
+          },
+          "functionality": {
+            "score": 94.0,
+            "reasons": [
+              "402 prior public-event/block-party permit(s) within 200m \u2014 permit precedent exists (fast-track signal).",
+              "Zone: Mid Rise 4 (MR4) \u2014 mixed-use, residential above retail (event 15:00).",
+              "Measured mobile download ~306 Mbps (Ookla, 17 tests over this + neighboring tiles).",
+              "Power access unverified \u2014 no Somerville utility data; confirm on-site outlets/generator."
+            ]
+          }
+        },
+        "18": {
+          "safety": {
+            "score": 77.3,
+            "reasons": [
+              "0 crowd-relevant incident(s) on this block during the evening window (4pm-12am); 44 more at other times (counted at reduced weight).",
+              "At or below the typical Somerville block for this time of day.",
+              "Scored on this block only, time-gated to the event window, by incident type \u2014 never a neighborhood blanket label."
+            ]
+          },
+          "functionality": {
+            "score": 94.0,
+            "reasons": [
+              "402 prior public-event/block-party permit(s) within 200m \u2014 permit precedent exists (fast-track signal).",
+              "Zone: Mid Rise 4 (MR4) \u2014 mixed-use, residential above retail (event 18:00).",
+              "Measured mobile download ~306 Mbps (Ookla, 17 tests over this + neighboring tiles).",
+              "Power access unverified \u2014 no Somerville utility data; confirm on-site outlets/generator."
+            ]
+          }
+        },
+        "21": {
+          "safety": {
+            "score": 77.3,
+            "reasons": [
+              "0 crowd-relevant incident(s) on this block during the evening window (4pm-12am); 44 more at other times (counted at reduced weight).",
+              "At or below the typical Somerville block for this time of day.",
+              "Scored on this block only, time-gated to the event window, by incident type \u2014 never a neighborhood blanket label."
+            ]
+          },
+          "functionality": {
+            "score": 94.0,
+            "reasons": [
+              "402 prior public-event/block-party permit(s) within 200m \u2014 permit precedent exists (fast-track signal).",
+              "Zone: Mid Rise 4 (MR4) \u2014 mixed-use, residential above retail (event 21:00).",
+              "Measured mobile download ~306 Mbps (Ookla, 17 tests over this + neighboring tiles).",
+              "Power access unverified \u2014 no Somerville utility data; confirm on-site outlets/generator."
+            ]
+          }
+        }
+      }
+    },
+    "davis_sq-27": {
+      "crowd": {
+        "score": 97.9,
+        "reasons": [
+          "Fronts Park Avenue (~1,500 est. vehicles/day, residential) 28m away.",
+          "11 independent road egress route(s) within 120m (17 lanes total), plus pedestrian paths for foot dispersal.",
+          "Subway/rail station 142m away; 14 bus stop(s) within 450m (MBTA).",
+          "6 licensed alcohol establishment(s) within 200m (active Somerville alcohol licenses)."
+        ]
+      },
+      "block": "250173505001007",
+      "by_hour": {
+        "12": {
+          "safety": {
+            "score": 35.3,
+            "reasons": [
+              "17 crowd-relevant incident(s) on this block during the day window (8am-4pm); 18 more at other times (counted at reduced weight).",
+              "Above the 75th-percentile Somerville block for relevant crime at this time.",
+              "Scored on this block only, time-gated to the event window, by incident type \u2014 never a neighborhood blanket label."
+            ]
+          },
+          "functionality": {
+            "score": 88.0,
+            "reasons": [
+              "188 prior public-event/block-party permit(s) within 200m \u2014 permit precedent exists (fast-track signal).",
+              "Zone: Neighborhood Residential (NR) \u2014 residential \u2014 daytime events tolerated (event 12:00).",
+              "Measured mobile download ~306 Mbps (Ookla, 17 tests over this + neighboring tiles).",
+              "Power access unverified \u2014 no Somerville utility data; confirm on-site outlets/generator."
+            ]
+          }
+        },
+        "15": {
+          "safety": {
+            "score": 35.3,
+            "reasons": [
+              "17 crowd-relevant incident(s) on this block during the day window (8am-4pm); 18 more at other times (counted at reduced weight).",
+              "Above the 75th-percentile Somerville block for relevant crime at this time.",
+              "Scored on this block only, time-gated to the event window, by incident type \u2014 never a neighborhood blanket label."
+            ]
+          },
+          "functionality": {
+            "score": 88.0,
+            "reasons": [
+              "188 prior public-event/block-party permit(s) within 200m \u2014 permit precedent exists (fast-track signal).",
+              "Zone: Neighborhood Residential (NR) \u2014 residential \u2014 daytime events tolerated (event 15:00).",
+              "Measured mobile download ~306 Mbps (Ookla, 17 tests over this + neighboring tiles).",
+              "Power access unverified \u2014 no Somerville utility data; confirm on-site outlets/generator."
+            ]
+          }
+        },
+        "18": {
+          "safety": {
+            "score": 74.4,
+            "reasons": [
+              "0 crowd-relevant incident(s) on this block during the evening window (4pm-12am); 35 more at other times (counted at reduced weight).",
+              "At or below the typical Somerville block for this time of day.",
+              "Scored on this block only, time-gated to the event window, by incident type \u2014 never a neighborhood blanket label."
+            ]
+          },
+          "functionality": {
+            "score": 88.0,
+            "reasons": [
+              "188 prior public-event/block-party permit(s) within 200m \u2014 permit precedent exists (fast-track signal).",
+              "Zone: Neighborhood Residential (NR) \u2014 residential \u2014 daytime events tolerated (event 18:00).",
+              "Measured mobile download ~306 Mbps (Ookla, 17 tests over this + neighboring tiles).",
+              "Power access unverified \u2014 no Somerville utility data; confirm on-site outlets/generator."
+            ]
+          }
+        },
+        "21": {
+          "safety": {
+            "score": 74.4,
+            "reasons": [
+              "0 crowd-relevant incident(s) on this block during the evening window (4pm-12am); 35 more at other times (counted at reduced weight).",
+              "At or below the typical Somerville block for this time of day.",
+              "Scored on this block only, time-gated to the event window, by incident type \u2014 never a neighborhood blanket label."
+            ]
+          },
+          "functionality": {
+            "score": 78.0,
+            "reasons": [
+              "188 prior public-event/block-party permit(s) within 200m \u2014 permit precedent exists (fast-track signal).",
+              "Zone: Neighborhood Residential (NR) \u2014 approaching residential quiet hours (event 21:00).",
+              "Measured mobile download ~306 Mbps (Ookla, 17 tests over this + neighboring tiles).",
+              "Power access unverified \u2014 no Somerville utility data; confirm on-site outlets/generator."
+            ]
+          }
+        }
+      }
+    },
+    "davis_sq-28": {
+      "crowd": {
+        "score": 99.3,
+        "reasons": [
+          "Fronts Davis Square Busway (~500 est. vehicles/day, busway) 14m away.",
+          "15 independent road egress route(s) within 120m (21 lanes total), plus pedestrian paths for foot dispersal.",
+          "Subway/rail station 48m away; 13 bus stop(s) within 450m (MBTA).",
+          "11 licensed alcohol establishment(s) within 200m (active Somerville alcohol licenses)."
+        ]
+      },
+      "block": "250173504004007",
+      "by_hour": {
+        "12": {
+          "safety": {
+            "score": 29.7,
+            "reasons": [
+              "26 crowd-relevant incident(s) on this block during the day window (8am-4pm); 24 more at other times (counted at reduced weight).",
+              "Above the 75th-percentile Somerville block for relevant crime at this time.",
+              "Scored on this block only, time-gated to the event window, by incident type \u2014 never a neighborhood blanket label."
+            ]
+          },
+          "functionality": {
+            "score": 90.0,
+            "reasons": [
+              "237 prior public-event/block-party permit(s) within 200m \u2014 permit precedent exists (fast-track signal).",
+              "Zoning unresolved (right-of-way / unzoned) \u2014 neutral noise assumption.",
+              "Measured mobile download ~306 Mbps (Ookla, 17 tests over this + neighboring tiles).",
+              "Power access unverified \u2014 no Somerville utility data; confirm on-site outlets/generator."
+            ]
+          }
+        },
+        "15": {
+          "safety": {
+            "score": 29.7,
+            "reasons": [
+              "26 crowd-relevant incident(s) on this block during the day window (8am-4pm); 24 more at other times (counted at reduced weight).",
+              "Above the 75th-percentile Somerville block for relevant crime at this time.",
+              "Scored on this block only, time-gated to the event window, by incident type \u2014 never a neighborhood blanket label."
+            ]
+          },
+          "functionality": {
+            "score": 90.0,
+            "reasons": [
+              "237 prior public-event/block-party permit(s) within 200m \u2014 permit precedent exists (fast-track signal).",
+              "Zoning unresolved (right-of-way / unzoned) \u2014 neutral noise assumption.",
+              "Measured mobile download ~306 Mbps (Ookla, 17 tests over this + neighboring tiles).",
+              "Power access unverified \u2014 no Somerville utility data; confirm on-site outlets/generator."
+            ]
+          }
+        },
+        "18": {
+          "safety": {
+            "score": 64.0,
+            "reasons": [
+              "0 crowd-relevant incident(s) on this block during the evening window (4pm-12am); 50 more at other times (counted at reduced weight).",
+              "Scored on this block only, time-gated to the event window, by incident type \u2014 never a neighborhood blanket label."
+            ]
+          },
+          "functionality": {
+            "score": 90.0,
+            "reasons": [
+              "237 prior public-event/block-party permit(s) within 200m \u2014 permit precedent exists (fast-track signal).",
+              "Zoning unresolved (right-of-way / unzoned) \u2014 neutral noise assumption.",
+              "Measured mobile download ~306 Mbps (Ookla, 17 tests over this + neighboring tiles).",
+              "Power access unverified \u2014 no Somerville utility data; confirm on-site outlets/generator."
+            ]
+          }
+        },
+        "21": {
+          "safety": {
+            "score": 64.0,
+            "reasons": [
+              "0 crowd-relevant incident(s) on this block during the evening window (4pm-12am); 50 more at other times (counted at reduced weight).",
+              "Scored on this block only, time-gated to the event window, by incident type \u2014 never a neighborhood blanket label."
+            ]
+          },
+          "functionality": {
+            "score": 90.0,
+            "reasons": [
+              "237 prior public-event/block-party permit(s) within 200m \u2014 permit precedent exists (fast-track signal).",
+              "Zoning unresolved (right-of-way / unzoned) \u2014 neutral noise assumption.",
+              "Measured mobile download ~306 Mbps (Ookla, 17 tests over this + neighboring tiles).",
+              "Power access unverified \u2014 no Somerville utility data; confirm on-site outlets/generator."
+            ]
+          }
+        }
+      }
+    },
+    "davis_sq-29": {
+      "crowd": {
+        "score": 83.1,
+        "reasons": [
+          "Fronts Holland Street (~12,000 est. vehicles/day, secondary) 8m away.",
+          "15 independent road egress route(s) within 120m (20 lanes total), plus pedestrian paths for foot dispersal.",
+          "Subway/rail station 78m away; 13 bus stop(s) within 450m (MBTA).",
+          "11 licensed alcohol establishment(s) within 200m (active Somerville alcohol licenses)."
+        ]
+      },
+      "block": "250173505001008",
+      "by_hour": {
+        "12": {
+          "safety": {
+            "score": 24.3,
+            "reasons": [
+              "27 crowd-relevant incident(s) on this block during the day window (8am-4pm); 33 more at other times (counted at reduced weight).",
+              "Above the 75th-percentile Somerville block for relevant crime at this time.",
+              "Scored on this block only, time-gated to the event window, by incident type \u2014 never a neighborhood blanket label."
+            ]
+          },
+          "functionality": {
+            "score": 90.0,
+            "reasons": [
+              "400 prior public-event/block-party permit(s) within 200m \u2014 permit precedent exists (fast-track signal).",
+              "Zoning unresolved (right-of-way / unzoned) \u2014 neutral noise assumption.",
+              "Measured mobile download ~306 Mbps (Ookla, 17 tests over this + neighboring tiles).",
+              "Power access unverified \u2014 no Somerville utility data; confirm on-site outlets/generator."
+            ]
+          }
+        },
+        "15": {
+          "safety": {
+            "score": 24.3,
+            "reasons": [
+              "27 crowd-relevant incident(s) on this block during the day window (8am-4pm); 33 more at other times (counted at reduced weight).",
+              "Above the 75th-percentile Somerville block for relevant crime at this time.",
+              "Scored on this block only, time-gated to the event window, by incident type \u2014 never a neighborhood blanket label."
+            ]
+          },
+          "functionality": {
+            "score": 90.0,
+            "reasons": [
+              "400 prior public-event/block-party permit(s) within 200m \u2014 permit precedent exists (fast-track signal).",
+              "Zoning unresolved (right-of-way / unzoned) \u2014 neutral noise assumption.",
+              "Measured mobile download ~306 Mbps (Ookla, 17 tests over this + neighboring tiles).",
+              "Power access unverified \u2014 no Somerville utility data; confirm on-site outlets/generator."
+            ]
+          }
+        },
+        "18": {
+          "safety": {
+            "score": 58.0,
+            "reasons": [
+              "0 crowd-relevant incident(s) on this block during the evening window (4pm-12am); 60 more at other times (counted at reduced weight).",
+              "Scored on this block only, time-gated to the event window, by incident type \u2014 never a neighborhood blanket label."
+            ]
+          },
+          "functionality": {
+            "score": 90.0,
+            "reasons": [
+              "400 prior public-event/block-party permit(s) within 200m \u2014 permit precedent exists (fast-track signal).",
+              "Zoning unresolved (right-of-way / unzoned) \u2014 neutral noise assumption.",
+              "Measured mobile download ~306 Mbps (Ookla, 17 tests over this + neighboring tiles).",
+              "Power access unverified \u2014 no Somerville utility data; confirm on-site outlets/generator."
+            ]
+          }
+        },
+        "21": {
+          "safety": {
+            "score": 58.0,
+            "reasons": [
+              "0 crowd-relevant incident(s) on this block during the evening window (4pm-12am); 60 more at other times (counted at reduced weight).",
+              "Scored on this block only, time-gated to the event window, by incident type \u2014 never a neighborhood blanket label."
+            ]
+          },
+          "functionality": {
+            "score": 90.0,
+            "reasons": [
+              "400 prior public-event/block-party permit(s) within 200m \u2014 permit precedent exists (fast-track signal).",
+              "Zoning unresolved (right-of-way / unzoned) \u2014 neutral noise assumption.",
+              "Measured mobile download ~306 Mbps (Ookla, 17 tests over this + neighboring tiles).",
+              "Power access unverified \u2014 no Somerville utility data; confirm on-site outlets/generator."
+            ]
+          }
+        }
+      }
+    },
+    "teele_sq-30": {
+      "crowd": {
+        "score": 73.2,
+        "reasons": [
+          "Fronts Packard Avenue (~1,500 est. vehicles/day, residential) 19m away.",
+          "5 independent road egress route(s) within 120m (9 lanes total), plus pedestrian paths for foot dispersal.",
+          "No subway/rail station within range; 10 bus stop(s) within 450m (MBTA).",
+          "0 licensed alcohol establishment(s) within 200m (active Somerville alcohol licenses)."
+        ]
+      },
+      "block": "250173506004000",
+      "by_hour": {
+        "12": {
+          "safety": {
+            "score": 69.0,
+            "reasons": [
+              "8 crowd-relevant incident(s) on this block during the day window (8am-4pm); 9 more at other times (counted at reduced weight).",
+              "Scored on this block only, time-gated to the event window, by incident type \u2014 never a neighborhood blanket label."
+            ]
+          },
+          "functionality": {
+            "score": 88.0,
+            "reasons": [
+              "17 prior public-event/block-party permit(s) within 200m \u2014 permit precedent exists (fast-track signal).",
+              "Zone: Neighborhood Residential (NR) \u2014 residential \u2014 daytime events tolerated (event 12:00).",
+              "Measured mobile download ~235 Mbps (Ookla, 11 tests over this + neighboring tiles).",
+              "Power access unverified \u2014 no Somerville utility data; confirm on-site outlets/generator."
+            ]
+          }
+        },
+        "15": {
+          "safety": {
+            "score": 69.0,
+            "reasons": [
+              "8 crowd-relevant incident(s) on this block during the day window (8am-4pm); 9 more at other times (counted at reduced weight).",
+              "Scored on this block only, time-gated to the event window, by incident type \u2014 never a neighborhood blanket label."
+            ]
+          },
+          "functionality": {
+            "score": 88.0,
+            "reasons": [
+              "17 prior public-event/block-party permit(s) within 200m \u2014 permit precedent exists (fast-track signal).",
+              "Zone: Neighborhood Residential (NR) \u2014 residential \u2014 daytime events tolerated (event 15:00).",
+              "Measured mobile download ~235 Mbps (Ookla, 11 tests over this + neighboring tiles).",
+              "Power access unverified \u2014 no Somerville utility data; confirm on-site outlets/generator."
+            ]
+          }
+        },
+        "18": {
+          "safety": {
+            "score": 81.4,
+            "reasons": [
+              "0 crowd-relevant incident(s) on this block during the evening window (4pm-12am); 17 more at other times (counted at reduced weight).",
+              "At or below the typical Somerville block for this time of day.",
+              "Scored on this block only, time-gated to the event window, by incident type \u2014 never a neighborhood blanket label."
+            ]
+          },
+          "functionality": {
+            "score": 88.0,
+            "reasons": [
+              "17 prior public-event/block-party permit(s) within 200m \u2014 permit precedent exists (fast-track signal).",
+              "Zone: Neighborhood Residential (NR) \u2014 residential \u2014 daytime events tolerated (event 18:00).",
+              "Measured mobile download ~235 Mbps (Ookla, 11 tests over this + neighboring tiles).",
+              "Power access unverified \u2014 no Somerville utility data; confirm on-site outlets/generator."
+            ]
+          }
+        },
+        "21": {
+          "safety": {
+            "score": 81.4,
+            "reasons": [
+              "0 crowd-relevant incident(s) on this block during the evening window (4pm-12am); 17 more at other times (counted at reduced weight).",
+              "At or below the typical Somerville block for this time of day.",
+              "Scored on this block only, time-gated to the event window, by incident type \u2014 never a neighborhood blanket label."
+            ]
+          },
+          "functionality": {
+            "score": 78.0,
+            "reasons": [
+              "17 prior public-event/block-party permit(s) within 200m \u2014 permit precedent exists (fast-track signal).",
+              "Zone: Neighborhood Residential (NR) \u2014 approaching residential quiet hours (event 21:00).",
+              "Measured mobile download ~235 Mbps (Ookla, 11 tests over this + neighboring tiles).",
+              "Power access unverified \u2014 no Somerville utility data; confirm on-site outlets/generator."
+            ]
+          }
+        }
+      }
+    },
+    "davis_sq-31": {
+      "crowd": {
+        "score": 97.9,
+        "reasons": [
+          "Fronts Park Avenue (~1,500 est. vehicles/day, residential) 9m away.",
+          "10 independent road egress route(s) within 120m (16 lanes total), plus pedestrian paths for foot dispersal.",
+          "Subway/rail station 154m away; 14 bus stop(s) within 450m (MBTA).",
+          "6 licensed alcohol establishment(s) within 200m (active Somerville alcohol licenses)."
+        ]
+      },
+      "block": "250173505001007",
+      "by_hour": {
+        "12": {
+          "safety": {
+            "score": 35.3,
+            "reasons": [
+              "17 crowd-relevant incident(s) on this block during the day window (8am-4pm); 18 more at other times (counted at reduced weight).",
+              "Above the 75th-percentile Somerville block for relevant crime at this time.",
+              "Scored on this block only, time-gated to the event window, by incident type \u2014 never a neighborhood blanket label."
+            ]
+          },
+          "functionality": {
+            "score": 88.0,
+            "reasons": [
+              "194 prior public-event/block-party permit(s) within 200m \u2014 permit precedent exists (fast-track signal).",
+              "Zone: Neighborhood Residential (NR) \u2014 residential \u2014 daytime events tolerated (event 12:00).",
+              "Measured mobile download ~306 Mbps (Ookla, 17 tests over this + neighboring tiles).",
+              "Power access unverified \u2014 no Somerville utility data; confirm on-site outlets/generator."
+            ]
+          }
+        },
+        "15": {
+          "safety": {
+            "score": 35.3,
+            "reasons": [
+              "17 crowd-relevant incident(s) on this block during the day window (8am-4pm); 18 more at other times (counted at reduced weight).",
+              "Above the 75th-percentile Somerville block for relevant crime at this time.",
+              "Scored on this block only, time-gated to the event window, by incident type \u2014 never a neighborhood blanket label."
+            ]
+          },
+          "functionality": {
+            "score": 88.0,
+            "reasons": [
+              "194 prior public-event/block-party permit(s) within 200m \u2014 permit precedent exists (fast-track signal).",
+              "Zone: Neighborhood Residential (NR) \u2014 residential \u2014 daytime events tolerated (event 15:00).",
+              "Measured mobile download ~306 Mbps (Ookla, 17 tests over this + neighboring tiles).",
+              "Power access unverified \u2014 no Somerville utility data; confirm on-site outlets/generator."
+            ]
+          }
+        },
+        "18": {
+          "safety": {
+            "score": 74.4,
+            "reasons": [
+              "0 crowd-relevant incident(s) on this block during the evening window (4pm-12am); 35 more at other times (counted at reduced weight).",
+              "At or below the typical Somerville block for this time of day.",
+              "Scored on this block only, time-gated to the event window, by incident type \u2014 never a neighborhood blanket label."
+            ]
+          },
+          "functionality": {
+            "score": 88.0,
+            "reasons": [
+              "194 prior public-event/block-party permit(s) within 200m \u2014 permit precedent exists (fast-track signal).",
+              "Zone: Neighborhood Residential (NR) \u2014 residential \u2014 daytime events tolerated (event 18:00).",
+              "Measured mobile download ~306 Mbps (Ookla, 17 tests over this + neighboring tiles).",
+              "Power access unverified \u2014 no Somerville utility data; confirm on-site outlets/generator."
+            ]
+          }
+        },
+        "21": {
+          "safety": {
+            "score": 74.4,
+            "reasons": [
+              "0 crowd-relevant incident(s) on this block during the evening window (4pm-12am); 35 more at other times (counted at reduced weight).",
+              "At or below the typical Somerville block for this time of day.",
+              "Scored on this block only, time-gated to the event window, by incident type \u2014 never a neighborhood blanket label."
+            ]
+          },
+          "functionality": {
+            "score": 78.0,
+            "reasons": [
+              "194 prior public-event/block-party permit(s) within 200m \u2014 permit precedent exists (fast-track signal).",
+              "Zone: Neighborhood Residential (NR) \u2014 approaching residential quiet hours (event 21:00).",
+              "Measured mobile download ~306 Mbps (Ookla, 17 tests over this + neighboring tiles).",
+              "Power access unverified \u2014 no Somerville utility data; confirm on-site outlets/generator."
+            ]
+          }
+        }
+      }
+    },
+    "teele_sq-32": {
+      "crowd": {
+        "score": 73.2,
+        "reasons": [
+          "Fronts Ossipee Road (~1,500 est. vehicles/day, residential) 6m away.",
+          "5 independent road egress route(s) within 120m (10 lanes total), plus pedestrian paths for foot dispersal.",
+          "No subway/rail station within range; 10 bus stop(s) within 450m (MBTA).",
+          "0 licensed alcohol establishment(s) within 200m (active Somerville alcohol licenses)."
+        ]
+      },
+      "block": "250173506004000",
+      "by_hour": {
+        "12": {
+          "safety": {
+            "score": 69.0,
+            "reasons": [
+              "8 crowd-relevant incident(s) on this block during the day window (8am-4pm); 9 more at other times (counted at reduced weight).",
+              "Scored on this block only, time-gated to the event window, by incident type \u2014 never a neighborhood blanket label."
+            ]
+          },
+          "functionality": {
+            "score": 90.0,
+            "reasons": [
+              "17 prior public-event/block-party permit(s) within 200m \u2014 permit precedent exists (fast-track signal).",
+              "Zoning unresolved (right-of-way / unzoned) \u2014 neutral noise assumption.",
+              "Measured mobile download ~235 Mbps (Ookla, 11 tests over this + neighboring tiles).",
+              "Power access unverified \u2014 no Somerville utility data; confirm on-site outlets/generator."
+            ]
+          }
+        },
+        "15": {
+          "safety": {
+            "score": 69.0,
+            "reasons": [
+              "8 crowd-relevant incident(s) on this block during the day window (8am-4pm); 9 more at other times (counted at reduced weight).",
+              "Scored on this block only, time-gated to the event window, by incident type \u2014 never a neighborhood blanket label."
+            ]
+          },
+          "functionality": {
+            "score": 90.0,
+            "reasons": [
+              "17 prior public-event/block-party permit(s) within 200m \u2014 permit precedent exists (fast-track signal).",
+              "Zoning unresolved (right-of-way / unzoned) \u2014 neutral noise assumption.",
+              "Measured mobile download ~235 Mbps (Ookla, 11 tests over this + neighboring tiles).",
+              "Power access unverified \u2014 no Somerville utility data; confirm on-site outlets/generator."
+            ]
+          }
+        },
+        "18": {
+          "safety": {
+            "score": 81.4,
+            "reasons": [
+              "0 crowd-relevant incident(s) on this block during the evening window (4pm-12am); 17 more at other times (counted at reduced weight).",
+              "At or below the typical Somerville block for this time of day.",
+              "Scored on this block only, time-gated to the event window, by incident type \u2014 never a neighborhood blanket label."
+            ]
+          },
+          "functionality": {
+            "score": 90.0,
+            "reasons": [
+              "17 prior public-event/block-party permit(s) within 200m \u2014 permit precedent exists (fast-track signal).",
+              "Zoning unresolved (right-of-way / unzoned) \u2014 neutral noise assumption.",
+              "Measured mobile download ~235 Mbps (Ookla, 11 tests over this + neighboring tiles).",
+              "Power access unverified \u2014 no Somerville utility data; confirm on-site outlets/generator."
+            ]
+          }
+        },
+        "21": {
+          "safety": {
+            "score": 81.4,
+            "reasons": [
+              "0 crowd-relevant incident(s) on this block during the evening window (4pm-12am); 17 more at other times (counted at reduced weight).",
+              "At or below the typical Somerville block for this time of day.",
+              "Scored on this block only, time-gated to the event window, by incident type \u2014 never a neighborhood blanket label."
+            ]
+          },
+          "functionality": {
+            "score": 90.0,
+            "reasons": [
+              "17 prior public-event/block-party permit(s) within 200m \u2014 permit precedent exists (fast-track signal).",
+              "Zoning unresolved (right-of-way / unzoned) \u2014 neutral noise assumption.",
+              "Measured mobile download ~235 Mbps (Ookla, 11 tests over this + neighboring tiles).",
+              "Power access unverified \u2014 no Somerville utility data; confirm on-site outlets/generator."
+            ]
+          }
+        }
+      }
+    },
+    "davis_sq-33": {
+      "crowd": {
+        "score": 99.3,
+        "reasons": [
+          "Fronts Davis Square Busway (~500 est. vehicles/day, busway) 13m away.",
+          "15 independent road egress route(s) within 120m (21 lanes total), plus pedestrian paths for foot dispersal.",
+          "Subway/rail station 51m away; 13 bus stop(s) within 450m (MBTA).",
+          "11 licensed alcohol establishment(s) within 200m (active Somerville alcohol licenses)."
+        ]
+      },
+      "block": "250173504004007",
+      "by_hour": {
+        "12": {
+          "safety": {
+            "score": 29.7,
+            "reasons": [
+              "26 crowd-relevant incident(s) on this block during the day window (8am-4pm); 24 more at other times (counted at reduced weight).",
+              "Above the 75th-percentile Somerville block for relevant crime at this time.",
+              "Scored on this block only, time-gated to the event window, by incident type \u2014 never a neighborhood blanket label."
+            ]
+          },
+          "functionality": {
+            "score": 88.0,
+            "reasons": [
+              "237 prior public-event/block-party permit(s) within 200m \u2014 permit precedent exists (fast-track signal).",
+              "Zone: Neighborhood Residential (NR) \u2014 residential \u2014 daytime events tolerated (event 12:00).",
+              "Measured mobile download ~306 Mbps (Ookla, 17 tests over this + neighboring tiles).",
+              "Power access unverified \u2014 no Somerville utility data; confirm on-site outlets/generator."
+            ]
+          }
+        },
+        "15": {
+          "safety": {
+            "score": 29.7,
+            "reasons": [
+              "26 crowd-relevant incident(s) on this block during the day window (8am-4pm); 24 more at other times (counted at reduced weight).",
+              "Above the 75th-percentile Somerville block for relevant crime at this time.",
+              "Scored on this block only, time-gated to the event window, by incident type \u2014 never a neighborhood blanket label."
+            ]
+          },
+          "functionality": {
+            "score": 88.0,
+            "reasons": [
+              "237 prior public-event/block-party permit(s) within 200m \u2014 permit precedent exists (fast-track signal).",
+              "Zone: Neighborhood Residential (NR) \u2014 residential \u2014 daytime events tolerated (event 15:00).",
+              "Measured mobile download ~306 Mbps (Ookla, 17 tests over this + neighboring tiles).",
+              "Power access unverified \u2014 no Somerville utility data; confirm on-site outlets/generator."
+            ]
+          }
+        },
+        "18": {
+          "safety": {
+            "score": 64.0,
+            "reasons": [
+              "0 crowd-relevant incident(s) on this block during the evening window (4pm-12am); 50 more at other times (counted at reduced weight).",
+              "Scored on this block only, time-gated to the event window, by incident type \u2014 never a neighborhood blanket label."
+            ]
+          },
+          "functionality": {
+            "score": 88.0,
+            "reasons": [
+              "237 prior public-event/block-party permit(s) within 200m \u2014 permit precedent exists (fast-track signal).",
+              "Zone: Neighborhood Residential (NR) \u2014 residential \u2014 daytime events tolerated (event 18:00).",
+              "Measured mobile download ~306 Mbps (Ookla, 17 tests over this + neighboring tiles).",
+              "Power access unverified \u2014 no Somerville utility data; confirm on-site outlets/generator."
+            ]
+          }
+        },
+        "21": {
+          "safety": {
+            "score": 64.0,
+            "reasons": [
+              "0 crowd-relevant incident(s) on this block during the evening window (4pm-12am); 50 more at other times (counted at reduced weight).",
+              "Scored on this block only, time-gated to the event window, by incident type \u2014 never a neighborhood blanket label."
+            ]
+          },
+          "functionality": {
+            "score": 78.0,
+            "reasons": [
+              "237 prior public-event/block-party permit(s) within 200m \u2014 permit precedent exists (fast-track signal).",
+              "Zone: Neighborhood Residential (NR) \u2014 approaching residential quiet hours (event 21:00).",
+              "Measured mobile download ~306 Mbps (Ookla, 17 tests over this + neighboring tiles).",
+              "Power access unverified \u2014 no Somerville utility data; confirm on-site outlets/generator."
+            ]
+          }
+        }
+      }
+    },
+    "davis_sq-34": {
+      "crowd": {
+        "score": 83.1,
+        "reasons": [
+          "Fronts Highland Avenue (~12,000 est. vehicles/day, secondary) 10m away.",
+          "15 independent road egress route(s) within 120m (22 lanes total), plus pedestrian paths for foot dispersal.",
+          "Subway/rail station 58m away; 14 bus stop(s) within 450m (MBTA).",
+          "16 licensed alcohol establishment(s) within 200m (active Somerville alcohol licenses)."
+        ]
+      },
+      "block": "250173509003001",
+      "by_hour": {
+        "12": {
+          "safety": {
+            "score": 7.8,
+            "reasons": [
+              "77 crowd-relevant incident(s) on this block during the day window (8am-4pm); 105 more at other times (counted at reduced weight).",
+              "Above the 75th-percentile Somerville block for relevant crime at this time.",
+              "Scored on this block only, time-gated to the event window, by incident type \u2014 never a neighborhood blanket label."
+            ]
+          },
+          "functionality": {
+            "score": 90.0,
+            "reasons": [
+              "385 prior public-event/block-party permit(s) within 200m \u2014 permit precedent exists (fast-track signal).",
+              "Zoning unresolved (right-of-way / unzoned) \u2014 neutral noise assumption.",
+              "Measured mobile download ~306 Mbps (Ookla, 17 tests over this + neighboring tiles).",
+              "Power access unverified \u2014 no Somerville utility data; confirm on-site outlets/generator."
+            ]
+          }
+        },
+        "15": {
+          "safety": {
+            "score": 7.8,
+            "reasons": [
+              "77 crowd-relevant incident(s) on this block during the day window (8am-4pm); 105 more at other times (counted at reduced weight).",
+              "Above the 75th-percentile Somerville block for relevant crime at this time.",
+              "Scored on this block only, time-gated to the event window, by incident type \u2014 never a neighborhood blanket label."
+            ]
+          },
+          "functionality": {
+            "score": 90.0,
+            "reasons": [
+              "385 prior public-event/block-party permit(s) within 200m \u2014 permit precedent exists (fast-track signal).",
+              "Zoning unresolved (right-of-way / unzoned) \u2014 neutral noise assumption.",
+              "Measured mobile download ~306 Mbps (Ookla, 17 tests over this + neighboring tiles).",
+              "Power access unverified \u2014 no Somerville utility data; confirm on-site outlets/generator."
+            ]
+          }
+        },
+        "18": {
+          "safety": {
+            "score": 28.8,
+            "reasons": [
+              "0 crowd-relevant incident(s) on this block during the evening window (4pm-12am); 182 more at other times (counted at reduced weight).",
+              "Above the 75th-percentile Somerville block for relevant crime at this time.",
+              "Scored on this block only, time-gated to the event window, by incident type \u2014 never a neighborhood blanket label."
+            ]
+          },
+          "functionality": {
+            "score": 90.0,
+            "reasons": [
+              "385 prior public-event/block-party permit(s) within 200m \u2014 permit precedent exists (fast-track signal).",
+              "Zoning unresolved (right-of-way / unzoned) \u2014 neutral noise assumption.",
+              "Measured mobile download ~306 Mbps (Ookla, 17 tests over this + neighboring tiles).",
+              "Power access unverified \u2014 no Somerville utility data; confirm on-site outlets/generator."
+            ]
+          }
+        },
+        "21": {
+          "safety": {
+            "score": 28.8,
+            "reasons": [
+              "0 crowd-relevant incident(s) on this block during the evening window (4pm-12am); 182 more at other times (counted at reduced weight).",
+              "Above the 75th-percentile Somerville block for relevant crime at this time.",
+              "Scored on this block only, time-gated to the event window, by incident type \u2014 never a neighborhood blanket label."
+            ]
+          },
+          "functionality": {
+            "score": 90.0,
+            "reasons": [
+              "385 prior public-event/block-party permit(s) within 200m \u2014 permit precedent exists (fast-track signal).",
+              "Zoning unresolved (right-of-way / unzoned) \u2014 neutral noise assumption.",
+              "Measured mobile download ~306 Mbps (Ookla, 17 tests over this + neighboring tiles).",
+              "Power access unverified \u2014 no Somerville utility data; confirm on-site outlets/generator."
+            ]
+          }
+        }
+      }
+    },
+    "davis_sq-35": {
+      "crowd": {
+        "score": 97.9,
+        "reasons": [
+          "Fronts Elm Court (~1,500 est. vehicles/day, residential) 3m away.",
+          "16 independent road egress route(s) within 120m (23 lanes total), plus pedestrian paths for foot dispersal.",
+          "Subway/rail station 53m away; 13 bus stop(s) within 450m (MBTA).",
+          "11 licensed alcohol establishment(s) within 200m (active Somerville alcohol licenses)."
+        ]
+      },
+      "block": "250173504004007",
+      "by_hour": {
+        "12": {
+          "safety": {
+            "score": 29.7,
+            "reasons": [
+              "26 crowd-relevant incident(s) on this block during the day window (8am-4pm); 24 more at other times (counted at reduced weight).",
+              "Above the 75th-percentile Somerville block for relevant crime at this time.",
+              "Scored on this block only, time-gated to the event window, by incident type \u2014 never a neighborhood blanket label."
+            ]
+          },
+          "functionality": {
+            "score": 88.0,
+            "reasons": [
+              "236 prior public-event/block-party permit(s) within 200m \u2014 permit precedent exists (fast-track signal).",
+              "Zone: Neighborhood Residential (NR) \u2014 residential \u2014 daytime events tolerated (event 12:00).",
+              "Measured mobile download ~306 Mbps (Ookla, 17 tests over this + neighboring tiles).",
+              "Power access unverified \u2014 no Somerville utility data; confirm on-site outlets/generator."
+            ]
+          }
+        },
+        "15": {
+          "safety": {
+            "score": 29.7,
+            "reasons": [
+              "26 crowd-relevant incident(s) on this block during the day window (8am-4pm); 24 more at other times (counted at reduced weight).",
+              "Above the 75th-percentile Somerville block for relevant crime at this time.",
+              "Scored on this block only, time-gated to the event window, by incident type \u2014 never a neighborhood blanket label."
+            ]
+          },
+          "functionality": {
+            "score": 88.0,
+            "reasons": [
+              "236 prior public-event/block-party permit(s) within 200m \u2014 permit precedent exists (fast-track signal).",
+              "Zone: Neighborhood Residential (NR) \u2014 residential \u2014 daytime events tolerated (event 15:00).",
+              "Measured mobile download ~306 Mbps (Ookla, 17 tests over this + neighboring tiles).",
+              "Power access unverified \u2014 no Somerville utility data; confirm on-site outlets/generator."
+            ]
+          }
+        },
+        "18": {
+          "safety": {
+            "score": 64.0,
+            "reasons": [
+              "0 crowd-relevant incident(s) on this block during the evening window (4pm-12am); 50 more at other times (counted at reduced weight).",
+              "Scored on this block only, time-gated to the event window, by incident type \u2014 never a neighborhood blanket label."
+            ]
+          },
+          "functionality": {
+            "score": 88.0,
+            "reasons": [
+              "236 prior public-event/block-party permit(s) within 200m \u2014 permit precedent exists (fast-track signal).",
+              "Zone: Neighborhood Residential (NR) \u2014 residential \u2014 daytime events tolerated (event 18:00).",
+              "Measured mobile download ~306 Mbps (Ookla, 17 tests over this + neighboring tiles).",
+              "Power access unverified \u2014 no Somerville utility data; confirm on-site outlets/generator."
+            ]
+          }
+        },
+        "21": {
+          "safety": {
+            "score": 64.0,
+            "reasons": [
+              "0 crowd-relevant incident(s) on this block during the evening window (4pm-12am); 50 more at other times (counted at reduced weight).",
+              "Scored on this block only, time-gated to the event window, by incident type \u2014 never a neighborhood blanket label."
+            ]
+          },
+          "functionality": {
+            "score": 78.0,
+            "reasons": [
+              "236 prior public-event/block-party permit(s) within 200m \u2014 permit precedent exists (fast-track signal).",
+              "Zone: Neighborhood Residential (NR) \u2014 approaching residential quiet hours (event 21:00).",
+              "Measured mobile download ~306 Mbps (Ookla, 17 tests over this + neighboring tiles).",
+              "Power access unverified \u2014 no Somerville utility data; confirm on-site outlets/generator."
+            ]
+          }
+        }
+      }
+    },
+    "davis_sq-36": {
+      "crowd": {
+        "score": 97.9,
+        "reasons": [
+          "Fronts Park Avenue (~1,500 est. vehicles/day, residential) 3m away.",
+          "10 independent road egress route(s) within 120m (16 lanes total), plus pedestrian paths for foot dispersal.",
+          "Subway/rail station 157m away; 14 bus stop(s) within 450m (MBTA).",
+          "6 licensed alcohol establishment(s) within 200m (active Somerville alcohol licenses)."
+        ]
+      },
+      "block": "250173505001007",
+      "by_hour": {
+        "12": {
+          "safety": {
+            "score": 35.3,
+            "reasons": [
+              "17 crowd-relevant incident(s) on this block during the day window (8am-4pm); 18 more at other times (counted at reduced weight).",
+              "Above the 75th-percentile Somerville block for relevant crime at this time.",
+              "Scored on this block only, time-gated to the event window, by incident type \u2014 never a neighborhood blanket label."
+            ]
+          },
+          "functionality": {
+            "score": 90.0,
+            "reasons": [
+              "194 prior public-event/block-party permit(s) within 200m \u2014 permit precedent exists (fast-track signal).",
+              "Zoning unresolved (right-of-way / unzoned) \u2014 neutral noise assumption.",
+              "Measured mobile download ~306 Mbps (Ookla, 17 tests over this + neighboring tiles).",
+              "Power access unverified \u2014 no Somerville utility data; confirm on-site outlets/generator."
+            ]
+          }
+        },
+        "15": {
+          "safety": {
+            "score": 35.3,
+            "reasons": [
+              "17 crowd-relevant incident(s) on this block during the day window (8am-4pm); 18 more at other times (counted at reduced weight).",
+              "Above the 75th-percentile Somerville block for relevant crime at this time.",
+              "Scored on this block only, time-gated to the event window, by incident type \u2014 never a neighborhood blanket label."
+            ]
+          },
+          "functionality": {
+            "score": 90.0,
+            "reasons": [
+              "194 prior public-event/block-party permit(s) within 200m \u2014 permit precedent exists (fast-track signal).",
+              "Zoning unresolved (right-of-way / unzoned) \u2014 neutral noise assumption.",
+              "Measured mobile download ~306 Mbps (Ookla, 17 tests over this + neighboring tiles).",
+              "Power access unverified \u2014 no Somerville utility data; confirm on-site outlets/generator."
+            ]
+          }
+        },
+        "18": {
+          "safety": {
+            "score": 74.4,
+            "reasons": [
+              "0 crowd-relevant incident(s) on this block during the evening window (4pm-12am); 35 more at other times (counted at reduced weight).",
+              "At or below the typical Somerville block for this time of day.",
+              "Scored on this block only, time-gated to the event window, by incident type \u2014 never a neighborhood blanket label."
+            ]
+          },
+          "functionality": {
+            "score": 90.0,
+            "reasons": [
+              "194 prior public-event/block-party permit(s) within 200m \u2014 permit precedent exists (fast-track signal).",
+              "Zoning unresolved (right-of-way / unzoned) \u2014 neutral noise assumption.",
+              "Measured mobile download ~306 Mbps (Ookla, 17 tests over this + neighboring tiles).",
+              "Power access unverified \u2014 no Somerville utility data; confirm on-site outlets/generator."
+            ]
+          }
+        },
+        "21": {
+          "safety": {
+            "score": 74.4,
+            "reasons": [
+              "0 crowd-relevant incident(s) on this block during the evening window (4pm-12am); 35 more at other times (counted at reduced weight).",
+              "At or below the typical Somerville block for this time of day.",
+              "Scored on this block only, time-gated to the event window, by incident type \u2014 never a neighborhood blanket label."
+            ]
+          },
+          "functionality": {
+            "score": 90.0,
+            "reasons": [
+              "194 prior public-event/block-party permit(s) within 200m \u2014 permit precedent exists (fast-track signal).",
+              "Zoning unresolved (right-of-way / unzoned) \u2014 neutral noise assumption.",
+              "Measured mobile download ~306 Mbps (Ookla, 17 tests over this + neighboring tiles).",
+              "Power access unverified \u2014 no Somerville utility data; confirm on-site outlets/generator."
+            ]
+          }
+        }
+      }
+    },
+    "davis_sq-37": {
+      "crowd": {
+        "score": 83.1,
+        "reasons": [
+          "Fronts Holland Street (~12,000 est. vehicles/day, secondary) 14m away.",
+          "12 independent road egress route(s) within 120m (18 lanes total), plus pedestrian paths for foot dispersal.",
+          "Subway/rail station 73m away; 16 bus stop(s) within 450m (OSM) [OSM fallback].",
+          "14 licensed alcohol establishment(s) within 200m (active Somerville alcohol licenses)."
+        ]
+      },
+      "block": "250173509003008",
+      "by_hour": {
+        "12": {
+          "safety": {
+            "score": 18.1,
+            "reasons": [
+              "32 crowd-relevant incident(s) on this block during the day window (8am-4pm); 49 more at other times (counted at reduced weight).",
+              "Above the 75th-percentile Somerville block for relevant crime at this time.",
+              "Scored on this block only, time-gated to the event window, by incident type \u2014 never a neighborhood blanket label."
+            ]
+          },
+          "functionality": {
+            "score": 98.0,
+            "reasons": [
+              "400 prior public-event/block-party permit(s) within 200m \u2014 permit precedent exists (fast-track signal).",
+              "Zone: Commercial Core 4 (CC4) \u2014 commercial/industrial \u2014 minimal quiet-hours constraint (event 12:00).",
+              "Measured mobile download ~306 Mbps (Ookla, 17 tests over this + neighboring tiles).",
+              "Power access unverified \u2014 no Somerville utility data; confirm on-site outlets/generator."
+            ]
+          }
+        },
+        "15": {
+          "safety": {
+            "score": 18.1,
+            "reasons": [
+              "32 crowd-relevant incident(s) on this block during the day window (8am-4pm); 49 more at other times (counted at reduced weight).",
+              "Above the 75th-percentile Somerville block for relevant crime at this time.",
+              "Scored on this block only, time-gated to the event window, by incident type \u2014 never a neighborhood blanket label."
+            ]
+          },
+          "functionality": {
+            "score": 98.0,
+            "reasons": [
+              "400 prior public-event/block-party permit(s) within 200m \u2014 permit precedent exists (fast-track signal).",
+              "Zone: Commercial Core 4 (CC4) \u2014 commercial/industrial \u2014 minimal quiet-hours constraint (event 15:00).",
+              "Measured mobile download ~306 Mbps (Ookla, 17 tests over this + neighboring tiles).",
+              "Power access unverified \u2014 no Somerville utility data; confirm on-site outlets/generator."
+            ]
+          }
+        },
+        "18": {
+          "safety": {
+            "score": 45.8,
+            "reasons": [
+              "0 crowd-relevant incident(s) on this block during the evening window (4pm-12am); 81 more at other times (counted at reduced weight).",
+              "Above the 75th-percentile Somerville block for relevant crime at this time.",
+              "Scored on this block only, time-gated to the event window, by incident type \u2014 never a neighborhood blanket label."
+            ]
+          },
+          "functionality": {
+            "score": 98.0,
+            "reasons": [
+              "400 prior public-event/block-party permit(s) within 200m \u2014 permit precedent exists (fast-track signal).",
+              "Zone: Commercial Core 4 (CC4) \u2014 commercial/industrial \u2014 minimal quiet-hours constraint (event 18:00).",
+              "Measured mobile download ~306 Mbps (Ookla, 17 tests over this + neighboring tiles).",
+              "Power access unverified \u2014 no Somerville utility data; confirm on-site outlets/generator."
+            ]
+          }
+        },
+        "21": {
+          "safety": {
+            "score": 45.8,
+            "reasons": [
+              "0 crowd-relevant incident(s) on this block during the evening window (4pm-12am); 81 more at other times (counted at reduced weight).",
+              "Above the 75th-percentile Somerville block for relevant crime at this time.",
+              "Scored on this block only, time-gated to the event window, by incident type \u2014 never a neighborhood blanket label."
+            ]
+          },
+          "functionality": {
+            "score": 98.0,
+            "reasons": [
+              "400 prior public-event/block-party permit(s) within 200m \u2014 permit precedent exists (fast-track signal).",
+              "Zone: Commercial Core 4 (CC4) \u2014 commercial/industrial \u2014 minimal quiet-hours constraint (event 21:00).",
+              "Measured mobile download ~306 Mbps (Ookla, 17 tests over this + neighboring tiles).",
+              "Power access unverified \u2014 no Somerville utility data; confirm on-site outlets/generator."
+            ]
+          }
+        }
+      }
+    },
+    "davis_sq-38": {
+      "crowd": {
+        "score": 83.1,
+        "reasons": [
+          "Fronts Dover Street (~12,000 est. vehicles/day, secondary) 6m away.",
+          "11 independent road egress route(s) within 120m (17 lanes total), plus pedestrian paths for foot dispersal.",
+          "Subway/rail station 58m away; 15 bus stop(s) within 450m (OSM) [OSM fallback].",
+          "11 licensed alcohol establishment(s) within 200m (active Somerville alcohol licenses)."
+        ]
+      },
+      "block": "250173509003002",
+      "by_hour": {
+        "12": {
+          "safety": {
+            "score": 17.9,
+            "reasons": [
+              "24 crowd-relevant incident(s) on this block during the day window (8am-4pm); 32 more at other times (counted at reduced weight).",
+              "Above the 75th-percentile Somerville block for relevant crime at this time.",
+              "Scored on this block only, time-gated to the event window, by incident type \u2014 never a neighborhood blanket label."
+            ]
+          },
+          "functionality": {
+            "score": 98.0,
+            "reasons": [
+              "398 prior public-event/block-party permit(s) within 200m \u2014 permit precedent exists (fast-track signal).",
+              "Zone: Commercial Core 4 (CC4) \u2014 commercial/industrial \u2014 minimal quiet-hours constraint (event 12:00).",
+              "Measured mobile download ~306 Mbps (Ookla, 17 tests over this + neighboring tiles).",
+              "Power access unverified \u2014 no Somerville utility data; confirm on-site outlets/generator."
+            ]
+          }
+        },
+        "15": {
+          "safety": {
+            "score": 17.9,
+            "reasons": [
+              "24 crowd-relevant incident(s) on this block during the day window (8am-4pm); 32 more at other times (counted at reduced weight).",
+              "Above the 75th-percentile Somerville block for relevant crime at this time.",
+              "Scored on this block only, time-gated to the event window, by incident type \u2014 never a neighborhood blanket label."
+            ]
+          },
+          "functionality": {
+            "score": 98.0,
+            "reasons": [
+              "398 prior public-event/block-party permit(s) within 200m \u2014 permit precedent exists (fast-track signal).",
+              "Zone: Commercial Core 4 (CC4) \u2014 commercial/industrial \u2014 minimal quiet-hours constraint (event 15:00).",
+              "Measured mobile download ~306 Mbps (Ookla, 17 tests over this + neighboring tiles).",
+              "Power access unverified \u2014 no Somerville utility data; confirm on-site outlets/generator."
+            ]
+          }
+        },
+        "18": {
+          "safety": {
+            "score": 55.3,
+            "reasons": [
+              "0 crowd-relevant incident(s) on this block during the evening window (4pm-12am); 56 more at other times (counted at reduced weight).",
+              "Scored on this block only, time-gated to the event window, by incident type \u2014 never a neighborhood blanket label."
+            ]
+          },
+          "functionality": {
+            "score": 98.0,
+            "reasons": [
+              "398 prior public-event/block-party permit(s) within 200m \u2014 permit precedent exists (fast-track signal).",
+              "Zone: Commercial Core 4 (CC4) \u2014 commercial/industrial \u2014 minimal quiet-hours constraint (event 18:00).",
+              "Measured mobile download ~306 Mbps (Ookla, 17 tests over this + neighboring tiles).",
+              "Power access unverified \u2014 no Somerville utility data; confirm on-site outlets/generator."
+            ]
+          }
+        },
+        "21": {
+          "safety": {
+            "score": 55.3,
+            "reasons": [
+              "0 crowd-relevant incident(s) on this block during the evening window (4pm-12am); 56 more at other times (counted at reduced weight).",
+              "Scored on this block only, time-gated to the event window, by incident type \u2014 never a neighborhood blanket label."
+            ]
+          },
+          "functionality": {
+            "score": 98.0,
+            "reasons": [
+              "398 prior public-event/block-party permit(s) within 200m \u2014 permit precedent exists (fast-track signal).",
+              "Zone: Commercial Core 4 (CC4) \u2014 commercial/industrial \u2014 minimal quiet-hours constraint (event 21:00).",
+              "Measured mobile download ~306 Mbps (Ookla, 17 tests over this + neighboring tiles).",
+              "Power access unverified \u2014 no Somerville utility data; confirm on-site outlets/generator."
+            ]
+          }
+        }
+      }
+    },
+    "union_sq-39": {
+      "crowd": {
+        "score": 93.6,
+        "reasons": [
+          "Fronts service (~400 est. vehicles/day, service) 2m away.",
+          "8 independent road egress route(s) within 120m (12 lanes total), plus pedestrian paths for foot dispersal.",
+          "Subway/rail station 114m away; 25 bus stop(s) within 450m (MBTA).",
+          "0 licensed alcohol establishment(s) within 200m (active Somerville alcohol licenses)."
+        ]
+      },
+      "block": "250173515002000",
+      "by_hour": {
+        "12": {
+          "safety": {
+            "score": 48.0,
+            "reasons": [
+              "14 crowd-relevant incident(s) on this block during the day window (8am-4pm); 15 more at other times (counted at reduced weight).",
+              "Above the 75th-percentile Somerville block for relevant crime at this time.",
+              "Scored on this block only, time-gated to the event window, by incident type \u2014 never a neighborhood blanket label."
+            ]
+          },
+          "functionality": {
+            "score": 94.0,
+            "reasons": [
+              "37 prior public-event/block-party permit(s) within 200m \u2014 permit precedent exists (fast-track signal).",
+              "Zone: Mid Rise 6 (MR6) \u2014 mixed-use, residential above retail (event 12:00).",
+              "Measured mobile download ~257 Mbps (Ookla, 15 tests over this + neighboring tiles).",
+              "Power access unverified \u2014 no Somerville utility data; confirm on-site outlets/generator."
+            ]
+          }
+        },
+        "15": {
+          "safety": {
+            "score": 48.0,
+            "reasons": [
+              "14 crowd-relevant incident(s) on this block during the day window (8am-4pm); 15 more at other times (counted at reduced weight).",
+              "Above the 75th-percentile Somerville block for relevant crime at this time.",
+              "Scored on this block only, time-gated to the event window, by incident type \u2014 never a neighborhood blanket label."
+            ]
+          },
+          "functionality": {
+            "score": 94.0,
+            "reasons": [
+              "37 prior public-event/block-party permit(s) within 200m \u2014 permit precedent exists (fast-track signal).",
+              "Zone: Mid Rise 6 (MR6) \u2014 mixed-use, residential above retail (event 15:00).",
+              "Measured mobile download ~257 Mbps (Ookla, 15 tests over this + neighboring tiles).",
+              "Power access unverified \u2014 no Somerville utility data; confirm on-site outlets/generator."
+            ]
+          }
+        },
+        "18": {
+          "safety": {
+            "score": 75.7,
+            "reasons": [
+              "0 crowd-relevant incident(s) on this block during the evening window (4pm-12am); 29 more at other times (counted at reduced weight).",
+              "At or below the typical Somerville block for this time of day.",
+              "Scored on this block only, time-gated to the event window, by incident type \u2014 never a neighborhood blanket label."
+            ]
+          },
+          "functionality": {
+            "score": 94.0,
+            "reasons": [
+              "37 prior public-event/block-party permit(s) within 200m \u2014 permit precedent exists (fast-track signal).",
+              "Zone: Mid Rise 6 (MR6) \u2014 mixed-use, residential above retail (event 18:00).",
+              "Measured mobile download ~257 Mbps (Ookla, 15 tests over this + neighboring tiles).",
+              "Power access unverified \u2014 no Somerville utility data; confirm on-site outlets/generator."
+            ]
+          }
+        },
+        "21": {
+          "safety": {
+            "score": 75.7,
+            "reasons": [
+              "0 crowd-relevant incident(s) on this block during the evening window (4pm-12am); 29 more at other times (counted at reduced weight).",
+              "At or below the typical Somerville block for this time of day.",
+              "Scored on this block only, time-gated to the event window, by incident type \u2014 never a neighborhood blanket label."
+            ]
+          },
+          "functionality": {
+            "score": 94.0,
+            "reasons": [
+              "37 prior public-event/block-party permit(s) within 200m \u2014 permit precedent exists (fast-track signal).",
+              "Zone: Mid Rise 6 (MR6) \u2014 mixed-use, residential above retail (event 21:00).",
+              "Measured mobile download ~257 Mbps (Ookla, 15 tests over this + neighboring tiles).",
+              "Power access unverified \u2014 no Somerville utility data; confirm on-site outlets/generator."
+            ]
+          }
+        }
+      }
+    }
+  }
+}

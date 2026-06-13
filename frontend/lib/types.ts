@@ -64,6 +64,16 @@ export interface SpotDetail extends Spot {
   est_impressions_per_event?: number;
 }
 
+/** One colored voxel of a wall's 3D point cloud (see /api/walls/{id}/voxels). */
+export interface Voxel {
+  lon: number;
+  lat: number;
+  z: number; // meters above the wall's ground
+  r: number;
+  g: number;
+  b: number;
+}
+
 export interface Filters {
   timeOfDay: number;
   minCapacity: number;
@@ -87,6 +97,8 @@ export interface SpotFeatureProperties {
   overall_score: number;
   capacity: number;
   badges: Badge[];
+  /** True when a 3D LiDAR voxel cloud exists for this wall (pinned to top of list). */
+  has_voxels?: boolean;
   metrics?: SpotMetrics;
 }
 

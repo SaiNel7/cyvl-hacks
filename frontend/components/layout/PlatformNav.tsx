@@ -19,10 +19,10 @@ export function PlatformNav() {
       <div className="flex flex-wrap items-center gap-4 px-4 py-3 md:px-6">
         <Link href="/" className="mr-auto min-w-0">
           <p className="text-lg font-extrabold uppercase leading-none tracking-tight md:text-xl">
-            City as Venue
+            BlockParty
           </p>
           <p className="mt-0.5 text-xs font-semibold md:text-sm">
-            World Cup watch party finder
+            TURN YOUR CITY INTO A FUNCTION
           </p>
         </Link>
         <nav className="flex flex-wrap items-center gap-2">

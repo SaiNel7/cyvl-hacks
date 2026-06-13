@@ -9,7 +9,7 @@ const spaceGrotesk = Space_Grotesk({
 });
 
 export const metadata: Metadata = {
-  title: "City as Venue — Watch Party Finder",
+  title: "BlockParty — Watch Party Finder",
   description:
     "Find and score the best public spots in Somerville to host a World Cup watch party.",
 };

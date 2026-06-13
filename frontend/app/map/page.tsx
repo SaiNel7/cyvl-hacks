@@ -40,13 +40,14 @@ export default function MapPage() {
     <div className="flex min-h-0 flex-1 flex-col overflow-hidden">
       <MapFilterBar />
       <div className="relative flex min-h-0 flex-1">
-        <div className="min-w-0 flex-[7] brut-border-r">
+        <div className="relative min-w-0 flex-[7] brut-border-r">
           <MapView />
+          {/* Drawer overlays the map only — the right sidebar stays visible. */}
+          <SpotDrawer spot={selectedSpot} />
         </div>
         <div className="hidden min-w-0 flex-[3] md:block">
           <SpotList />
         </div>
-        <SpotDrawer spot={selectedSpot} />
       </div>
       <div className="brut-border-t bg-brut-white md:hidden">
         <div className="max-h-52 overflow-y-auto p-2">
