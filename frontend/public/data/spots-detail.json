@@ -1,0 +1,157 @@
+{
+  "davis-statue-wall": {
+    "id": "davis-statue-wall",
+    "name": "Davis Square — CVS Blank Facade",
+    "overall_score": 92,
+    "capacity": 350,
+    "est_impressions_per_event": 12400,
+    "layers": {
+      "physical": {
+        "score": 95,
+        "reasons": [
+          "Flat unobstructed brick facade, ~12m tall — no windows or signage",
+          "East-facing — fully shaded after 4pm, ideal for evening projection",
+          "4.5m sidewalk + adjacent plaza approximates 350 standing"
+        ]
+      },
+      "safety": {
+        "score": 90,
+        "reasons": [
+          "Incidents cluster 1–4am (bar closing); negligible 5–10pm",
+          "High foot traffic = natural surveillance during event hours"
+        ]
+      },
+      "crowd": {
+        "score": 88,
+        "reasons": [
+          "Plaza absorbs crowd off the roadway — low bottleneck risk",
+          "Two transit egress points (Red Line + bus) spread dispersal"
+        ]
+      },
+      "functionality": {
+        "score": 95,
+        "reasons": [
+          "City power pedestal 15m away",
+          "Strong carrier coverage for live stream",
+          "Hosted Honk! Festival staging — permit precedent exists"
+        ]
+      }
+    }
+  },
+  "union-sq-plaza-wall": {
+    "id": "union-sq-plaza-wall",
+    "name": "Union Square Plaza — East Retaining Wall",
+    "overall_score": 74,
+    "capacity": 500,
+    "est_impressions_per_event": 17800,
+    "layers": {
+      "physical": {
+        "score": 70,
+        "reasons": [
+          "West-facing retaining wall — direct glare until ~7:30pm in summer",
+          "8m tall with clean projection surface but limited shade options",
+          "Plaza offers 500+ standing capacity with room to spread"
+        ]
+      },
+      "safety": {
+        "score": 78,
+        "reasons": [
+          "Moderate incident density; mostly property crime off-hours",
+          "Well-lit plaza with restaurant foot traffic during event window"
+        ]
+      },
+      "crowd": {
+        "score": 82,
+        "reasons": [
+          "Large open plaza — excellent dispersal geometry",
+          "One chokepoint at the T station stairs during peak exit"
+        ]
+      },
+      "functionality": {
+        "score": 88,
+        "reasons": [
+          "On-site power hookup from plaza infrastructure",
+          "3 prior permitted outdoor screenings on this wall",
+          "Adjacent bars for post-game overflow"
+        ]
+      }
+    }
+  },
+  "assembly-row-garage": {
+    "id": "assembly-row-garage",
+    "name": "Assembly Row — Parking Garage South Wall",
+    "overall_score": 88,
+    "capacity": 800,
+    "est_impressions_per_event": 28400,
+    "layers": {
+      "physical": {
+        "score": 92,
+        "reasons": [
+          "18m south-facing garage wall — shaded by 5pm, massive canvas",
+          "Wide pedestrian promenade with no overhead obstructions",
+          "LiDAR confirms flat surface variance < 3cm across projection zone"
+        ]
+      },
+      "safety": {
+        "score": 85,
+        "reasons": [
+          "Low incident rate in retail corridor",
+          "Private security patrols until 11pm on event nights"
+        ]
+      },
+      "crowd": {
+        "score": 90,
+        "reasons": [
+          "800+ capacity on the promenade with multiple egress routes",
+          "No roadway bottleneck — crowd contained on pedestrian mall"
+        ]
+      },
+      "functionality": {
+        "score": 93,
+        "reasons": [
+          "Garage electrical room 20m from wall — easy power run",
+          "Excellent 5G coverage from mall infrastructure",
+          "Management receptive to community events"
+        ]
+      }
+    }
+  },
+  "powderhouse-underpass": {
+    "id": "powderhouse-underpass",
+    "name": "Powderhouse — Rail Underpass Wall",
+    "overall_score": 41,
+    "capacity": 120,
+    "layers": {
+      "physical": {
+        "score": 35,
+        "reasons": [
+          "Only 6m tall — projection image too small for 100+ viewers",
+          "Southwest-facing with partial shade but uneven brick texture",
+          "Narrow 2.1m sidewalk — major crowd constraint"
+        ]
+      },
+      "safety": {
+        "score": 40,
+        "reasons": [
+          "Isolated underpass with poor sightlines after dark",
+          "Higher incident rate than surrounding residential blocks"
+        ]
+      },
+      "crowd": {
+        "score": 30,
+        "reasons": [
+          "Single-lane sidewalk creates dangerous bottleneck",
+          "Rail tracks on one side, retaining wall on other — no dispersal"
+        ]
+      },
+      "functionality": {
+        "score": 25,
+        "reasons": [
+          "No power within 200m — generator required",
+          "Train noise every 12 min disrupts audio",
+          "No permit precedent for this location"
+        ]
+      }
+    }
+  }
+}
