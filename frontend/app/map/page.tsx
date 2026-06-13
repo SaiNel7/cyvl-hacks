@@ -8,6 +8,7 @@ import { SpotDrawer } from "@/components/SpotDrawer";
 import { useAppStore } from "@/lib/store";
 import { fetcher } from "@/lib/fetcher";
 import { geoJsonToSpots } from "@/lib/scoring";
+import { buildSpotsUrl } from "@/lib/spots-url";
 import type { SpotsGeoJSON } from "@/lib/types";
 
 const MapView = dynamic(
@@ -26,17 +27,6 @@ const MapView = dynamic(
     ),
   }
 );
-
-function buildSpotsUrl(filters: ReturnType<typeof useAppStore.getState>["filters"]) {
-  const params = new URLSearchParams({
-    time_of_day: String(filters.timeOfDay),
-    min_capacity: String(filters.minCapacity),
-    needs_power: String(filters.needsPower),
-    near_bar: String(filters.nearBar),
-    sort: filters.sort,
-  });
-  return `/api/spots?${params}`;
-}
 
 export default function MapPage() {
   const filters = useAppStore((s) => s.filters);

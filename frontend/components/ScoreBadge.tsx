@@ -8,6 +8,9 @@ import {
   Beer,
   CalendarCheck,
   Footprints,
+  Route,
+  Car,
+  Signal,
 } from "lucide-react";
 
 const BADGE_ICONS: Record<Badge, React.ReactNode> = {
@@ -18,6 +21,9 @@ const BADGE_ICONS: Record<Badge, React.ReactNode> = {
   near_bar: <Beer className="h-4 w-4" strokeWidth={2.5} />,
   prior_events: <CalendarCheck className="h-4 w-4" strokeWidth={2.5} />,
   wide_sidewalk: <Footprints className="h-4 w-4" strokeWidth={2.5} />,
+  good_egress: <Route className="h-4 w-4" strokeWidth={2.5} />,
+  low_traffic: <Car className="h-4 w-4" strokeWidth={2.5} />,
+  good_cell: <Signal className="h-4 w-4" strokeWidth={2.5} />,
 };
 
 function scoreClasses(score: number): string {

@@ -5,22 +5,68 @@
       "type": "Feature",
       "properties": {
         "id": "davis-statue-wall",
-        "name": "Davis Square — CVS Blank Facade",
+        "name": "Davis Square \u2014 CVS Blank Facade",
         "height_m": 12,
         "facing_deg": 90,
-        "overall_score": 92,
+        "overall_score": 82,
         "capacity": 350,
-        "badges": ["good_sun", "transit", "wide_sidewalk", "near_bar"]
+        "badges": [
+          "good_sun",
+          "transit",
+          "near_bar",
+          "prior_events",
+          "good_egress",
+          "good_cell",
+          "wide_sidewalk"
+        ],
+        "metrics": {
+          "traffic_score": 52.0,
+          "egress_score": 100.0,
+          "transit_score": 100.0,
+          "liquor_count": 12,
+          "prior_permits": 405,
+          "cell_mbps": 306,
+          "power_verified": false,
+          "chokepoint": false,
+          "adjacent_aadt": 12000,
+          "safety_by_hour": {
+            "12": 24.3,
+            "15": 24.3,
+            "18": 58.0,
+            "21": 58.0
+          },
+          "noise_ok_by_hour": {
+            "12": true,
+            "15": true,
+            "18": true,
+            "21": true
+          }
+        }
       },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
           [
-            [-71.1226, 42.3967],
-            [-71.1224, 42.3967],
-            [-71.1224, 42.3969],
-            [-71.1226, 42.3969],
-            [-71.1226, 42.3967]
+            [
+              -71.1226,
+              42.3967
+            ],
+            [
+              -71.1224,
+              42.3967
+            ],
+            [
+              -71.1224,
+              42.3969
+            ],
+            [
+              -71.1226,
+              42.3969
+            ],
+            [
+              -71.1226,
+              42.3967
+            ]
           ]
         ]
       }
@@ -29,22 +75,69 @@
       "type": "Feature",
       "properties": {
         "id": "union-sq-plaza-wall",
-        "name": "Union Square Plaza — East Retaining Wall",
+        "name": "Union Square Plaza \u2014 East Retaining Wall",
         "height_m": 8,
         "facing_deg": 270,
-        "overall_score": 74,
+        "overall_score": 83,
         "capacity": 500,
-        "badges": ["bad_sun", "near_bar", "prior_events", "power"]
+        "badges": [
+          "bad_sun",
+          "transit",
+          "near_bar",
+          "prior_events",
+          "good_egress",
+          "low_traffic",
+          "good_cell",
+          "wide_sidewalk"
+        ],
+        "metrics": {
+          "traffic_score": 98.4,
+          "egress_score": 100.0,
+          "transit_score": 92.1,
+          "liquor_count": 9,
+          "prior_permits": 460,
+          "cell_mbps": 293,
+          "power_verified": false,
+          "chokepoint": false,
+          "adjacent_aadt": 400,
+          "safety_by_hour": {
+            "12": 38.5,
+            "15": 38.5,
+            "18": 75.6,
+            "21": 75.6
+          },
+          "noise_ok_by_hour": {
+            "12": true,
+            "15": true,
+            "18": true,
+            "21": true
+          }
+        }
       },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
           [
-            [-71.0951, 42.3793],
-            [-71.0949, 42.3793],
-            [-71.0949, 42.3795],
-            [-71.0951, 42.3795],
-            [-71.0951, 42.3793]
+            [
+              -71.0951,
+              42.3793
+            ],
+            [
+              -71.0949,
+              42.3793
+            ],
+            [
+              -71.0949,
+              42.3795
+            ],
+            [
+              -71.0951,
+              42.3795
+            ],
+            [
+              -71.0951,
+              42.3793
+            ]
           ]
         ]
       }
@@ -53,22 +146,68 @@
       "type": "Feature",
       "properties": {
         "id": "assembly-row-garage",
-        "name": "Assembly Row — Parking Garage South Wall",
+        "name": "Assembly Row \u2014 Parking Garage South Wall",
         "height_m": 18,
         "facing_deg": 180,
-        "overall_score": 88,
+        "overall_score": 89,
         "capacity": 800,
-        "badges": ["good_sun", "transit", "power", "wide_sidewalk"]
+        "badges": [
+          "transit",
+          "near_bar",
+          "prior_events",
+          "good_egress",
+          "low_traffic",
+          "good_cell",
+          "wide_sidewalk"
+        ],
+        "metrics": {
+          "traffic_score": 98.4,
+          "egress_score": 98.0,
+          "transit_score": 100.0,
+          "liquor_count": 10,
+          "prior_permits": 55,
+          "cell_mbps": 289,
+          "power_verified": false,
+          "chokepoint": false,
+          "adjacent_aadt": 400,
+          "safety_by_hour": {
+            "12": 69.0,
+            "15": 69.0,
+            "18": 69.0,
+            "21": 69.0
+          },
+          "noise_ok_by_hour": {
+            "12": true,
+            "15": true,
+            "18": true,
+            "21": true
+          }
+        }
       },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
           [
-            [-71.0772, 42.3925],
-            [-71.0769, 42.3925],
-            [-71.0769, 42.3928],
-            [-71.0772, 42.3928],
-            [-71.0772, 42.3925]
+            [
+              -71.0772,
+              42.3925
+            ],
+            [
+              -71.0769,
+              42.3925
+            ],
+            [
+              -71.0769,
+              42.3928
+            ],
+            [
+              -71.0772,
+              42.3928
+            ],
+            [
+              -71.0772,
+              42.3925
+            ]
           ]
         ]
       }
@@ -77,22 +216,65 @@
       "type": "Feature",
       "properties": {
         "id": "powderhouse-underpass",
-        "name": "Powderhouse — Rail Underpass Wall",
+        "name": "Powderhouse \u2014 Rail Underpass Wall",
         "height_m": 6,
         "facing_deg": 200,
-        "overall_score": 41,
+        "overall_score": 67,
         "capacity": 120,
-        "badges": ["bad_sun"]
+        "badges": [
+          "transit",
+          "good_egress",
+          "low_traffic",
+          "good_cell"
+        ],
+        "metrics": {
+          "traffic_score": 95.0,
+          "egress_score": 98.0,
+          "transit_score": 92.4,
+          "liquor_count": 0,
+          "prior_permits": 0,
+          "cell_mbps": 327,
+          "power_verified": false,
+          "chokepoint": false,
+          "adjacent_aadt": 0,
+          "safety_by_hour": {
+            "12": 69.0,
+            "15": 69.0,
+            "18": 69.0,
+            "21": 69.0
+          },
+          "noise_ok_by_hour": {
+            "12": true,
+            "15": true,
+            "18": true,
+            "21": true
+          }
+        }
       },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
           [
-            [-71.1085, 42.4015],
-            [-71.1083, 42.4015],
-            [-71.1083, 42.4017],
-            [-71.1085, 42.4017],
-            [-71.1085, 42.4015]
+            [
+              -71.1085,
+              42.4015
+            ],
+            [
+              -71.1083,
+              42.4015
+            ],
+            [
+              -71.1083,
+              42.4017
+            ],
+            [
+              -71.1085,
+              42.4017
+            ],
+            [
+              -71.1085,
+              42.4015
+            ]
           ]
         ]
       }

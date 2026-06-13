@@ -15,6 +15,7 @@ import {
   geoJsonToSpots,
   scoreToColor,
 } from "@/lib/scoring";
+import { buildSpotsUrl } from "@/lib/spots-url";
 import type { Spot, SpotsGeoJSON } from "@/lib/types";
 
 const MAP_STYLE =
@@ -39,17 +40,6 @@ function polygonCentroid(spot: Spot): [number, number] {
   const lng = ring.reduce((sum, c) => sum + c[0], 0) / ring.length;
   const lat = ring.reduce((sum, c) => sum + c[1], 0) / ring.length;
   return [lng, lat];
-}
-
-function buildSpotsUrl(filters: ReturnType<typeof useAppStore.getState>["filters"]) {
-  const params = new URLSearchParams({
-    time_of_day: String(filters.timeOfDay),
-    min_capacity: String(filters.minCapacity),
-    needs_power: String(filters.needsPower),
-    near_bar: String(filters.nearBar),
-    sort: filters.sort,
-  });
-  return `/api/spots?${params}`;
 }
 
 export function MapView() {

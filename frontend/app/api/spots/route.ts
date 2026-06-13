@@ -14,16 +14,24 @@ async function loadSpots(): Promise<SpotsGeoJSON> {
   return JSON.parse(raw) as SpotsGeoJSON;
 }
 
-export async function GET(request: NextRequest) {
-  const { searchParams } = request.nextUrl;
-
-  const filters: Filters = {
+function parseFilters(searchParams: URLSearchParams): Filters {
+  return {
     timeOfDay: Number(searchParams.get("time_of_day") ?? 18),
     minCapacity: Number(searchParams.get("min_capacity") ?? 0),
+    expectedCrowd: Number(searchParams.get("expected_crowd") ?? 0),
     needsPower: searchParams.get("needs_power") === "true",
     nearBar: searchParams.get("near_bar") === "true",
+    needsTransit: searchParams.get("needs_transit") === "true",
+    lowTrafficOnly: searchParams.get("low_traffic") === "true",
+    priorPermits: searchParams.get("prior_permits") === "true",
+    avoidQuietHours: searchParams.get("avoid_quiet_hours") === "true",
+    goodEgress: searchParams.get("good_egress") === "true",
     sort: (searchParams.get("sort") as Filters["sort"]) ?? "score",
   };
+}
+
+export async function GET(request: NextRequest) {
+  const filters = parseFilters(request.nextUrl.searchParams);
 
   const geojson = await loadSpots();
   let spots = geoJsonToSpots(geojson);
@@ -42,6 +50,7 @@ export async function GET(request: NextRequest) {
         overall_score: spot.overall_score,
         capacity: spot.capacity,
         badges: spot.badges,
+        metrics: spot.metrics,
       },
       geometry: original.geometry,
     };

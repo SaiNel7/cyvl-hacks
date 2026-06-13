@@ -4,19 +4,9 @@ import useSWR from "swr";
 import { fetcher } from "@/lib/fetcher";
 import { useAppStore } from "@/lib/store";
 import { geoJsonToSpots } from "@/lib/scoring";
+import { buildSpotsUrl } from "@/lib/spots-url";
 import type { SpotsGeoJSON } from "@/lib/types";
 import { SpotCard } from "./SpotCard";
-
-function buildSpotsUrl(filters: ReturnType<typeof useAppStore.getState>["filters"]) {
-  const params = new URLSearchParams({
-    time_of_day: String(filters.timeOfDay),
-    min_capacity: String(filters.minCapacity),
-    needs_power: String(filters.needsPower),
-    near_bar: String(filters.nearBar),
-    sort: filters.sort,
-  });
-  return `/api/spots?${params}`;
-}
 
 interface SpotListProps {
   compact?: boolean;
@@ -60,6 +50,8 @@ export function SpotList({ compact = false }: SpotListProps) {
             <option value="score">Score</option>
             <option value="capacity">Capacity</option>
             <option value="transit">Transit</option>
+            <option value="safety">Safety</option>
+            <option value="traffic">Low traffic</option>
           </select>
         </label>
       </div>
@@ -76,7 +68,7 @@ export function SpotList({ compact = false }: SpotListProps) {
           <div className="brut-card px-4 py-8 text-center">
             <p className="text-base font-bold">No spots match</p>
             <p className="mt-2 text-sm font-semibold">
-              Try loosening capacity or toggles.
+              Try loosening crowd size or toggles.
             </p>
           </div>
         )}

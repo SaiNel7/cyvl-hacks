@@ -1,5 +1,22 @@
 import type { Polygon } from "geojson";
 
+/** Backend-aligned scalar metrics for filtering (crowd, crime, functionality layers). */
+export interface SpotMetrics {
+  traffic_score: number;
+  egress_score: number;
+  transit_score: number;
+  liquor_count: number;
+  prior_permits: number;
+  cell_mbps: number | null;
+  power_verified: boolean;
+  chokepoint: boolean;
+  adjacent_aadt: number;
+  /** Hour (0–23) → safety layer score for that event window */
+  safety_by_hour: Record<string, number>;
+  /** Hour (0–23) → false when residential quiet-hours risk applies */
+  noise_ok_by_hour: Record<string, boolean>;
+}
+
 export interface Spot {
   id: string;
   name: string;
@@ -9,6 +26,7 @@ export interface Spot {
   overall_score: number;
   capacity: number;
   badges: Badge[];
+  metrics?: SpotMetrics;
 }
 
 export type Badge =
@@ -18,11 +36,20 @@ export type Badge =
   | "power"
   | "near_bar"
   | "prior_events"
-  | "wide_sidewalk";
+  | "wide_sidewalk"
+  | "good_egress"
+  | "low_traffic"
+  | "good_cell";
+
+export interface LayerParts {
+  [key: string]: number;
+}
 
 export interface LayerScore {
   score: number;
   reasons: string[];
+  parts?: LayerParts;
+  flags?: string[];
 }
 
 export interface SpotDetail extends Spot {
@@ -40,9 +67,16 @@ export interface SpotDetail extends Spot {
 export interface Filters {
   timeOfDay: number;
   minCapacity: number;
+  /** Expected crowd size — filters overflow / spill risk */
+  expectedCrowd: number;
   needsPower: boolean;
   nearBar: boolean;
-  sort: "score" | "capacity" | "transit";
+  needsTransit: boolean;
+  lowTrafficOnly: boolean;
+  priorPermits: boolean;
+  avoidQuietHours: boolean;
+  goodEgress: boolean;
+  sort: "score" | "capacity" | "transit" | "safety" | "traffic";
 }
 
 export interface SpotFeatureProperties {
@@ -53,6 +87,7 @@ export interface SpotFeatureProperties {
   overall_score: number;
   capacity: number;
   badges: Badge[];
+  metrics?: SpotMetrics;
 }
 
 export interface SpotsGeoJSON {
@@ -68,6 +103,13 @@ export type SpotDetailMap = Record<
   string,
   {
     layers: SpotDetail["layers"];
+    hourly?: Record<
+      string,
+      {
+        safety: LayerScore;
+        functionality: LayerScore;
+      }
+    >;
     imagery_url?: string;
     est_impressions_per_event?: number;
   }
