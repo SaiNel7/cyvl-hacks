@@ -1,0 +1,101 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "davis-statue-wall",
+        "name": "Davis Square — CVS Blank Facade",
+        "height_m": 12,
+        "facing_deg": 90,
+        "overall_score": 92,
+        "capacity": 350,
+        "badges": ["good_sun", "transit", "wide_sidewalk", "near_bar"]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-71.1226, 42.3967],
+            [-71.1224, 42.3967],
+            [-71.1224, 42.3969],
+            [-71.1226, 42.3969],
+            [-71.1226, 42.3967]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "union-sq-plaza-wall",
+        "name": "Union Square Plaza — East Retaining Wall",
+        "height_m": 8,
+        "facing_deg": 270,
+        "overall_score": 74,
+        "capacity": 500,
+        "badges": ["bad_sun", "near_bar", "prior_events", "power"]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-71.0951, 42.3793],
+            [-71.0949, 42.3793],
+            [-71.0949, 42.3795],
+            [-71.0951, 42.3795],
+            [-71.0951, 42.3793]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "assembly-row-garage",
+        "name": "Assembly Row — Parking Garage South Wall",
+        "height_m": 18,
+        "facing_deg": 180,
+        "overall_score": 88,
+        "capacity": 800,
+        "badges": ["good_sun", "transit", "power", "wide_sidewalk"]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-71.0772, 42.3925],
+            [-71.0769, 42.3925],
+            [-71.0769, 42.3928],
+            [-71.0772, 42.3928],
+            [-71.0772, 42.3925]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "powderhouse-underpass",
+        "name": "Powderhouse — Rail Underpass Wall",
+        "height_m": 6,
+        "facing_deg": 200,
+        "overall_score": 41,
+        "capacity": 120,
+        "badges": ["bad_sun"]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-71.1085, 42.4015],
+            [-71.1083, 42.4015],
+            [-71.1083, 42.4017],
+            [-71.1085, 42.4017],
+            [-71.1085, 42.4015]
+          ]
+        ]
+      }
+    }
+  ]
+}
