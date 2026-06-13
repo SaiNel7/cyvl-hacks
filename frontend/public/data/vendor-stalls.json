@@ -1,0 +1,59 @@
+[
+  {
+    "id": "stall-davis-01",
+    "spot_id": "davis-statue-wall",
+    "spot_name": "Davis Square — CVS Blank Facade",
+    "neighborhood": "Davis Square",
+    "position": "Plaza A — transit entrance",
+    "traffic_zone": "premium",
+    "category": "food",
+    "dimensions": "3m × 2m",
+    "price_usd": 450,
+    "foot_traffic_score": 94,
+    "event_window": "World Cup — Jun 28, 7pm",
+    "status": "booked",
+    "vendor": "Anna's Taqueria"
+  },
+  {
+    "id": "stall-davis-02",
+    "spot_id": "davis-statue-wall",
+    "spot_name": "Davis Square — CVS Blank Facade",
+    "neighborhood": "Davis Square",
+    "position": "Plaza B — wall sightline",
+    "traffic_zone": "premium",
+    "category": "merch",
+    "dimensions": "2m × 2m",
+    "price_usd": 380,
+    "foot_traffic_score": 91,
+    "event_window": "World Cup — Jun 28, 7pm",
+    "status": "available"
+  },
+  {
+    "id": "stall-union-01",
+    "spot_id": "union-sq-plaza-wall",
+    "spot_name": "Union Square Plaza — East Retaining Wall",
+    "neighborhood": "Union Square",
+    "position": "Plaza center",
+    "traffic_zone": "premium",
+    "category": "food",
+    "dimensions": "4m × 2.5m",
+    "price_usd": 520,
+    "foot_traffic_score": 96,
+    "event_window": "World Cup — Jul 3, 3pm",
+    "status": "available"
+  },
+  {
+    "id": "stall-assembly-01",
+    "spot_id": "assembly-row-garage",
+    "spot_name": "Assembly Row — Parking Garage South Wall",
+    "neighborhood": "Assembly Row",
+    "position": "Promenade A",
+    "traffic_zone": "premium",
+    "category": "food",
+    "dimensions": "5m × 3m",
+    "price_usd": 600,
+    "foot_traffic_score": 97,
+    "event_window": "World Cup — Jul 8, 6pm",
+    "status": "available"
+  }
+]

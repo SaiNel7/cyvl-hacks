@@ -1,0 +1,38 @@
+[
+  {
+    "id": "act-davis-wc",
+    "name": "Davis Sq World Cup Watch Party",
+    "spot_id": "davis-statue-wall",
+    "spot_name": "Davis Square — CVS Blank Facade",
+    "date": "2026-06-28",
+    "expected_crowd": 350,
+    "ad_slots_sold": 1,
+    "vendor_stalls_sold": 1,
+    "city_approved": true,
+    "safety_score": 90
+  },
+  {
+    "id": "act-union-wc",
+    "name": "Union Sq Fan Festival",
+    "spot_id": "union-sq-plaza-wall",
+    "spot_name": "Union Square Plaza — East Retaining Wall",
+    "date": "2026-07-03",
+    "expected_crowd": 500,
+    "ad_slots_sold": 0,
+    "vendor_stalls_sold": 0,
+    "city_approved": false,
+    "safety_score": 78
+  },
+  {
+    "id": "act-assembly-wc",
+    "name": "Assembly Row Mega Screen",
+    "spot_id": "assembly-row-garage",
+    "spot_name": "Assembly Row — Parking Garage South Wall",
+    "date": "2026-07-08",
+    "expected_crowd": 800,
+    "ad_slots_sold": 1,
+    "vendor_stalls_sold": 0,
+    "city_approved": true,
+    "safety_score": 85
+  }
+]

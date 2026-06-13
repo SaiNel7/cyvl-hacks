@@ -1,0 +1,19 @@
+{
+  "city": "Somerville, MA",
+  "grant_pool_usd": 10000000,
+  "grant_communities": 25,
+  "total_surfaces": 4,
+  "rentable_surfaces": 3,
+  "ad_slots_total": 5,
+  "ad_slots_available": 3,
+  "vendor_stalls_total": 4,
+  "vendor_stalls_available": 3,
+  "upcoming_activations": 3,
+  "est_weekend_revenue_usd": 20750,
+  "neighborhoods": [
+    { "name": "Davis Square", "surfaces": 1, "activation_ready": 1 },
+    { "name": "Union Square", "surfaces": 1, "activation_ready": 1 },
+    { "name": "Assembly Row", "surfaces": 1, "activation_ready": 1 },
+    { "name": "Powderhouse", "surfaces": 1, "activation_ready": 0 }
+  ]
+}

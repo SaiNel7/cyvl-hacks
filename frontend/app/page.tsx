@@ -1,73 +1,139 @@
 "use client";
 
-import dynamic from "next/dynamic";
 import useSWR from "swr";
-import { FilterBar } from "@/components/FilterBar";
-import { SpotList } from "@/components/SpotList";
-import { SpotDrawer } from "@/components/SpotDrawer";
-import { useAppStore } from "@/lib/store";
+import Link from "next/link";
 import { fetcher } from "@/lib/fetcher";
-import { geoJsonToSpots } from "@/lib/scoring";
-import type { SpotsGeoJSON } from "@/lib/types";
+import { ModuleCard } from "@/components/layout/ModuleCard";
+import { StatCard } from "@/components/layout/StatCard";
+import type { Activation, PlatformStats } from "@/lib/types";
 
-const MapView = dynamic(
-  () => import("@/components/MapView").then((m) => m.MapView),
-  {
-    ssr: false,
-    loading: () => (
-      <div className="flex h-full flex-col items-center justify-center gap-4 bg-brut-yellow">
-        <div className="brut-border brut-shadow bg-white px-8 py-6 text-center">
-          <p className="text-2xl font-extrabold uppercase tracking-tight">
-            Loading map
-          </p>
-          <p className="mt-2 text-sm font-semibold">LiDAR surfaces incoming…</p>
-        </div>
-      </div>
-    ),
-  }
-);
-
-function buildSpotsUrl(filters: ReturnType<typeof useAppStore.getState>["filters"]) {
-  const params = new URLSearchParams({
-    time_of_day: String(filters.timeOfDay),
-    min_capacity: String(filters.minCapacity),
-    needs_power: String(filters.needsPower),
-    near_bar: String(filters.nearBar),
-    sort: filters.sort,
-  });
-  return `/api/spots?${params}`;
+interface PlatformResponse {
+  stats: PlatformStats;
+  activations: Activation[];
 }
 
-export default function HomePage() {
-  const filters = useAppStore((s) => s.filters);
-  const selectedSpotId = useAppStore((s) => s.selectedSpotId);
-
-  const { data } = useSWR<SpotsGeoJSON>(buildSpotsUrl(filters), fetcher);
-  const spots = data ? geoJsonToSpots(data) : [];
-  const selectedSpot = spots.find((s) => s.id === selectedSpotId) ?? null;
+export default function OverviewPage() {
+  const { data } = useSWR<PlatformResponse>("/api/platform", fetcher);
+  const stats = data?.stats;
+  const activations = data?.activations ?? [];
 
   return (
-    <div className="flex h-screen flex-col overflow-hidden bg-brut-white">
-      <FilterBar />
+    <div className="flex-1">
+      <section className="brut-border-b bg-brut-pink px-4 py-12 md:px-8 md:py-16">
+        <span className="brut-border bg-brut-yellow px-3 py-1 text-xs font-extrabold uppercase">
+          2026 World Cup
+        </span>
+        <h1 className="mt-6 max-w-3xl text-4xl font-extrabold uppercase leading-tight tracking-tight md:text-6xl lg:text-7xl">
+          Find the best spot for your watch party
+        </h1>
+        <p className="mt-6 max-w-xl text-base font-semibold md:text-lg">
+          CYVL LiDAR scores every plaza and projection wall in Somerville —
+          shade, crowd, safety, power.
+        </p>
+        <Link href="/map" className="brut-btn brut-btn-primary mt-8">
+          Find spots on the map →
+        </Link>
+      </section>
 
-      <div className="relative flex min-h-0 flex-1">
-        <main className="min-w-0 flex-[7] brut-border-r">
-          <MapView />
-        </main>
+      {stats && (
+        <>
+          <section className="grid gap-4 p-4 sm:grid-cols-2 lg:grid-cols-4 md:p-8">
+            <StatCard
+              label="Scored venues"
+              value={String(stats.total_surfaces)}
+              detail={`${stats.rentable_surfaces} event-ready`}
+              accent="yellow"
+            />
+            <StatCard
+              label="Sponsor slots"
+              value={`${stats.ad_slots_available}/${stats.ad_slots_total}`}
+              detail="Open now"
+              accent="pink"
+            />
+            <StatCard
+              label="Vendor stalls"
+              value={`${stats.vendor_stalls_available}/${stats.vendor_stalls_total}`}
+              detail="At watch parties"
+              accent="cyan"
+            />
+            <StatCard
+              label="Watch parties"
+              value={String(stats.upcoming_activations)}
+              detail="Scheduled"
+              accent="lime"
+            />
+          </section>
 
-        <div className="hidden min-w-0 flex-[3] md:block">
-          <SpotList />
+          <section className="grid gap-4 px-4 pb-8 sm:grid-cols-2 lg:grid-cols-4 md:px-8">
+            <ModuleCard
+              title="Find Spots"
+              description="3D map with live scoring by time and crowd size."
+              href="/map"
+              stat={String(stats.rentable_surfaces)}
+              statLabel="Ready"
+              accent="yellow"
+            />
+            <ModuleCard
+              title="Sponsors"
+              description="Brand packages tied to each watch party."
+              href="/advertising"
+              stat={`${stats.ad_slots_available}`}
+              statLabel="Open"
+              accent="pink"
+            />
+            <ModuleCard
+              title="Vendors"
+              description="Food & merch stalls by foot traffic."
+              href="/vendors"
+              stat={`${stats.vendor_stalls_available}`}
+              statLabel="Open"
+              accent="cyan"
+            />
+            <ModuleCard
+              title="Cities"
+              description="Permits and safety scorecards."
+              href="/city"
+              stat={String(stats.upcoming_activations)}
+              statLabel="Events"
+              accent="lime"
+            />
+          </section>
+        </>
+      )}
+
+      <section className="brut-border-t px-4 py-8 md:px-8">
+        <h2 className="text-xl font-extrabold uppercase">Upcoming watch parties</h2>
+        <div className="mt-4 overflow-x-auto">
+          <table className="w-full min-w-[600px] border-collapse text-left text-sm">
+            <thead>
+              <tr className="brut-border-b bg-brut-yellow">
+                <th className="p-3 font-extrabold uppercase">Event</th>
+                <th className="p-3 font-extrabold uppercase">Venue</th>
+                <th className="p-3 font-extrabold uppercase">Crowd</th>
+                <th className="p-3 font-extrabold uppercase">Permit</th>
+              </tr>
+            </thead>
+            <tbody>
+              {activations.map((act) => (
+                <tr key={act.id} className="brut-border-b">
+                  <td className="p-3 font-bold">{act.name}</td>
+                  <td className="p-3 font-semibold">{act.spot_name}</td>
+                  <td className="p-3 tabular-nums">~{act.expected_crowd}</td>
+                  <td className="p-3">
+                    <span
+                      className={`brut-border px-2 py-0.5 text-xs font-extrabold uppercase ${
+                        act.city_approved ? "bg-brut-green" : "bg-brut-pink"
+                      }`}
+                    >
+                      {act.city_approved ? "Approved" : "Pending"}
+                    </span>
+                  </td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
         </div>
-
-        <SpotDrawer spot={selectedSpot} />
-      </div>
-
-      {/* Mobile list strip */}
-      <div className="brut-border-t bg-brut-white md:hidden">
-        <div className="max-h-52 overflow-y-auto p-2">
-          <SpotList compact />
-        </div>
-      </div>
+      </section>
     </div>
   );
 }

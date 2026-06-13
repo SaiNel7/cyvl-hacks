@@ -72,3 +72,72 @@ export type SpotDetailMap = Record<
     est_impressions_per_event?: number;
   }
 >;
+
+export type InventoryStatus = "available" | "booked" | "hold";
+export type AdFormat = "projection" | "banner" | "plaza_wrap" | "digital_overlay";
+
+export interface AdSlot {
+  id: string;
+  spot_id: string;
+  spot_name: string;
+  neighborhood: string;
+  format: AdFormat;
+  wall_area_m2: number;
+  price_usd: number;
+  est_impressions: number;
+  cpm_usd: number;
+  event_window: string;
+  status: InventoryStatus;
+  buyer?: string;
+}
+
+export type VendorCategory = "food" | "merch" | "beverage" | "retail";
+export type TrafficZone = "premium" | "standard" | "economy";
+
+export interface VendorStall {
+  id: string;
+  spot_id: string;
+  spot_name: string;
+  neighborhood: string;
+  position: string;
+  traffic_zone: TrafficZone;
+  category: VendorCategory;
+  dimensions: string;
+  price_usd: number;
+  foot_traffic_score: number;
+  event_window: string;
+  status: InventoryStatus;
+  vendor?: string;
+}
+
+export interface Activation {
+  id: string;
+  name: string;
+  spot_id: string;
+  spot_name: string;
+  date: string;
+  expected_crowd: number;
+  ad_slots_sold: number;
+  vendor_stalls_sold: number;
+  city_approved: boolean;
+  safety_score: number;
+}
+
+export interface PlatformStats {
+  city: string;
+  grant_pool_usd: number;
+  grant_communities: number;
+  total_surfaces: number;
+  rentable_surfaces: number;
+  ad_slots_total: number;
+  ad_slots_available: number;
+  vendor_stalls_total: number;
+  vendor_stalls_available: number;
+  upcoming_activations: number;
+  est_weekend_revenue_usd: number;
+  neighborhoods: Array<{
+    name: string;
+    surfaces: number;
+    activation_ready: number;
+  }>;
+}

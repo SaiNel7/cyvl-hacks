@@ -1,0 +1,69 @@
+[
+  {
+    "id": "ad-davis-projection",
+    "spot_id": "davis-statue-wall",
+    "spot_name": "Davis Square — CVS Blank Facade",
+    "neighborhood": "Davis Square",
+    "format": "projection",
+    "wall_area_m2": 48,
+    "price_usd": 6500,
+    "est_impressions": 12400,
+    "cpm_usd": 52,
+    "event_window": "World Cup — Jun 28, 7pm",
+    "status": "available"
+  },
+  {
+    "id": "ad-davis-banner",
+    "spot_id": "davis-statue-wall",
+    "spot_name": "Davis Square — CVS Blank Facade",
+    "neighborhood": "Davis Square",
+    "format": "banner",
+    "wall_area_m2": 12,
+    "price_usd": 2200,
+    "est_impressions": 12400,
+    "cpm_usd": 18,
+    "event_window": "World Cup — Jun 28, 7pm",
+    "status": "booked",
+    "buyer": "Somerville Co-op Bank"
+  },
+  {
+    "id": "ad-union-projection",
+    "spot_id": "union-sq-plaza-wall",
+    "spot_name": "Union Square Plaza — East Retaining Wall",
+    "neighborhood": "Union Square",
+    "format": "projection",
+    "wall_area_m2": 64,
+    "price_usd": 8200,
+    "est_impressions": 17800,
+    "cpm_usd": 46,
+    "event_window": "World Cup — Jul 3, 3pm",
+    "status": "available"
+  },
+  {
+    "id": "ad-assembly-projection",
+    "spot_id": "assembly-row-garage",
+    "spot_name": "Assembly Row — Parking Garage South Wall",
+    "neighborhood": "Assembly Row",
+    "format": "projection",
+    "wall_area_m2": 216,
+    "price_usd": 12000,
+    "est_impressions": 28400,
+    "cpm_usd": 42,
+    "event_window": "World Cup — Jul 8, 6pm",
+    "status": "available"
+  },
+  {
+    "id": "ad-assembly-digital",
+    "spot_id": "assembly-row-garage",
+    "spot_name": "Assembly Row — Parking Garage South Wall",
+    "neighborhood": "Assembly Row",
+    "format": "digital_overlay",
+    "wall_area_m2": 80,
+    "price_usd": 7500,
+    "est_impressions": 28400,
+    "cpm_usd": 26,
+    "event_window": "World Cup — Jul 8, 6pm",
+    "status": "booked",
+    "buyer": "Adidas"
+  }
+]

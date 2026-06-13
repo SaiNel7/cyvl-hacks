@@ -1,17 +1,17 @@
 import type { Metadata } from "next";
 import { Space_Grotesk } from "next/font/google";
+import { PlatformNav } from "@/components/layout/PlatformNav";
 import "./globals.css";
 
 const spaceGrotesk = Space_Grotesk({
   subsets: ["latin"],
   weight: ["500", "600", "700"],
-  variable: "--font-space-grotesk",
 });
 
 export const metadata: Metadata = {
-  title: "City as Venue — Physical Surface Marketplace",
+  title: "City as Venue — Watch Party Finder",
   description:
-    "LiDAR-ranked walls and plazas for city activations, event organizers, and advertisers. Somerville, MA.",
+    "Find and score the best public spots in Somerville to host a World Cup watch party.",
 };
 
 export default function RootLayout({
@@ -21,7 +21,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${spaceGrotesk.className} antialiased`}>{children}</body>
+      <body className={`${spaceGrotesk.className} antialiased`}>
+        <div className="flex min-h-screen flex-col bg-brut-white">
+          <PlatformNav />
+          <main className="flex min-h-0 flex-1 flex-col">{children}</main>
+        </div>
+      </body>
     </html>
   );
 }
